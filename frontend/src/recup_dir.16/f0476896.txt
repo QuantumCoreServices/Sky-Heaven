@@ -1,0 +1,11 @@
+mer" for the program, if
+necessary.  Here a sample; alter the names:
+
+  Yoyodyne, Inc., hereby disclaims all copyright interest in the
+  program 'Gnomovision' (a program to direct compilers to make passes
+  at assemblers) written by James Hacker.
+
+  <signature of Ty Coon>, 1 April 1989
+  Ty Coon, President of Vice
+
+That's all there is to it!

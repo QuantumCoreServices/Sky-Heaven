@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="sound-volume" xml:lang="totem-sv">
+
+  <info>
+    <link type="guide" xref="index#playing-media"/>
+    <revision pkgversion="3.30.0" version="0.1" date="2019-01-09" status="draft"/>
+
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name its:translate="no">Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons DelaLika 3.0</p>
+    </license>
+
+    <desc>Öka eller minska volymen för en film.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Nylander</mal:name>
+      <mal:email>po@danielnylander.se</mal:email>
+      <mal:years>2006, 2008, 2009.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2019, 2020.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Justera volym</title>
+
+  <p>Du kan justera volymen i det nedre högra hörnet:</p>
+
+  <list>
+    <item>
+      <p>Tryck på <gui>Volymknappen</gui> vilken är under videoområdet och dra skjutreglaget för att ändra volym.</p>
+    </item>
+    <item>
+      <p>Du kan också använda tangenten <key>Upp</key> för att höja volymen och tangenten <key>Ned</key> för att sänka volymen.</p>
+    </item>
+  </list>
+
+  <figure>
+    <title>Volymknapp och skjutreglage</title>
+    <media type="image" mime="image/png" src="figures/volume-button-slider.png" its:translate="no">
+    <p>Screenshot of the volume button and slider.</p>
+    </media>
+  </figure>
+
+</page>

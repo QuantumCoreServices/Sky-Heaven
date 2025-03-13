@@ -1,0 +1,7 @@
+nvr_by_scontext("system_u:system_r:mysqld_log_t:s0")[0:13]
+'mysql-selinux'
+
+>>> get_rpm_nvr_by_scontext("system_u:system_r:timedatex_t:s0", use_dbus=True)[0:14]
+'selinux-policy'
+
+    z*org.fedoraproject.SetroubleshootPrivilegedz+/org/fedoraproject/SetroubleshootPrivilegedN)r0

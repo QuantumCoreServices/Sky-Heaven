@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="history" xml:lang="da">
+
+    <info>
+        <link type="guide" xref="index#ui"/>
+        <revision pkgversion="3.8" version="0.1" date="2013-04-18" status="review"/>
+        <revision pkgversion="3.38.0" date="2020-09-25" status="review"/>
+
+        <credit type="author copyright">
+          <name>Gopal Krishnan</name>
+          <email its:translate="no">ingeniumed@outlook.com</email>
+          <years>2012, 2013</years>
+        </credit>
+
+        <credit type="author copyright">
+          <name>Sanket Dasgupta</name>
+          <email its:translate="no">sanketdasgupta@gmail.com</email>
+          <years>2016, 2017</years>
+        </credit>
+
+        <credit type="editor">
+          <name>Pranali Deshmukh</name>
+          <email>pranali21293@gmail.com</email>
+          <years>2020</years>
+        </credit>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Brug af historikvisningen</title>
+
+  <p>Historikvisningen findes over indtastningsboksen og er designet til at vise tidligere udregninger i form af en liste, du kan klikke i og rulle gennem med en mus.</p>
+  <p>Når en indtastning er blevet valgt, så vises den straks i indtastningsboksen, hvor du kan manipulere og bruge den.</p>
+  <p>Slutteligt er der ikke nogen øvre grænse for antallet af udregninger som kan vises i listen, som du kan bruge.</p>
+</page>

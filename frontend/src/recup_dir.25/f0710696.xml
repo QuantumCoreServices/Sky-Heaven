@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="function" xml:lang="ca">
+
+    <info>
+        <link type="guide" xref="index#equation"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sergi Morraja</mal:name>
+      <mal:email>sergi256@gmail.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Funcions</title>
+    
+    <p>Les funcions es poden utilitzar inserint el nom de la funció seguit dels arguments de la funció. La <app>Calculadora</app> també admet funcions definides per l'usuari. Si l'argument no és un nombre o <link xref="variable">una sola variable</link>, escriviu cada argument separat per un punt i coma i utilitzeu parèntesis al voltant de la llista d'arguments.</p>
+    <example>
+    <p its:locNote="Translators: Do not translate the word 'sin'!">sin 30</p>
+    <p its:locNote="Translators: Do not translate the word 'abs'!">abs (5−9)</p>
+    <p its:locNote="Translators: Do not translate the word 'fun'!">fun (9;10)</p>
+    </example>
+    <p>Per a afegir un tipus nou de funció nova escriviu la funció en el format indicat a continuació. Un nom de funció i arguments només han de contenir caràcters en majúscules o minúscules. La part després de @ és la descripció de la funció que és opcional.</p>
+    <example>
+    <p>InteresSimple (principal; taxa; temps) = principal * taxa * temps @ fórmula d'interès simple</p>
+    </example>
+    <p>Les funcions també es poden afegir i inserir usant el botó f(x).</p>
+    <example>
+    <p>Feu clic a f(x). Introduïu el nom de la funció en el quadre, trieu el nombre d'arguments i feu clic al botó de signe més al seu costat. A la pantalla de la calculadora escriviu l'expressió de la funció i premeu <key>Retorn</key>.</p>
+    </example>
+    <example>
+    <p>Feu clic a f(x). Trieu la funció i feu clic a sobre d'ella.</p>
+    </example>
+    <p>Les funcions següents estan definides.</p>
+    <table>
+    <tr>
+    <td><p its:translate="no">abs</p></td>
+    <td><p><link xref="absolute">Valor absolut</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">ceil</p></td>
+    <td><p>Enter superior</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">cos</p></td>
+    <td><p><link xref="trigonometry">Cosinus</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">cosh</p></td>
+    <td><p><link xref="trigonometry">Cosinus hiperbòlic</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">floor</p></td>
+    <td><p>Enter inferior</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">frac</p></td>
+    <td><p>Component fraccionari</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">int</p></td>
+    <td><p>Component enter</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">ln</p></td>
+    <td><p><link xref="logarithm">Logaritme natural</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">log</p></td>
+    <td><p><link xref="logarithm">Logaritme</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">not</p></td>
+    <td><p><link xref="boolean">NOT Booleà</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">ones</p></td>
+    <td><p>Complement a 1</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">round</p></td>
+    <td><p>Arrodoniment</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">sgn</p></td>
+    <td><p>Signe</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">sin</p></td>
+    <td><p><link xref="trigonometry">Sinus</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">sinh</p></td>
+    <td><p><link xref="trigonometry">Sinus hiperbòlic</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">sqrt</p></td>
+    <td><p><link xref="power">Arrel quadrada</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">tan</p></td>
+    <td><p><link xref="trigonometry">Tangent</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">tanh</p></td>
+    <td><p><link xref="trigonometry">Tangent hiperbòlica</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">twos</p></td>
+    <td><p>Complement a 2</p></td>
+    </tr>
+    </table>
+</page>

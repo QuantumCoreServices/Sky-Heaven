@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="troubleshooting-debug" xml:lang="totem-pt-BR">
+
+  <info>
+    <link type="guide" xref="index#troubleshooting"/>
+    <revision pkgversion="3.30" version="0.1" date="2019-01-11" status="draft"/>
+    <desc>Como obter informações de depuração para um relatório de erro.</desc>
+    <credit type="author">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <license>
+      <p>Creative Commons Atribuição-Compartilhada Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Raphael Higino</mal:name>
+      <mal:email>In memoriam</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Irapuan Pascoal</mal:name>
+      <mal:email>irapuan.menezes@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fabrício Godoy</mal:name>
+      <mal:email>skarllot@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ísis Binder</mal:name>
+      <mal:email>isis.binder@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2014-2021</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Rastreando outros problemas em vídeos</title>
+
+<p>Se você já seguiu <link xref="supported-formats"/> e <link xref="troubleshooting-DVD"/> e um vídeo ainda não pode ser reproduzido, abra uma janela do terminal e digite o comando <cmd>totem --help-gst</cmd>. Isso mostrará uma lista de opções disponíveis que você pode usar para obter a saída de depuração. Geralmente, o problema está em um plug-in subjacente, por exemplo, no <sys>GStreamer</sys>, e não nos próprios <app>Vídeos</app>.</p>
+
+<note style="info"><p>Os erros de software no <sys>GStreamer</sys> podem ser relatados no <link href="https://gitlab.freedesktop.org/gstreamer">rastreador de problemas do <sys>GStreamer</sys></link>.</p></note>
+
+</page>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="flip-rotate" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="index#edit"/>
+    <desc>Поворачивайте фотографии по часовой стрелке/против часовой стрелки</desc>
+
+    <revision pkgversion="3.2" version="0.1" date="2011-09-05" status="outdated"/>
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Василий Фаронов &lt;qvvx@yandex.ru&gt;, 2007Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Поворот изображений</title>
+
+<p>Если ваши фотографии расположены неправильно, вы можете повернуть их так, чтобы они выглядели правильно.</p>
+
+<section id="rotate">
+<title>Поворот изображения</title>
+<steps>
+ <item><p>Наведите указатель мыши на изображение. Внизу появятся две кнопки со стрелкой.</p></item>
+ <item><p>Выберите <gui>Повернуть изображение на 90 градусов влево</gui> или <gui>Повернуть изображение на 90 градусов вправо</gui>.</p></item>
+ <item>
+  <p>Если вы хотите сохранить изображение повернутым таким образом, нажмите <gui style="menuitem">Сохранить</gui>.</p>
+  <p>В противном случае не сохраняйте изображение, и при следующем открытии оно будет иметь прежнюю ориентацию.</p>
+ </item>
+</steps>
+
+<p>Вы также можете использовать комбинации клавиш:</p>
+
+<table>
+  <tr>
+    <td><p>Поворот по часовой стрелке</p></td>
+    <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td>
+  </tr>
+  <tr>
+    <td><p>Поворот против часовой стрелки</p></td>
+    <td><p><keyseq><key>Ctrl</key><key>Shift</key><key>R</key></keyseq></p></td>
+  </tr>
+</table>
+
+</section>
+</page>

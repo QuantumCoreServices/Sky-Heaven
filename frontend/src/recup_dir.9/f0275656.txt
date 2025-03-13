@@ -1,0 +1,16 @@
+entation of the Uniforum functions for system
+lacking either of them or those who which to have a different
+implementation with many advantages.
+
+* Implementation of the three tools for message catalog handling
+described in the Uniforum.
+
+* Emacs po-mode for handling portable message object files which are
+the basis of the work of the package.
+
+
+(*) Some history:  The POSIX working groups have so far been unable to
+agree on one set of message catalog handling functions for the C Library.
+For now there are competing proposals, one by the Uniforum group, led by
+Sun, and the other by X/Open.  Although the latter is surely implemented
+on more systems, it is not perceived as the clear leader.

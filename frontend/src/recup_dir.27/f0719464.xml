@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="scan-remote" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#scan"/>
+    <revision version="0.1" date="2011-12-19" status="stub"/>
+    <revision pkgversion="3.4" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.10" date="2013-07-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>Хуліта Інка (Julita Inca)</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Віддалене сканування теки з вашого комп'ютера.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Сканування віддаленої теки</title>
+
+  <p><app>Аналізатор використання диска</app> може сканувати пристрої для зберігання даних, доступ до яких здійснюється віддалено. Щоб сканувати віддалено цілу файлову систему або певну теку у ній, виконайте такі дії:</p>
+
+  <steps>
+    <item>
+      <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="menuitem">Сканувати віддалену теку…</gui></p>
+    </item>
+    <item>
+      <p>Вкажіть адресу у полі <gui>Адреса сервера</gui>. Зазвичай, адреса складається з назви протоколу, за якою вписують двокрапку і два символи похилої риски. Форматування адреси залежить від <link xref="help:gnome-help/nautilus-connect#types">протоколу</link>, який використовується для віддаленого зв'язку.</p>
+    </item>
+    <item>
+      <p>Натисніть кнопку <gui>З'єднатися</gui>. Програма може попросити вас вказати додаткові подробиці, зокрема пароль та ім'я користувача, перш ніж почати сканування.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>Сканування мережею може бути повільнішим за сканування локальної файлової системи.</p>
+  </note>
+
+  <p>Ви також можете вибрати нещодавно використаний сервер, замість введення нової адреси. Якщо ви введете некоректну адресу, ви не зможете натиснути кнопку <gui>Продовжити</gui>, але якщо адреса є коректною, але помилковою, програма просто не зможе встановити з'єднання і ніяк про це не попереджатиме.</p>
+
+</page>

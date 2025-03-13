@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="movingaround" xml:lang="hu">
+
+  <info>
+    <link type="guide" xref="index#reading"/>
+    <revision pkgversion="3.2" date="2011-09-05" status="final"/>
+    <revision pkgversion="3.10.3" date="2014-03-22" status="review"/>
+    <revision pkgversion="3.35.1" date="2020-02-15" status="review"/>
+
+    <credit type="author">
+      <name>Phil Bull</name>
+      <email its:translate="no">philbull@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Anna Philips</name>
+      <email its:translate="no">anna.cs.au@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal-unported.xml"/>
+
+    <desc>Navigálás, görgetés és nagyítás.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Hammer Attila</mal:name>
+      <mal:email>hammera at pickup dot hu</mal:email>
+      <mal:years>2014.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Kelemen Gábor</mal:name>
+      <mal:email>kelemeng at gnome dot hu</mal:email>
+      <mal:years>2011, 2012, 2013, 2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Úr Balázs</mal:name>
+      <mal:email>ur.balazs at fsf dot hu</mal:email>
+      <mal:years>2019, 2021.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Mozgás a dokumentumban</title>
+
+  <!-- TODO: split into smaller pages for 3.14 -->
+  <p>A következő módszerek használatával a dokumentum egyes oldalain belül mozoghat:</p>
+
+  <list>
+    <item>
+      <p>Görgetés fel és le az egérgörgő használatával. Egy oldalon belül való mozgáshoz csak az egér használatával:</p>
+      <steps>
+        <item>
+          <p>Kattintson a jobb egérgombbal az oldalon, és válassza az <gui>Automatikus görgetés</gui> menüpontot.</p>
+        </item>
+        <item>
+          <p>Mozgassa az egérmutatót az ablak alja felé a lefelé görgetéshez. Minél lejjebb viszi a mutatót az ablakban, annál gyorsabb lesz a görgetés.</p>
+        </item>
+        <item>
+          <p>Az automatikus görgetés leállításához kattintson bárhová a dokumentumban.</p>
+        </item>
+      </steps>
+    </item>
+    <item>
+      <p>A dokumentumablak görgetősávjának használatával.</p>
+    </item>
+    <item>
+      <p>A fel és le nyílbillentyűk használatával.</p>
+    </item>
+    <item>
+      <p>Az oldal egérrel való húzásával, mintha megragadná. Ehhez:</p>
+      <list>
+        <item>
+          <p>Mozgassa az egérmutatót az oldal fölé, és tartsa lenyomva a középső egérgombot a dokumentum húzásához.</p>
+        </item>
+        <item>
+          <p>Ha nincs középső egérgombja, akkor egyidejűleg tartsa lenyomva a bal és jobb egérgombokat, és így húzza a dokumentumot.</p>
+        </item>
+      </list>
+    </item>
+  </list>
+
+<section id="between-pages">
+  <title>Váltás oldalak közt</title>
+
+  <p>A dokumentum oldalai közt a következő módszerekkel mozoghat:</p>
+
+  <list>
+    <item>
+      <p>Nyomja meg a <keyseq><key>Ctrl</key><key>Page Up</key></keyseq> vagy <keyseq><key>Ctrl</key><key>Page Down</key></keyseq> billentyűt.</p>
+    </item>
+    <item>
+      <p>Adott oldalra ugráshoz:</p>
+      <list>
+        <item>
+          <p>Írjon be egy oldalszámot a <link xref="headerbar">fejlécsávon</link> lévő <gui style="input">Oldal kiválasztása</gui> mezőbe, és nyomja meg az <key>Enter</key> billentyűt.</p>
+        </item>
+        <item>
+          <p>Ha a dokumentum elejére vagy végére szeretne ugrani:</p>
+          <list>
+            <item>
+              <p>Nyomja meg a <keyseq><key>Ctrl</key><key>Home</key></keyseq> billentyűkombinációt.</p>
+            </item>
+            <item>
+              <p>Nyomja meg a <keyseq><key>Ctrl</key><key>End</key></keyseq> billentyűkombinációt.</p>
+            </item>
+          </list>
+        </item>
+      </list>
+    </item>
+    <item>
+      <p>Egyszerre tíz oldallal való továbblépéshez nyomja meg a <keyseq><key>Shift</key><key>Page Up</key></keyseq> vagy <keyseq><key>Shift</key><key>Page Down</key></keyseq> billentyűkombinációt.</p>
+      <note style="tip">
+        <p>Alapesetben egyszerre csak egy oldalon belül mozoghat. Ha oldalak között is szeretne görgetéssel vagy húzással mozogni, akkor nyomja meg az ablak jobb felső sarkában lévő menügombot, és válassza a <gui style="menuitem">Folytonos</gui> menüpontot.</p>
+      </note>
+    </item>
+  </list>
+
+</section>
+
+<section id="navigating">
+  <title>Navigálás oldallistával vagy tartalomjegyzékkel</title>
+
+  <p>Ha megnyit egy fájlt, akkor az ablak bal oldalán lennie kell egy oldalsávnak. Ha ez az oldalsáv nem látható, akkor kattintson a bal felső sarokban lévő <gui style="button">Oldalsáv</gui> gombra, vagy nyomja meg az <key>F9</key> billentyűt.</p>
+
+  <p>Az oldalsáv megjeleníti a dokumentumban lévő összes oldal előnézetét.</p>
+
+  <p>Az oldalak közt az oldalsávban azokra kattintva mozoghat.</p>
+
+  <note>
+    <p>Egyes dokumentumok rendelkeznek indexszel vagy tartalomjegyzékkel, amit az oldalsávban megjeleníthet. Kattintson az oldalsáv alján lévő <gui>Vázlat</gui> gombra a megjelenítéséhez.</p>
+    <note style="tip">
+      <p>A legtöbb dokumentum nem használja ezt a szolgáltatást, így nem lesz képes megjeleníteni indexüket az oldalsávon.</p>
+    </note>
+  </note>
+
+</section>
+
+<section id="zoom">
+  <title>Nagyítás és kicsinyítés</title>
+
+  <p>A nagyítási szint módosításához:</p>
+
+  <list>
+    <item>
+      <p>Válassza ki a kívánt nagyítási százalékot a jobb felső sarokban lévő legördülő menüből.</p>
+      <media type="image" src="figures/zoom.png" its:translate="no"/>
+    </item>
+    <item>
+      <p>Másik lehetőségként nyomja meg a <keyseq><key>Ctrl</key><key>+</key></keyseq> billentyűkombinációt a nagyításhoz vagy a <keyseq><key>Ctrl</key><key>-</key></keyseq> billentyűkombinációt a kicsinyítéshez.</p>
+    </item>
+    <item>
+      <p>Harmadik lehetőségként tartsa lenyomva a <key>Ctrl</key> billentyűt, és használja az egérgörgőt a nagyításhoz.</p>
+    </item>
+  </list>
+
+  <note>
+    <p>A <gui>Teljes oldal</gui> lehetőség hatására a dokumentum egy oldala elfoglalja az ablak teljes <em>magasságát</em>.</p>
+    <p>A <gui>Teljes szélesség</gui> lehetőség hatására a dokumentum egy oldala elfoglalja az ablak teljes <em>szélességét</em>.</p>
+    <p>Ha egymás mellett két oldalt szeretne látni, mint egy könyvben, akkor nyomja meg az ablak jobb felső sarkában lévő a menügombot, és válassza a <gui style="menuitem">Két oszlop</gui> menüpontot.</p>
+    <p>Ha az allow-links-change-zoom gsetting hamisra van állítva, akkor a hivatkozások nem módosíthatják a nagyítási szintet.</p>
+  </note>
+
+  <p>A teljes képernyőt is használhatja a dokumentum megjelenítésére:</p>
+
+  <list>
+    <item>
+      <p>Nyomja meg az <key>F11</key> billentyűt.</p>
+    </item>
+    <item>
+      <p>A teljes képernyős módból való kilépéshez:</p>
+      <p>Nyomja meg az <key>F11</key> vagy <key>Escape</key> billentyűt.</p>
+    </item>
+  </list>
+</section>
+
+</page>

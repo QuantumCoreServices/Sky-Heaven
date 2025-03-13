@@ -1,0 +1,11 @@
+    2
+   10: K        BININT1    3
+   12: e        APPENDS    (MARK at 5)
+   13: .    STOP
+highest protocol among opcodes = 2
+>>> dis(f, memo=memo)
+   14: \x80 PROTO      2
+   16: h    BINGET     0
+   18: .    STOP
+highest protocol among opcodes = 2
+)

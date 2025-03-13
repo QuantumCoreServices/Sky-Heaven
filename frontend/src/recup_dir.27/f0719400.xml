@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="guide" id="pref-view-chart" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#preferences"/>
+    <revision version="0.1" date="2011-12-19" status="stub"/>
+    <revision pkgversion="3.4" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.8" date="2013-07-19" status="review"/>
+
+    <credit type="author copyright">
+      <name>Хуліта Інка (Julita Inca)</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Показ результатів у вигляді кругової діаграми або деревоподібної карти.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Різні режими перегляду діаграми</title>
+
+  <p>Типово, результати сканування для кожної з підтек буде показано як сектор кільця, центральний кут якого буде пропорційним до розміру відповідної теки. Підтеки буде показано різними кольорами як додаткові шари навколо внутрішнього кільця.</p>
+  <p>Якщо ви наведете вказівник на частини кільцевої діаграми, програма покаже додаткові відомості щодо теки і її підтек.</p>
+  <p>Ви можете змінити режим перегляду на <gui>Дерево</gui> (деревоподібна карта) за допомогою кнопок у нижній правій частині діаграми. У режимі деревоподібної карти теки буде показано пропорційними до розмірів частинами карти.</p>
+  <p>Ви також можете клацнути на секторі кільця або частині карти, щоб зробити відповідну теку текою аналізу для діаграми.</p>
+
+</page>

@@ -1,0 +1,8 @@
+es8(io.BytesIO(b"\x03\x00\x00\x00\x00\x00\x00\x00abcdef"))
+    b'abc'
+    >>> bigsize8 = struct.pack("<Q", sys.maxsize//3)
+    >>> read_bytes8(io.BytesIO(bigsize8 + b"abcdef"))  #doctest: +ELLIPSIS
+    Traceback (most recent call last):
+    ...
+    ValueError: expected ... bytes in a bytes8, but only 6 remain
+    r

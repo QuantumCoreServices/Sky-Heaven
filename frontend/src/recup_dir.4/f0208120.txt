@@ -1,0 +1,8 @@
+ease after 4.1.7, but I've left
+   a gap just in case.
+** We now use an "imported" version of gnulib, rather than including
+   a copy of the gnulib code in our CVS repository.   There are no
+   differences in the build instructions, though (unless you are
+   building directly from CVS, in which case please read the file
+   README-CVS).
+** There are no (deliberate) functional changes in version 4.1.20.

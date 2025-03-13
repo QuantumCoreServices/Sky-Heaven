@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="view-zoom" xml:lang="totem-uk">
+
+  <info>
+    <revision pkgversion="3.8" version="0.1" date="2013-03-29" status="draft"/>
+    <revision pkgversion="3.30.0" version="0.2" date="2019-01-09" status="draft"/>
+    <link type="guide" xref="index#playing-media"/>
+
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name its:translate="no">Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+
+    <desc>Збільшення розміру кадру і встановлення правильних пропорцій кадру.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Максим Дзюманенко</mal:name>
+      <mal:email>mvd@mylinux.ua</mal:email>
+      <mal:years>2005-2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергій Гаврилов</mal:name>
+      <mal:email>sergiovana@bigmir.net</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Зміна розміру і співвідношення сторін кадру</title>
+
+  <p>Ви можете збільшити розмір кадру або виправити співвідношення розмірів кадру.</p>
+
+  <terms>
+    <item>
+      <title>Наблизити</title>
+      <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="menuitem">Збільшити</gui> або натисніть клавішу <key>R</key>. Щоб зменшити розміри кадру, вимкніть <gui style="menuitem">Збільшити</gui> або натисніть клавішу <key>T</key>.</p>
+    </item>
+    <item>
+      <title>Встановлення співвідношення сторін</title>
+      <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="menuitem">Співвідношення розмірів</gui></p>
+      <p>Виберіть один з таких варіантів:</p>
+      <list>
+        <item><p><gui>Авто</gui></p></item>
+        <item><p><gui>Квадрат</gui></p></item>
+        <item><p><gui>4∶3 (ТБ)</gui></p></item>
+        <item><p><gui>16∶9 (широкий екран)</gui></p></item>
+        <item><p><gui>2.11:1 (DVB)</gui></p></item>
+      </list>
+    </item>
+  </terms>
+
+  <note style="info">
+    <p>Співвідношення розмірів є відношенням між шириною і висотою кадру зображення. За допомогою цього пункту ви можете примусово встановити інше співвідношення розмірів, яке буде використано при показі відео.</p>
+  </note>
+
+</page>

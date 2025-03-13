@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="playing-DVD" xml:lang="totem-uk">
+
+  <info>
+    <link type="guide" xref="index#playing-media"/>
+    <revision pkgversion="3.30" version="0.2" date="2019-01-11" status="draft"/>
+    <desc>Відтворення мультимедійних файлів з DVD або VCD.</desc>
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Максим Дзюманенко</mal:name>
+      <mal:email>mvd@mylinux.ua</mal:email>
+      <mal:years>2005-2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергій Гаврилов</mal:name>
+      <mal:email>sergiovana@bigmir.net</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Перегляд DVD або VCD</title>
+
+  <list>
+    <item>
+      <p>Щоб відтворити диск DVD, який ви щойно вставили до пристрою для читання, наведіть вказівник миші на <link xref="help:gnome-help/shell-notifications" href="https://help.gnome.org/users/gnome-help/stable/shell-notifications">сповіщення</link> і натисніть пункт <gui style="button">Відкрити за допомогою Відео</gui>.</p>
+      <figure>
+        <title>Сповіщення GNOME із пропозицією відкрити диск за допомогою <app>Відео</app></title>
+        <media type="image" mime="image/png" src="figures/dvd-gnome-notification.png">
+          <p>Знімок діалогового вікна сповіщень GNOME.</p>
+        </media>
+      </figure>
+    </item>
+    <item>
+      <p>Щоб відтворити диск DVD у пристрої для читання дисків вашого комп'ютера, відкрийте <app>Файли</app>, виберіть диск на бічній панелі і натисніть кнопку <gui style="button">Відео</gui> на панелі <gui>Відео-DVD</gui>.</p>
+      <figure>
+        <title><app>Файли</app> із пропозицією відкрити диск за допомогою <app>Відео</app></title>
+        <media type="image" mime="image/png" src="figures/dvd-nautilus.png">
+        <p>Знімок вікна <app>Файлів</app>.</p>
+        </media>
+      </figure>
+    </item>
+    <item>
+      <p>Щоб відтворити диск DVD у пристрої для читання дисків, відкрийте <app>Відео</app> і виберіть диск DVD з таблиці <gui>Відео</gui>.</p>
+    </item>
+  </list>
+
+  <p>Ви можете здійснювати навігацію під час перегляду у такий спосіб:</p>
+  <list>
+    <item>
+      <p>Натисніть <gui>кнопку меню</gui> під областю відео.</p>
+    </item>
+    <item>
+    <p>Виберіть один з таких варіантів:</p>
+    <list>
+      <item>
+        <p>Виберіть пункт <gui style="menuitem">Меню DVD</gui>, щоб переглянути головне меню DVD. Налаштуйте мову і субтитри, перегляньте покажчик сцен або скористайтеся спеціальними можливостями.</p>
+      </item>
+      <item>
+        <p>Виберіть пункт <gui style="menuitem">Меню епізоду</gui>, щоб вибрати мову інтерфейсу DVD.</p>
+      </item>
+      <item>
+        <p>Виберіть пункт <gui style="menuitem">Меню звуку</gui> і виберіть мову, яку буде використано для озвучення відео.</p>
+      </item>
+      <item>
+        <p>Виберіть пункт <gui style="menuitem">Кутове меню</gui>, щоб вибрати іншу перспективу камери.</p>
+      </item>
+      <item>
+        <p>Виберіть пункт <gui style="menuitem">Меню фрагментів</gui>, щоб переглянути покажчик сцен.</p>
+      </item>
+    </list>
+    <note><p>Підтримку цих пунктів передбачено не в усіх DVD.</p></note>
+    </item>
+  </list>
+
+</page>

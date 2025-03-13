@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="troubleshooting-subtitles" xml:lang="totem-uk">
+
+  <info>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="subtitles"/>
+    <link type="seealso" xref="preferences"/>
+    <revision pkgversion="3.30" version="0.2" date="2019-01-11" status="draft"/>
+    <desc>Не можу завантажити субтитри</desc>
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Максим Дзюманенко</mal:name>
+      <mal:email>mvd@mylinux.ua</mal:email>
+      <mal:years>2005-2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергій Гаврилов</mal:name>
+      <mal:email>sergiovana@bigmir.net</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Проблема із завантаженням субтитрів</title>
+
+  <p>Може таке трапитися, навіть після виконання настанов щодо субтитрів з розділів <link xref="subtitles"/> і <link xref="preferences"/>, що <app>Відео</app> не зможе завантажити субтитри. Причина може бути такою:</p>
+
+  <list>
+    <item>
+      <p>Помилкова назва файла субтитрів — відкрийте вікно вибору файлів і перевірте, чи збігається назва файла субтитрів із назвою файла відео.</p>
+    </item>
+    <item>
+      <p>Немає файла субтитрів — відкрийте вікно вибору файлів і перевірте, чи зберігається файл субтитрів у тому самому каталозі, що і відео.</p>
+    </item>
+  </list>
+
+  <p>Якщо у вас немає файла субтитрів до вашого відео, ви можете пошукати його за допомогою <app>Відео</app>:</p>
+  <steps>
+    <item><p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="menuitem">Налаштування</gui>.</p>
+    </item>
+    <item>
+      <p>На вкладці <gui>Загальне</gui>, сторінка <gui>Додатки</gui>, натисніть кнопку <gui style="button">Додатки…</gui>.</p>
+    </item>
+    <item>
+      <p>У вікні <gui>Налаштувати додатки</gui> увімкніть додаток <gui>Звантаження субтитрів</gui>. Цей додаток намагатиметься знайти і отримати субтитри до поточного відтворюваного відео.</p>
+    </item>
+  </steps>
+
+  <note>
+  <p>Будь ласка, зауважте, що для пошуку субтитрів ваш комп'ютер має бути з'єднано із інтернетом.</p>
+  </note>
+
+</page>

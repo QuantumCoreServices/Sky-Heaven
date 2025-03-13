@@ -1,0 +1,25 @@
+%!PS-AdobeFont-1.0: C059-Roman 1.00
+%%CreationDate: Wed May 17 2017
+% Copyright (URW)++,Copyright 2014 by (URW)++ Design & Development
+% (URW)++,Copyright 2014 by (URW)++ Design & Development
+10 dict begin
+/FontInfo 12 dict dup begin
+/version (1.00) readonly def
+/Notice ((URW)++,Copyright 2014 by (URW)++ Design & Development) readonly def
+/Copyright (Copyright (URW)++,Copyright 2014 by (URW)++ Design & Development) readonly def
+/FullName (C059 Roman) readonly def
+/FamilyName (C059) readonly def
+/Weight (Roman) readonly def
+/ItalicAngle 0.0 def
+/isFixedPitch false def
+/UnderlinePosition -104 def
+/UnderlineThickness 61 def
+end readonly def
+/FontName /C059-Roman def
+/PaintType 0 def
+/FontBBox {-217 -302 1118 1116} readonly def
+/FontType 1 def
+/FontMatrix [0.001 0.0 0.0 0.001 0.0 0.0] readonly def
+/Encoding StandardEncoding def
+currentdict end
+currentfile eexecÈç	◊`£¬,Ò

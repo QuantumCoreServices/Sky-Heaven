@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="properties" xml:lang="totem-uk">
+
+  <info>
+    <link type="guide" xref="index#advanced-options"/>
+    <revision pkgversion="3.30" version="0.2" date="2019-01-10" status="draft"/>
+    <desc>Перегляд властивостей звукових і відеоданих відтворюваного файла.</desc>
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name its:translate="no">Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Максим Дзюманенко</mal:name>
+      <mal:email>mvd@mylinux.ua</mal:email>
+      <mal:years>2005-2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергій Гаврилов</mal:name>
+      <mal:email>sergiovana@bigmir.net</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Властивості файла</title>
+
+  <p>Переглянути властивості відтворюваних мультимедійних даних можна так: натисніть кнопку меню у верхньому правому куті вікна програми і виберіть пункт <gui style="menuitem">Властивості</gui> або натисніть комбінацію клавіш <keyseq><key>Ctrl</key><key>P</key></keyseq>. У відповідь програма покаже три розділи:</p>
+
+  <terms>
+    <item>
+      <title><gui>Загальні</gui></title>
+      <p>Відомості щодо заголовка, виконавця, альбому, року, тривалості відтворення, коментаря і контейнера.</p>
+    </item>
+    <item>
+      <title><gui>Відео</gui></title>
+      <p>Відомості щодо розмірів кадру, кодека, частоти кадрів та бітової швидкості.</p>
+    </item>
+    <item>
+      <title><gui>Звук</gui></title>
+      <p>Відомості щодо кодека, каналів, частоти дискретизації та бітової швидкості.</p>
+    </item>
+  </terms>
+
+</page>

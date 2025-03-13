@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="preferences" xml:lang="totem-pt-BR">
+
+  <info>
+    <link type="guide" xref="index#advanced-options"/>
+    <link type="seealso" xref="subtitles"/>
+    <revision pkgversion="3.30" version="0.2" date="2019-01-10" status="draft"/>
+    <desc>Configure a saída de áudio e vídeo e plug-ins.</desc>
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <license>
+      <p>Creative Commons Atribuição-Compartilhada Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Raphael Higino</mal:name>
+      <mal:email>In memoriam</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Irapuan Pascoal</mal:name>
+      <mal:email>irapuan.menezes@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fabrício Godoy</mal:name>
+      <mal:email>skarllot@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ísis Binder</mal:name>
+      <mal:email>isis.binder@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2014-2021</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Preferências e recursos adicionais</title>
+
+  <p><app>Vídeos</app> oferece algumas opções adicionais. Configure o aplicativo de acordo com suas preferências. Veja a janela de <gui>Preferências</gui> abrindo o botão de menu no canto superior direito da janela e selecione <gui style="menuitem">Preferências</gui>.</p>
+
+  <section id="pref-general">
+    <title>Geral</title>
+      <terms>
+        <item>
+          <title><gui>Legendas externas</gui></title>
+            <list>
+              <item>
+                <p>Marque a opção <gui>Carregar legendas quando o filme for carregado</gui> se desejar que as legendas sejam carregadas automaticamente.</p>
+              </item>
+              <item>
+                <p>Ajuste o tipo e o tamanho da fonte, clicando em seu nome. Escolha o tipo de fonte na lista suspensa. Clique no controle deslizante e altere o tamanho da fonte. Quando estiver pronto, clique em <gui>Selecionar</gui>.</p>
+              </item>
+              <item>
+                <p>Escolha a codificação na lista suspensa.</p>
+              </item>
+            </list>
+        </item>
+        <item>
+          <title><gui>Plug-ins</gui></title>
+          <p>Os plug-ins oferecem recursos extras e ampliam a funcionalidade. Você pode visualizar a lista de plug-ins pressionando <gui style="button">Plug-ins…</gui>. Selecione o desejado e pressione <gui style="button">Preferências</gui>, se disponível.</p>
+        </item>
+      </terms>
+  </section>
+
+  <section id="pref-display">
+    <title>Monitor</title>
+      <terms>
+        <item>
+          <title><gui>Vídeo</gui></title>
+          <p><app>Vídeos</app> permite que você especifique se deseja <gui>Desativar desentrelaçamento de vídeos entrelaçados</gui>. Faça isso marcando esta opção.</p>
+        </item>
+        <item>
+          <title><gui>Balanço de cor</gui></title>
+          <p>Esta opção permite ajustar <gui>Brilho</gui>, <gui>Contraste</gui>, <gui>Saturação</gui> ou <gui>Tonalidade</gui> dos vídeos visualizados. Faça isso clicando e arrastando os controles deslizantes.</p>
+            <note style="tip">
+              <p>Você pode voltar às configurações anteriores pressionando o botão <gui style="button">Redefinir para o padrão</gui>.</p>
+            </note>
+        </item>
+      </terms>
+  </section>
+
+  <section id="pref-audio">
+    <title>Áudio</title>
+      <terms>
+        <item>
+          <title><gui>Saída de áudio</gui></title>
+          <p>Escolha o tipo de <gui>Saída de áudio</gui> na lista suspensa.</p>
+        </item>
+      </terms>
+  </section>
+
+</page>

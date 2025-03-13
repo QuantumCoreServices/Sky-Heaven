@@ -1,0 +1,20 @@
+{
+  "main": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-skyheaven-main-1235f-authRole",
+      "UnauthRoleArn": "arn:aws:iam::140023365340:role/amplify-skyheaven-main-1235f-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::140023365340:role/amplify-skyheaven-main-1235f-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-skyheaven-main-1235f-deployment",
+      "UnauthRoleName": "amplify-skyheaven-main-1235f-unauthRole",
+      "StackName": "amplify-skyheaven-main-1235f",
+      "StackId": "arn:aws:cloudformation:us-east-2:140023365340:stack/amplify-skyheaven-main-1235f/d96873c0-fb88-11ef-b99c-06e662dbb5fb",
+      "AmplifyAppId": "dqzvx3zdoaahh"
+    },
+    "categories": {
+      "function": {
+        "fastapiBackend": {}
+      }
+    }
+  }
+}

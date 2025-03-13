@@ -1,0 +1,8 @@
+, and, in normal
+             cases, is in fact identical to the big-endian 754 double format.
+             On other boxes the dynamic range is limited to that of a 754
+             double, and "add a half and chop" rounding is used to reduce
+             the precision to 53 bits.  However, even on a 754 box,
+             infinities, NaNs, and minus zero may not be handled correctly
+             (may not survive roundtrip pickling intact).
+             )

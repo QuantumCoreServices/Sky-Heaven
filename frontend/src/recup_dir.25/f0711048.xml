@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="variable" xml:lang="da">
+
+    <info>
+        <link type="guide" xref="index#equation"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Variabler</title>
+    
+    <p>Tildel en værdi til en variabel med symbolet = eller vælg den variabel som skal tildeles til med knappen <gui>x</gui> i <link xref="mouse">tilstanden avanceret</link>. Et variabelnavn må kun indeholde store eller små bogstaver.</p>
+    <example>
+    <p>x=5</p>
+    <p>eksempel=82</p>
+    </example>
+    <p>Variabler kan bruges i enhver ligning og erstattes af deres tildelte værdi. Variabler kan indsættes med knappen <gui>x</gui>.</p>
+    <example>
+    <p>6x+3</p>
+    <p>xy−3x+7y−21</p>
+    </example>
+    <p>Følgende variabler er altid defineret.</p>
+    <table>
+    <tr>
+    <td><p>_</p></td>
+    <td><p>Resultatet af forrige udregning</p></td>
+    </tr>
+    <tr>
+    <td><p>e</p></td>
+    <td><p><link xref="logarithm">Eulers tal</link></p></td>
+    </tr>
+    <tr>
+    <td><p>π</p></td>
+    <td><p><link xref="trigonometry">Pi</link></p></td>
+    </tr>
+    <tr>
+    <td><p>τ</p></td>
+    <td><p><link xref="trigonometry">Tau</link></p></td>
+    </tr>
+    <tr>
+    <td><p>rand</p></td>
+    <td><p>Tilfældig værdi i området [0,1] (ændres ved hver læsning)</p></td>
+    </tr>
+    </table>
+</page>

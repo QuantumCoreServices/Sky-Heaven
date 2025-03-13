@@ -1,0 +1,4 @@
+karaktere kodeketa bat erabiltzen
+duten itzultzaileei eragozpenak sor diezazkieke. msgctxt-en ASCII
+ garbia erabiltzean pensta ezazu.
+%s

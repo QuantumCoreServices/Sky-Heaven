@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="problem-slow-scan" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#problems"/>
+    <revision pkgversion="3.12" date="2014-01-25" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email>baptistem@gnome.org</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>L'escaneig d'una carpeta o d'una ubicació remota és lent.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+  <title>L'escaneig és lent</title>
+
+  <p>El temps necessari per a escanejar una carpeta o una ubicació remota depèn de la velocitat del mitjà que esteu escanejant. Per exemple, un disc dur mecànic serà més lent que un SSD i l'escaneig d'un directori remot a través d'Internet generalment trigarà més que l'escaneig d'una carpeta a través d'una xarxa local.</p>
+
+  <p>La velocitat també depèn de la profunditat de l'estructura de directoris i del nombre de fitxers emmagatzemats.</p>
+
+</page>

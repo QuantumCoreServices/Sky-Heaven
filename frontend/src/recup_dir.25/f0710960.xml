@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="keyboard" xml:lang="da">
+
+    <info>
+        <link type="guide" xref="index#ui"/>
+        <revision pkgversion="3.38.0" date="2020-09-25" status="review"/>
+        <credit type="editor">
+          <name>Pranali Deshmukh</name>
+          <email>pranali21293@gmail.com</email>
+          <years>2020</years>
+        </credit>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Med tastaturet</title>
+
+    <p>Alle matematiske ligninger kan indtastes med tastaturet.</p>
+    <p>Følgende tastekombinationer kan bruges til at indtaste taster, der måske ikke er tilgængelige på dit tastatur.</p>
+    <table>
+    <tr>
+    <td><p>×</p></td>
+    <td><p><key>*</key></p></td>
+    </tr>
+    <tr>
+    <td><p>÷</p></td>
+    <td><p><key>/</key></p></td>
+    </tr>
+    <tr>
+    <td><p>^</p></td>
+    <td><p><key>*</key> to gange</p></td>
+    </tr>
+    <tr>
+    <td><p>√</p></td>
+    <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td>
+    </tr>
+    <tr>
+    <td><p>π</p></td>
+    <td><p><keyseq><key>Ctrl</key><key>P</key></keyseq></p></td>
+    </tr>
+    </table>
+    <p>Indtast <link xref="superscript">hævede tal</link> med <keyseq><key>Ctrl</key>tal</keyseq> og <link xref="superscript">sænkede tal</link> med <keyseq><key>Alt</key>tal</keyseq>.</p>
+</page>

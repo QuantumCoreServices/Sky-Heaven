@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="channels" xml:lang="totem-sv">
+
+<info>
+  <revision pkgversion="3.30" date="2019-01-12" status="stub"/>
+    <link type="guide" xref="index#playing-media"/>
+
+  <credit type="author">
+    <name its:translate="no">Andre Klapper</name>
+    <email its:translate="no">ak-47@gmx.net</email>
+  </credit>
+  <credit type="author">
+    <name its:translate="no">Bastien Nocera</name>
+    <email its:translate="no">hadess@hadess.net</email>
+  </credit>
+
+  <license>
+    <p>Creative Commons DelaLika 3.0</p>
+  </license>
+
+  <desc>Kanaler.</desc>
+
+
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Nylander</mal:name>
+      <mal:email>po@danielnylander.se</mal:email>
+      <mal:years>2006, 2008, 2009.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2019, 2020.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Kanaler</title>
+  <p>Gränssnittets del för kanaler kommer visa ett antal nätverksvideoresurser, antingen från internet, eller lokala, så som UPnP/DLNA-delningar, filmtrailrar, nyhetsartiklar eller andra nätkällor.</p>
+
+  <p>Källor implementeras med mediaupptäcktssystemet <link href="https://wiki.gnome.org/Projects/Grilo">grilo</link>. Utvecklare och avancerade användare som är intresserade i att utöka <app>Videoklipp</app> bör besöka den ovan nämnda webbplatsen för dokumentation.</p>
+
+</page>

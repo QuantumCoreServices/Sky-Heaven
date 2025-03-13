@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<libosinfo version="0.0.1">
+  <!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://altlinux.org/alt/10.3">
+    <short-id>alt10.3</short-id>
+    <name>ALT 10.3</name>
+    <name xml:lang="ka">ALT 10.3</name>
+    <name xml:lang="ko">ALT 10.3</name>
+    <name xml:lang="tr">ALT 10.3</name>
+    <name xml:lang="pl">ALT 10.3</name>
+    <name xml:lang="it">ALT 10.3</name>
+    <version>10.3</version>
+    <vendor>BaseALT</vendor>
+    <vendor xml:lang="zh_Hans">BaseALT</vendor>
+    <vendor xml:lang="ka">BaseALT</vendor>
+    <vendor xml:lang="ko">BaseALT</vendor>
+    <vendor xml:lang="fi">BaseALT</vendor>
+    <vendor xml:lang="ru">&#x411;&#x430;&#x437;&#x430;&#x43B;&#x44C;&#x442;</vendor>
+    <vendor xml:lang="uk">BaseALT</vendor>
+    <vendor xml:lang="tr">BaseALT</vendor>
+    <vendor xml:lang="pt">BaseALT</vendor>
+    <vendor xml:lang="pt_BR">BaseALT</vendor>
+    <vendor xml:lang="pl">BaseALT</vendor>
+    <vendor xml:lang="it">BaseALT</vendor>
+    <vendor xml:lang="id">BaseALT</vendor>
+    <vendor xml:lang="fr">BaseALT</vendor>
+    <vendor xml:lang="de">BaseALT</vendor>
+    <family>linux</family>
+    <distro>alt</distro>
+    <codename>Aronia</codename>
+    <upgrades id="http://altlinux.org/alt/10.2"/>
+    <derives-from id="http://altlinux.org/alt/10.2"/>
+    <release-date>2024-03-21</release-date>
+    <eol-date>2025-12-31</eol-date>
+    <variant id="kworkstation">
+      <name>ALT Workstation K 10.3</name>
+      <name xml:lang="ka">ALT Workstation K 10.3</name>
+      <name xml:lang="ko">ALT &#xC6CD;&#xC2A4;&#xD14C;&#xC774;&#xC158; K 10.3</name>
+      <name xml:lang="tr">ALT Workstation K 10.3</name>
+      <name xml:lang="pl">ALT Workstation K 10.3</name>
+      <name xml:lang="it">ALT Workstation K 10.3</name>
+    </variant>
+    <variant id="kworkstation-live">
+      <name>ALT Workstation K Live 10.3</name>
+      <name xml:lang="ka">ALT Workstation K Live 10.3</name>
+      <name xml:lang="ko">ALT &#xC6CD;&#xC2A4;&#xD14C;&#xC774;&#xC158; K &#xB77C;&#xC774;&#xBE0C; 10.3</name>
+      <name xml:lang="tr">ALT Workstation K Live 10.3</name>
+      <name xml:lang="pl">ALT Workstation K Live 10.3</name>
+      <name xml:lang="it">ALT Workstation K Live 10.3</name>
+    </variant>
+    <!-- Workstation K -->
+    <media arch="x86_64">
+      <variant id="kworkstation"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/p10/images/kworkstation/alt-kworkstation-10.3-install-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Workstation K 10\.3(\.\d+)*</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT WORKSTATION K 10\.3(\.\d+)* X86_64.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+    <!-- Workstation K Live -->
+    <media arch="x86_64" live="true">
+      <variant id="kworkstation-live"/>
+      <url>http://ftp.altlinux.ru/pub/distributions/ALTLinux/images/p10/kworkstation/alt-kworkstation-10.3-live-x86_64.iso</url>
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>ALT Workstation K 10\.3(\.\d+)* Live</volume-id>
+        <publisher-id>BASEALT LTD</publisher-id>
+        <application-id>ALT WORKSTATION K 10\.3(\.\d+)* LIVE X86_64.*</application-id>
+      </iso>
+      <kernel>boot/vmlinuz</kernel>
+      <initrd>boot/initrd.img</initrd>
+    </media>
+    <resources arch="all">
+      <minimum>
+        <n-cpus>1</n-cpus>
+        <cpu>1000000000</cpu>
+        <ram>536870912</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <ram>2147483648</ram>
+        <storage>21474836480</storage>
+      </recommended>
+    </resources>
+  </os>
+</libosinfo>

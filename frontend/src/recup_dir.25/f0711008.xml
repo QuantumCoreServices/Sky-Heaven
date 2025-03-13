@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="percentage" xml:lang="da">
+
+    <info>
+        <link type="guide" xref="index#equation"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Procenter</title>
+    
+    <p>Procenter udregnes med symbolet %.</p>
+    <p>Når der lægges til eller trækkes fra, så bliver procentsymbolet til en procent af den værdi der lægges til eller trækkes fra. Følgende ligning udregner prisen på en ting der koster 140 kroner med 15 % afgift (140 + (15÷100)×140).</p>
+    <example>
+    <p>140+15%</p>
+    </example>
+    <p>I alle andre tilfælde bliver procentsymbolet til en “fraction” af 100. Følgende ligning udregner en kvart af 80 æbler ((25÷100)×80).</p>
+    <example>
+    <p>25%×80</p>
+    </example>
+</page>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="conv-character" xml:lang="da">
+
+    <info>
+        <link type="guide" xref="index#conversion"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Tegnkoder</title>
+    
+    <p>I <link xref="mouse">tilstanden programmering</link> åbner <gui>á</gui>-knappen en dialog til at konvertere tegn til tegnkoder.</p>
+    <note>
+    <p>Tegn kan ikke konverteres med tastaturet.</p>
+    </note>
+</page>

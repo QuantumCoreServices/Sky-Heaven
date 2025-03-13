@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="rename-multiple" xml:lang="pt-BR"> 
+ 
+  <info> 
+    <link type="guide" xref="index#edit"/>
+    <link type="seealso" xref="format-change#multiple"/> 
+    <desc>Renomeie e numere automaticamente os lotes de imagens.</desc> 
+ 
+    <revision pkgversion="3.24" version="0.1" date="2011-09-06" status="final"/> 
+    <credit type="author"> 
+      <name>Tiffany Antopolski</name> 
+      <email>tiffany@antopolski.com</email> 
+    </credit> 
+    <license> 
+      <p>Creative Commons Atribuição-Compartilhada Igual 3.0</p> 
+    </license> 
+ 
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Amadeu A. Barbosa Júnior</mal:name>
+      <mal:email>amadeu@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Flores</mal:name>
+      <mal:email>rodrigomarquesflores@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leo.fontenelle@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Gregianin</mal:name>
+      <mal:email>leogregianin@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Djavan Fagundes</mal:name>
+      <mal:email>djavan@comum.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Krix Apolinário</mal:name>
+      <mal:email>krixapolinario@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2018, 2019</mal:years>
+    </mal:credit>
+  </info> 
+ 
+<title>Renomeando muitas imagens de uma vez</title>
+
+<p>Se você tiver muitas imagens que deseja renomear, talvez para que elas tenham um formato de nome numerado padrão:</p>
+
+<steps>
+ <item>
+  <p>Abra a <link xref="view#image-gallery">galeria de imagens</link> pressionando <keyseq><key>Ctrl</key><key>F9</key></keyseq>.</p>
+ </item>
+ <item>
+  <p>Selecione todas as imagens que você gostaria de renomear na galeria de imagens pressionando <key>Ctrl</key> e clicando nelas uma a uma.</p>
+ <p>Alternativamente, pressione <keyseq><key>Ctrl</key><key>A</key></keyseq> para selecionar todas as imagens.</p>
+ </item>
+ <item>
+  <p>Clique em <gui style="menuitem">Salvar como…</gui>. Aparecerá uma janela com algumas opções de nome de arquivo (a figura abaixo mostra como esta janela se parece).</p>
+ </item>
+ <item>
+  <p>As imagens renomeadas serão salvas na pasta atual por padrão. Para salvá-las em outro lugar, altere a <gui>Pasta de destino</gui>.</p>
+ </item>
+ <item>
+  <p>Use a caixa <gui>Formato do nome de arquivo</gui> para escolher um formato de nomenclatura para as imagens. A <gui>Visualização do nome de arquivo</gui> mostra como serão os novos nomes de arquivos. Veja a seção <link xref="#filename-format"/>, abaixo, para obter conselhos sobre como renomear os arquivos.</p>
+ </item>
+ <item>
+  <p>Certifique-se de que a lista suspensa <gui>Formato do nome de arquivo</gui> indique <gui>como está</gui>, a menos que queira <link xref="format-change#multiple">converter as imagens para um formato de arquivo diferente</link>.</p>
+ </item>
+ <item>
+  <p>Clique em <gui>Salvar</gui> e as imagens serão renomeadas.</p>
+ </item>
+</steps>
+
+<media type="image" src="figures/multiple-rename-count.png" width="300"/>
+
+<section id="filename-format">
+ <title>Escolhendo um formato de arquivo</title>
+ <p>Os nomes dos arquivos renomeados são determinados pelo que você coloca na caixa <gui>Formato do nome de arquivo</gui>.</p>
+ <list>
+  <item>
+   <p>Você pode manter o nome do arquivo original como parte do novo nome do arquivo, deixando o <input>%f</input> na caixa.</p>
+   <p>Por exemplo, se você digitar <input>paris_%f</input> na caixa <gui>Formato do nome de arquivo</gui>, as imagens chamadas <file>flor.jpg</file>, <file>casa.jpg</file> e <file>gato.jpg</file> seriam renomeadas para <file>paris_flor.jpg</file>, <file>paris_casa.jpg</file> e <file>paris_gato.jpg</file>.</p>
+  </item>
+  <item>
+   <p>A adição de um <input>%n</input> irá numerar as imagens consecutivamente, começando pelo número do contador que você escolher em <gui>Opções</gui>.</p>
+  <p>Por exemplo, se você digitar <input>nascer-do-sol_%n</input> na caixa <gui>Formato do nome de arquivo</gui>, as imagens chamadas <file>flor.jpg</file>, <file>casa.jpg</file> e <file>gato.jpg</file> seriam renomeadas para <file>nascer-do-sol_2.jpg</file>, <file>nascer-do-sol_1.jpg</file> e <file>nascer-do-sol_3.jpg</file>. (Elas serão numeradas por ordem alfabética dos nomes de arquivos originais.)</p>
+  </item>
+ </list>
+</section>
+
+</page>

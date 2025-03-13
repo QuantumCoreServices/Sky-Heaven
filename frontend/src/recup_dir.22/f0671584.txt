@@ -1,0 +1,5 @@
+8-byte little-endian signed int
+                    giving the number of bytes in the string, and the second
+                    argument-- the UTF-8 encoding of the Unicode string --
+                    contains that many bytes.
+                    c

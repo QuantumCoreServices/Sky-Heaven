@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="troubleshooting-subtitles" xml:lang="totem-pt-BR">
+
+  <info>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="subtitles"/>
+    <link type="seealso" xref="preferences"/>
+    <revision pkgversion="3.30" version="0.2" date="2019-01-11" status="draft"/>
+    <desc>Não consigo carregar legendas.</desc>
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <license>
+      <p>Creative Commons Atribuição-Compartilhada Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Raphael Higino</mal:name>
+      <mal:email>In memoriam</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Irapuan Pascoal</mal:name>
+      <mal:email>irapuan.menezes@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fabrício Godoy</mal:name>
+      <mal:email>skarllot@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ísis Binder</mal:name>
+      <mal:email>isis.binder@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2014-2021</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Problema ao carregar as legendas</title>
+
+  <p>Pode acontecer que, mesmo que você siga as instruções relativas às legendas da página <link xref="subtitles"/> ou da página <link xref="preferences"/>, <app>Vídeos</app> ainda não carrega as legendas. A razão para isso pode ser:</p>
+
+  <list>
+    <item>
+      <p>Nome incorreto do arquivo de legendas – abra o seletor de arquivos e verifique se o nome do arquivo de legendas é igual ao nome do arquivo de filme.</p>
+    </item>
+    <item>
+      <p>Falta do arquivo de legendas – abra o seletor de arquivos e verifique se há também um arquivo com as legendas no diretório com o filme.</p>
+    </item>
+  </list>
+
+  <p>Se você não possui um arquivo de legendas para o seu filme, você pode procurá-lo através de <app>Vídeos</app>:</p>
+  <steps>
+    <item><p>Pressione o botão de menu no canto superior direito da janela e selecione <gui style="menuitem">Preferências</gui>.</p>
+    </item>
+    <item>
+      <p>Na aba <gui>Geral</gui> sob <gui>Plug-ins</gui>, pressione <gui style="button">Plug-ins…</gui>.</p>
+    </item>
+    <item>
+      <p>Na janela <gui>Configurar Plug-ins</gui>, ative o plug-in <gui>Buscador de legendas</gui>. Ele tentará encontrar e baixar legendas para o filme atualmente reproduzido.</p>
+    </item>
+  </steps>
+
+  <note>
+  <p>Observe que, para procurar legendas, você precisa estar conectado à Internet.</p>
+  </note>
+
+</page>

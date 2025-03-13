@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="file-open" xml:lang="totem-uk">
+
+  <info>
+    <revision pkgversion="3.8" version="0.1" date="2013-03-29" status="draft"/>
+    <revision pkgversion="3.30" version="0.2" date="2019-01-10" status="draft"/>
+    <link type="guide" xref="index#playing-media"/>
+
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name its:translate="no">Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+
+    <desc>Відкриття файла у <app>Відео</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Максим Дзюманенко</mal:name>
+      <mal:email>mvd@mylinux.ua</mal:email>
+      <mal:years>2005-2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергій Гаврилов</mal:name>
+      <mal:email>sergiovana@bigmir.net</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Перегляд відео</title>
+
+  <p>Відкрити файл у <app>Відео</app> можна у один із таких способів:</p>
+
+  <list>
+    <item>
+      <p>Вибрати відео зі списку вже відтворених відео у головному вікні програми.</p>
+    </item>
+    <item>
+      <p>Вибрати <app>Відео</app> як програму для відкриття файлів відео у програмі для керування файлами <app>Файли</app>.</p>
+    </item>
+    <item>
+      <p>Натисніть кнопку <gui style="button">+</gui> у верхньому лівому куті вікна і виберіть пункт <gui style="menuitem">Додати локальний відеозапис…</gui>. Виберіть відео, які ви хочете відкрити. Натисніть кнопку <gui style="button">Додати</gui>. Відео буде додано до списку у головному вікні програми, звідки ви зможете його вибрати.</p>
+    </item>
+    <item>
+      <p>Натисніть кнопку <gui style="button">+</gui> у верхньому лівому куті вікна і виберіть пункт <gui style="menuitem">Додати інтернетний відеозапис…</gui>. Введіть або вставте адресу відео, яке ви хочете відкрити. Натисніть кнопку <gui style="button">Додати</gui>. Відео буде додано до списку у головному вікні програми, звідки ви зможете його вибрати.</p>
+    </item>
+  </list>
+
+</page>

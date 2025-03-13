@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="license" xml:lang="ru">
+  
+  <info>
+    <link type="seealso" xref="index"/>
+    <revision pkgversion="3.4" version="0.1" date="2012-03-08" status="final"/>
+    <desc>Правовая информация.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Василий Фаронов &lt;qvvx@yandex.ru&gt;, 2007Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Лицензия</title>
+  <p>Это руководство рапространяется под лицензией CreativeCommons Attribution-Share Alike 3.0 Unported.</p>
+  <p>Вы свободны:</p>
+  <terms>
+    <item>
+      <title><em>Поделиться</em></title>
+      <p>Копировать, распространять и передавать произведение.</p>
+    </item>
+    <item>
+      <title><em>Сделать ремикс</em></title>
+      <p>Адаптировать работу.</p> 
+    </item>
+  </terms>
+  <p>При соблюдении следующих условий:</p>
+  <terms>
+    <item>
+      <title><em>Указание авторства</em></title>
+      <p>Вы должны указать авторство работы в порядке, указанном автором или лицензиаром (но не в любом случае, который предполагает, что они одобряют вас или ваше использование работы).</p>
+    </item>
+    <item>
+      <title><em>Делиться похожими</em></title>
+      <p>Если вы изменяете, преобразуете или создаете на основе этой работы, вы можете распространять полученную работу только по той же, аналогичной или совместимой лицензии.</p>
+    </item>
+  </terms>
+  <p>Полный текст лицензии см. на <link href="http://creativecommons.org/licenses/by-sa/3.0/legalcode">сайте CreativeCommons</link> или прочитайте полный текст <link href="http://creativecommons.org/licenses/by-sa/3.0/">Commons Deed</link>.</p>
+</page>

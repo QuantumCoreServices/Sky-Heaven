@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="slideshow" xml:lang="pt-BR">
+
+  <info>
+   <link type="guide" xref="index#viewing"/>
+   <link type="seealso" xref="preferences#slideshow"/>
+   <link type="seealso" xref="plugin-slideshow-shuffle"/>
+   <desc>Clique em <gui style="menuitem">Apresentação de slides</gui> para mostrar todas as imagens em uma pasta como uma apresentação de slides.</desc>
+
+   <revision pkgversion="3.2" version="0.1" date="2011-09-06" status="final"/>
+   <credit type="author">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+   </credit>
+   <license>
+     <p>Creative Commons Atribuição-Compartilhada Igual 3.0</p>
+   </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Amadeu A. Barbosa Júnior</mal:name>
+      <mal:email>amadeu@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Flores</mal:name>
+      <mal:email>rodrigomarquesflores@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leo.fontenelle@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Gregianin</mal:name>
+      <mal:email>leogregianin@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Djavan Fagundes</mal:name>
+      <mal:email>djavan@comum.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Krix Apolinário</mal:name>
+      <mal:email>krixapolinario@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2018, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Apresentação de slides</title>
+
+<p>Para ver todas as imagens em uma pasta como uma apresentação de slides:</p>
+
+<steps>
+ <item>
+  <p><link xref="open">Abra</link> uma das imagens da pasta.</p>
+ </item>
+ <item>
+  <p>Clique em <gui style="menuitem">Apresentação de slides</gui> ou pressione <key>F5</key>.</p>
+  <p>Uma apresentação de slides em tela cheia será iniciada. A cada poucos segundos, uma nova imagem será exibida. Se você quiser percorrer a apresentação de slides mais rapidamente ou retornar a uma imagem que já tenha sido exibida, poderá usar as teclas de seta <key>Esquerda</key> e <key>Direita</key> para voltar e avançar manualmente.</p>
+ </item>
+ <item>
+  <p>Para sair da apresentação de slides, pressione <key>Esc</key> ou <key>F5</key>.</p>
+ </item>
+</steps>
+
+<p>Você pode alterar as configurações da apresentação de slides, como por quanto tempo deve mostrar cada imagem. Veja o tópico em <link xref="preferences#slideshow">preferências de apresentação de slides</link> para mais informações.</p>
+
+</page>

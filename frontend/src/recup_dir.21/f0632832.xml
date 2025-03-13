@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="video-record" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-25" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-15" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Com utilitzar la càmera web per enregistrar pel·lícules curtes per compartir-les amb els amics.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gerard Alcorlo Bofill</mal:name>
+      <mal:email>galcorlo@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Laura Sales</mal:name>
+      <mal:email>laura.saflo@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jordi Mas i Hernàndez</mal:name>
+      <mal:email>jmas@softcatala.org</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Com enregistrar un vídeo</title>
+
+  <p>Per enregistrar un vídeo amb la càmera web:</p>
+
+  <steps>
+    <item>
+      <p>Assegureu-vos que esteu en el mode <gui>vídeo</gui>. Si és així, el botó <gui style="button">Vídeo</gui> se seleccionarà en la part esquerra de la pantalla.</p>
+    </item>
+    <item>
+      <p>Feu clic al botó <gui style="button">Enregistra un vídeo amb la càmera web</gui> al mig del quadre inferior, o premeu la tecla <key>Espai</key> per començar a enregistrar un vídeo.</p>
+    </item>
+    <item>
+     <p>Per aturar l'enregistrament, premeu el mateix botó un altre cop. Podeu també prémer la tecla <key>Esc</key> o <key>Espai</key> per aturar l'enregistrament.</p>
+    </item>
+  </steps>
+
+  <p>Els vídeos es desen en format WebM (<file>.webm</file>).</p>
+
+  <p>Després d'aturar l'enregistrament, el vídeo apareixerà automàticament en la seqüència d'imatges al peu de la finestra del <app>Cheese</app>. Des d'aquí, podeu <link xref="photo-view">reproduir-lo</link> o suprimir-lo.</p>
+
+  <p>Si teniu problemes per compartir un vídeo amb algú que utilitzi altres sistemes operatius (com Windows o Mac OS), potser us caldrà <link href="ghelp:gnome-help/video-sending">convertir-lo a un altre format</link>.</p>
+
+</page>

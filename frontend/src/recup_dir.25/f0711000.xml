@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="number-display" xml:lang="da">
+
+    <info>
+        <link type="guide" xref="index#number"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Resultatformat</title>
+    
+    <p>Formatet som bruges til at vise resultater kan ændres ved at trykke på menuknappen i øverste højre hjørne af vinduet og vælge <gui style="menuitem">Indstillinger</gui>.</p>
+    <table>
+    <tr>
+    <td><p><gui>Automatisk</gui></p></td>
+    <td><p>Små resultater vises som <gui>Fast</gui>-notation mens lange resultater vises som <gui>Videnskabelig</gui>-notation</p></td>
+    </tr>
+    <tr>
+    <td><p><gui>Fast</gui></p></td>
+    <td><p>Resultaterne vises altid som decimaltal</p></td>
+    </tr>
+    <tr>
+    <td><p><gui>Videnskabelig</gui></p></td>
+    <td><p>Resultaterne vises med <link xref="scientific">videnskabelig notation</link></p></td>
+    </tr>
+    <tr>
+    <td><p><gui>Ingeniør</gui></p></td>
+    <td><p>Resultaterne vises med videnskabelig notation bortset fra, at eksponenten altid er et multiplum af 3</p></td>
+    </tr>
+    </table>
+    <p>Man kan også konfigurere antallet af decimaler og om der skal vises efterstillede nuller og tusinde-adskillere.</p>
+</page>

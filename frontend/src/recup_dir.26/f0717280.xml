@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="plugin-send-by-mail" xml:lang="ru">
+
+  <info>
+   <link type="guide" xref="index#plugins"/>
+   <desc>Отправьте изображения, вложив их в сообщение электронной почты.</desc>
+
+   <revision pkgversion="3.24" version="0.1" date="2011-09-06" status="final"/>
+   <revision pkgversion="3.31.90" version="0.2" date="2019-03-03" status="final"/>
+   <credit type="author">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+   </credit>
+   <license>
+     <p>Creative Commons Share Alike 3.0</p>
+   </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Василий Фаронов &lt;qvvx@yandex.ru&gt;, 2007Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Отправка изображений по электронной почте</title>
+
+<p>Можно добавить кнопку, предоставляющую удобный способ для отправки изображений другим людям по электронной почте.</p>
+
+<p>Для этого нажмите кнопку меню в правом верхнем углу окна, выберите <gui style="menuitem">Параметры</gui> и перейдите на вкладку <gui>Модули</gui>. Затем установите флажок <gui>Отправить по почте</gui> и закройте диалоговое окно. В результате у вас появится пункт меню <gui style="menuitem">Отправить по почте</gui>.</p>
+
+<p>Для включения этой возможности должен быть установлен пакет <link xref="plugins">eog-plugins</link>.</p>
+
+<note>
+ <p>Для этого установленное приложение электронной почты должно быть настроено на подключение к вашей учетной записи электронной почты.</p>
+</note>
+
+</page>

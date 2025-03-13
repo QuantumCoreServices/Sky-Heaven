@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="problem-slow-scan" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#problems"/>
+    <revision pkgversion="3.12" date="2014-01-25" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email>baptistem@gnome.org</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Сканування теки або віддаленого сховища виконується надто повільно.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+  <title>Повільне сканування</title>
+
+  <p>Час, потрібний для сканування теки або віддаленого сховища даних, залежить від швидкодії носія даних, який ви скануєте. Наприклад, механічний жорсткий диск працює повільніше за SSD, а сканування віддаленого сховища даних в інтернеті, зазвичай, триватиме довше за сканування теки у локальній мережі.</p>
+
+  <p>Швидкість також залежить від глибини вкладеності структури каталогів та кількості файлів, які у ній зберігаються.</p>
+
+</page>

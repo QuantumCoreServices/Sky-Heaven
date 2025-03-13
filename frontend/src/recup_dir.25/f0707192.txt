@@ -1,0 +1,5 @@
+Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Plural-Forms: nplurals=2; plural=n != 1;
+X-DamnedLies-Scope: partial
+X-Generator: Poedit 2.0.6

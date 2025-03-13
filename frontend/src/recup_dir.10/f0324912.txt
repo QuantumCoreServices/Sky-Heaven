@@ -1,0 +1,25 @@
+%!PS-AdobeFont-1.0: C059-Bold 1.00
+%%CreationDate: Wed May 17 2017
+% Copyright (URW)++,Copyright 2014 by (URW)++ Design & Development
+% (URW)++,Copyright 2014 by (URW)++ Design & Development
+10 dict begin
+/FontInfo 12 dict dup begin
+/version (1.00) readonly def
+/Notice ((URW)++,Copyright 2014 by (URW)++ Design & Development) readonly def
+/Copyright (Copyright (URW)++,Copyright 2014 by (URW)++ Design & Development) readonly def
+/FullName (C059 Bold) readonly def
+/FamilyName (C059) readonly def
+/Weight (Bold) readonly def
+/ItalicAngle 0.0 def
+/isFixedPitch false def
+/UnderlinePosition -110 def
+/UnderlineThickness 90 def
+end readonly def
+/FontName /C059-Bold def
+/PaintType 0 def
+/FontBBox {-186 -372 1210 1170} readonly def
+/FontType 1 def
+/FontMatrix [0.001 0.0 0.0 0.001 0.0 0.0] readonly def
+/Encoding StandardEncoding def
+currentdict end
+currentfile eexecÈç	◊`£¬,Ò

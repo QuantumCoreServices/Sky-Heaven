@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="preferences" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="index#tips"/>
+    <desc><link xref="preferences#view">Visualização de imagens</link>, <link xref="preferences#slideshow">apresentação de slides</link> and <link xref="preferences#plugins">plug-ins</link>.</desc>
+
+    <revision pkgversion="3.2" version="0.1" date="2011-09-06" status="final"/>
+    <revision pkgversion="3.31.90" version="0.2" date="2019-03-03" status="final"/>
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Atribuição-Compartilhada Igual 3.0</p>
+    </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Amadeu A. Barbosa Júnior</mal:name>
+      <mal:email>amadeu@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Flores</mal:name>
+      <mal:email>rodrigomarquesflores@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leo.fontenelle@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Gregianin</mal:name>
+      <mal:email>leogregianin@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Djavan Fagundes</mal:name>
+      <mal:email>djavan@comum.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Krix Apolinário</mal:name>
+      <mal:email>krixapolinario@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2018, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Preferências</title>
+<p>Este tópico explica todas as configurações que você pode alterar no visualizador de imagens. Pressione o botão de menu no canto superior direito da janela e selecione <gui style="menuitem">Preferências</gui> para começar a alterar as preferências.</p>
+
+<links type="section"/>
+
+<section id="view">
+<title>Preferências da visualização de imagem</title>
+<terms>
+  <item>
+    <title>Aprimoramentos de imagens</title>
+    <p>Select <gui>Smooth images when zoomed out</gui> and/or <gui>Smooth images when
+    zoomed in</gui> to enable <em>image smoothing</em>. This makes low-resolution 
+    (pixelated) pictures look better by smoothing out jagged edges.</p>
+    <p>Se você habilitar <gui>Orientação automática</gui>, as imagens serão automaticamente giradas de acordo com seus <em>metadados Exif</em>. Esta é uma informação sobre uma imagem que é inserida automaticamente por uma câmera digital e pode incluir detalhes sobre a forma como a câmera estava sendo segurada quando a foto foi tirada. Por exemplo, quando a orientação automática está habilitada, as fotos em retrato são giradas automaticamente na vertical. A rotação não é salva até que você <link xref="flip-rotate#rotate">salve a imagem girada</link>.</p> 
+    <p>A orientação automática não funciona com todas as imagens; apenas as fotografias tiradas com uma câmera que salva metadados de orientação Exif serão giradas.</p>
+  </item>
+  <item>
+    <title>Plano de fundo</title>
+    <p>Aqui você pode selecionar uma cor de plano de fundo personalizada.</p>
+  </item>
+  <item>
+    <title>Partes transparentes</title>
+     <p>Selecione uma das seguintes opções para determinar como as partes transparentes de uma imagem são exibidas, se houver:</p>
+    <list>
+      <item>
+       <p><gui>Como padrão quadriculado:</gui></p>
+       <p>Exibe qualquer parte transparente da imagem como um padrão quadriculado.</p>
+      </item>
+      <item>
+       <p><gui>Como cor personalizada:</gui></p>
+       <p>Exibe todas as partes transparentes da imagem em uma cor sólida que você especifica clicando no botão de seleção de cores.</p>
+      </item>
+      <item>
+       <p><gui>Como plano de fundo:</gui></p>
+       <p>Exibe todas as partes transparentes da imagem na cor de <gui>Plano de fundo</gui>, se <gui>Como cor personalizada</gui> sob <gui>Plano de fundo</gui> estiver marcada. Caso contrário, a cor de fundo padrão é usada.</p>
+      </item>
+    </list>
+  </item>
+ </terms>
+</section>
+
+
+<section id="slideshow">
+<title>Slideshow preferences</title>
+<p>Para personalizar as configurações de apresentação de slides:</p>
+<list>
+ <item>
+  <p>Em <gui>Zoom de imagem</gui>, você pode selecionar se deseja que as imagens menores que a tela sejam expandidas para que se ajustem à tela.</p>
+ </item>
+ <item>
+  <p>Em <gui>Sequência</gui>, você pode selecionar em quantos segundos cada imagem deve ser exibida (entre 1 e 100) antes que a próxima imagem seja mostrada.</p>
+ </item>
+ <item>
+  <p>Marque <gui>Repetir a sequência</gui> se quiser que a apresentação de slides seja repetida continuamente. Se desmarcada, a apresentação de slides começará na foto selecionada e terminará na última foto da pasta.</p>
+ </item>
+</list>
+</section>
+
+
+<section id="plugins">
+<title>Preferências de plug-ins</title>
+
+<media type="image" src="figures/plugins-all.png" width="300" style="floatend"/>
+<media type="image" src="figures/prefs-plugins.png" width="300" style="floatstart"/>
+
+<p>Aqui você pode marcar/desmarcar todos os recursos adicionais que você gostaria de ativar ou desativar. A imagem à esquerda mostra os plug-ins disponíveis por padrão.</p>
+
+<p>Você também pode querer instalar o <link xref="plugins">pacote eog-plugins</link>, que contém plug-ins que fornecem uma série de recursos extras. Depois de instalá-lo, você poderá ativar os <link xref="index#plugins">plug-ins adicionais</link>, como os mostrados na imagem à direita.</p>
+</section>
+
+</page>

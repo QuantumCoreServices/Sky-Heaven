@@ -1,0 +1,5 @@
+uming
+        options and arguments from 'rargs'.  If 'allow_interspersed_args' is
+        false, stop at the first non-option argument.  If true, accumulate any
+        interspersed non-option arguments in 'largs'.
+        r

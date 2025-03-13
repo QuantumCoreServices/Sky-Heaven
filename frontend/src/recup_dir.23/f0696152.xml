@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="navigation" xml:lang="totem-pt-BR">
+
+  <info>
+    <link type="guide" xref="index#playing-media"/>
+    <desc>Navegue enquanto reproduz mídia.</desc>
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Atribuição-Compartilhada Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Raphael Higino</mal:name>
+      <mal:email>In memoriam</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Irapuan Pascoal</mal:name>
+      <mal:email>irapuan.menezes@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fabrício Godoy</mal:name>
+      <mal:email>skarllot@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ísis Binder</mal:name>
+      <mal:email>isis.binder@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2014-2021</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Navegação</title>
+
+  <p>Você pode navegar no <app>Vídeos</app> por meio dos botões de controle, itens de menu ou atalhos de teclado.</p>
+
+  <p>Para exibir os botões de controle na parte inferior enquanto assiste a um vídeo, mova o ponteiro do mouse. Aqui você pode:</p>
+
+  <list>
+    <item>
+      <p>Reproduzir mídia ou pausá-las: use o atalho de teclado <key>Espaço</key> ou pressione o botão <gui style="button">Reproduzir/Pausar</gui>.</p>
+    </item>
+    <item>
+      <p>Assistir ao vídeo em tela cheia. Pressione <key>F11</key> ou pressione o botão com duas setas na barra de cabeçalho.</p>
+    </item>
+    <item>
+      <p>Ajustar o volume. Para mais informações, consulte <link xref="sound-volume"/>.</p>
+    </item>
+    <item>
+      <p>Para mudar para outro vídeo, pressione o botão de <gui style="button">seta para trás </gui> no canto superior esquerdo.</p>
+    </item>
+    <item>
+      <p>Para mudar para um capítulo diferente de um DVD ou voltar à tela principal, consulte <link xref="playing-DVD"/>.</p>
+    </item>
+  </list>
+
+</page>

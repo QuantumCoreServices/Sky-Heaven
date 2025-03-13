@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="conv-length" xml:lang="eu">
+
+    <info>
+        <link type="guide" xref="index#conversion"/>
+    </info>
+
+	<title>Luzera/Area/Bolumena</title>
+    
+    <p>Luzerako, areako eta bolumeneko unitateak bihurtzeko, erabili <em>in</em> eragilea.</p>
+    <example>
+    <p>
+    6 meters in inches
+    </p>
+    <p>
+    1 acre in cm²
+    </p>
+    <p>
+    1 pint in mL
+    </p>
+    </example>
+    <note>
+    <p>
+    Length/Area/Volume conversions must be performed using the keyboard.
+    </p>
+    </note>
+</page>

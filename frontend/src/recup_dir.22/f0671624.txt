@@ -1,0 +1,10 @@
+ registration process, third parties can set up a mapping between
+      ints and object names.
+
+      In order to guarantee pickle interchangeability, the extension
+      code registry ought to be global, although a range of codes may
+      be reserved for private use.
+
+      EXT1 has a 1-byte integer argument.  This is used to index into the
+      extension registry, and the object at that index is pushed on the stack.
+      Ú

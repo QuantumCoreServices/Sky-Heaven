@@ -1,0 +1,7 @@
+tack objects.
+
+      Stack before:  ... pylist markobject stackslice
+      Stack after:   ... pylist+stackslice
+
+      although pylist is really extended in-place.
+      Ú

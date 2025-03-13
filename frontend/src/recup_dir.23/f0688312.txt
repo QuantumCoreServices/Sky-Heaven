@@ -1,0 +1,35 @@
+cale of the affected monitors.
+
+	Available @properties include:
+
+	* "cursor-mode" (u): Cursor mode. Default: 'hidden' (see below)
+	                     Available since API version 2.
+	* "is-recording" (b): Whether this is a screen recording. May be
+			      be used for choosing panel icon.
+			      Default: false. Available since API version 4.
+
+	Available cursor mode values:
+
+	0: hidden - cursor is not included in the stream
+	1: embedded - cursor is included in the framebuffer
+	2: metadata - cursor is included as metadata in the PipeWire stream
+    --><method name="RecordArea"><arg name="x" type="i" direction="in"/><arg name="y" type="i" direction="in"/><arg name="width" type="i" direction="in"/><arg name="height" type="i" direction="in"/><arg name="properties" type="a{sv}" direction="in"/><arg name="stream_path" type="o" direction="out"/></method></interface><!--
+       org.gnome.Mutter.ScreenCast.Stream:
+       @short_description: Screen cast stream
+  --><interface name="org.gnome.Mutter.ScreenCast.Stream"><!--
+	PipeWireStreamAdded:
+	@short_description: Pipewire stream added
+
+	A signal emitted when PipeWire stream for the screen cast stream has
+	been created. The @node_id corresponds to the PipeWire stream node.
+    --><signal name="PipeWireStreamAdded"><annotation name="org.gtk.GDBus.C.Name" value="pipewire-stream-added"/><arg name="node_id" type="u" direction="out"/></signal><!--
+	Parameters:
+	@short_description: Optional stream parameters
+
+	Available parameters include:
+
+	* "position" (ii): Position of the source of the stream in the
+	                   compositor coordinate space.
+	* "size" (ii): Size of the source of the stream in the compositor
+		       coordinate space.
+    --><property name="Parameters" type="a{sv}" access="read"/></interface></node>

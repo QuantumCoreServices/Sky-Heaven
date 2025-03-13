@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="function" xml:lang="eu">
+
+    <info>
+        <link type="guide" xref="index#equation"/>
+    </info>
+
+	<title>Funtzioak</title>
+    
+    <p>
+    Functions can be used by inserting the name of the function followed by function arguments. <app>Calculator</app> also support user-defined functions.
+    If the argument is not a number or <link xref="variable">a single variable</link> then write each argument separated by semicolon and use parenthesis around the argument list.
+    </p>
+    <example>
+    <p its:locNote="Translators: Do not translate the word 'sin'!">sin 30</p>
+    <p its:locNote="Translators: Do not translate the word 'abs'!">abs (5−9)</p>
+    <p its:locNote="Translators: Do not translate the word 'fun'!">fun (9;10)</p>
+    </example>
+    <p>
+    To add a new function type the function in the format as given below. A function name and arguments must only contain upper or lower case characters. The part after @ is the function description which is optional.
+    </p>
+    <example>
+    <p>
+    SimpleInterest (principal; rate; time) = principal * rate * time @ Simple Interest formula
+    </p>
+    </example>
+    <p>
+    Functions can also be added and inserted using the f(x) button.
+    </p>
+    <example>
+    <p>
+    Click on f(x). Type the function name in the box, choose the number of arguments and click on the plus sign button next to it. On the calculator screen type the function expression and press <key>Enter</key>.
+    </p>
+    </example>
+    <example>
+    <p>
+    Click on f(x). Choose the function and click on it.
+    </p>
+    </example>
+    <p>Hurrengo funtzioak definitu dira.</p>
+    <table>
+    <tr>
+    <td><p its:translate="no">abs</p></td>
+    <td><p><link xref="absolute">Balio absolutua</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">ceil</p></td>
+    <td><p>Sabaia</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">cos</p></td>
+    <td><p><link xref="trigonometry">Kosinua</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">cosh</p></td>
+    <td><p><link xref="trigonometry">Kosinu hiperbolikoa</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">floor</p></td>
+    <td><p>Zorua</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">frac</p></td>
+    <td><p>Zati frakzionala</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">int</p></td>
+    <td><p>Osoko zatia</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">ln</p></td>
+    <td><p><link xref="logarithm">Logaritmo naturala</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">log</p></td>
+    <td><p><link xref="logarithm">Logaritmoa</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">not</p></td>
+    <td><p><link xref="boolean">NOT boolearra</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">ones</p></td>
+    <td><p>Ones complement</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">round</p></td>
+    <td><p>Round</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">sgn</p></td>
+    <td><p>Signum</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">sin</p></td>
+    <td><p><link xref="trigonometry">Sinua</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">sinh</p></td>
+    <td><p><link xref="trigonometry">Sinu hiperbolikoa</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">sqrt</p></td>
+    <td><p><link xref="power">Erro karratua</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">tan</p></td>
+    <td><p><link xref="trigonometry">Tangentea</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">tanh</p></td>
+    <td><p><link xref="trigonometry">Tangente hiperbolikoa</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">twos</p></td>
+    <td><p>Twos complement</p></td>
+    </tr>
+    </table>
+</page>

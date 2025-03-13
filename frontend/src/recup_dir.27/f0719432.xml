@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="question-trash" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#problems"/>
+
+    <revision pkgversion="3.14" date="2014-11-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Пересування небажаних тек до <file>Смітника</file>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Як вилучити теку?</title>
+
+  <p>Ви можете заощадити місце на вашому комп'ютері або у віддаленій файловій системі, якщо скористаєтеся <app>Аналізатором використання диска</app> для пересування тек до <file>Смітника</file> та вилучення тек або файлів.</p>
+
+  <steps>
+    <item>
+      <p>Клацніть правою кнопкою миші на теці, яку ви хочете вилучити і виберіть <gui>Перемістити у смітник</gui>.</p>
+    </item>
+    <item>
+      <p>Відкрийте програму для керування файлами, наприклад <app>Файли</app>, і спорожніть <file>Смітник</file>.</p>
+    </item>
+  </steps>
+
+</page>

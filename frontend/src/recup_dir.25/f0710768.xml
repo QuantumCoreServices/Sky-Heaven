@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="number-display" xml:lang="ca">
+
+    <info>
+        <link type="guide" xref="index#number"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sergi Morraja</mal:name>
+      <mal:email>sergi256@gmail.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Format del resultat</title>
+    
+    <p>Per a canviar el format utilitzat per a mostrar els resultats, premeu el botó de menú de la cantonada superior dreta de la finestra i seleccioneu <gui style="menuitem">Preferències</gui>.</p>
+    <table>
+    <tr>
+    <td><p><gui>Automàtic</gui></p></td>
+    <td><p>Els resultats petits es mostren en notació <gui>fixa</gui>, mentre que els resultats llargs es mostren en notació <gui>científica</gui></p></td>
+    </tr>
+    <tr>
+    <td><p><gui>Fix</gui></p></td>
+    <td><p>Els resultats sempre es mostren com a nombres decimals</p></td>
+    </tr>
+    <tr>
+    <td><p><gui>Científic</gui></p></td>
+    <td><p>Els resultats es mostren en <link xref="scientific">notació científica</link></p></td>
+    </tr>
+    <tr>
+    <td><p><gui>Enginyeria</gui></p></td>
+    <td><p>Els resultats es mostren en notació científica excepte l'exponent que sempre serà un múltiple de tres</p></td>
+    </tr>
+    </table>
+    <p>També es pot configurar el número de posicions decimals i si s'han de mostrar els zeros no significatius i els separadors de milers.</p>
+</page>

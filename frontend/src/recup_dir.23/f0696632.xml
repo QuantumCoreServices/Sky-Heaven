@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="navigation" xml:lang="totem-uk">
+
+  <info>
+    <link type="guide" xref="index#playing-media"/>
+    <desc>Навігація під час відтворення відео.</desc>
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Максим Дзюманенко</mal:name>
+      <mal:email>mvd@mylinux.ua</mal:email>
+      <mal:years>2005-2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергій Гаврилов</mal:name>
+      <mal:email>sergiovana@bigmir.net</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Навігація</title>
+
+  <p>Навігацію у <app>Відео</app> можна здійснювати за допомогою кнопок керування, пунктів меню або клавіатурних скорочень.</p>
+
+  <p>Щоб наказати програмі показати кнопки керування у нижній частині вікна під час перегляду відео, пересуньте вказівник миші. Далі, ви можете:</p>
+
+  <list>
+    <item>
+      <p>Почати відтворенян відео або призупинити його — скористайтеся клавіатурним скороченням — клавішею <key>Пробіл</key>, або натисніть кнопку <gui style="button">Пуск/Пауза</gui>.</p>
+    </item>
+    <item>
+      <p>Переглядати відео у повноекранному режимі. Натисніть <key>F11</key> або кнопку з двома стрілками на панелі заголовка.</p>
+    </item>
+    <item>
+      <p>Скоригувати гучність. Докладніше про це у розділі <link xref="sound-volume"/>.</p>
+    </item>
+    <item>
+      <p>Щоб перейти до перегляду іншого відео, натисніть кнопку <gui style="button">Стрілка назад</gui> у верхньому лівому куті вікна програми.</p>
+    </item>
+    <item>
+      <p>Щоб перейти до іншої глави DVD або повернутися до початкової сторінки носія, скористайтеся порадами з розділу <link xref="playing-DVD"/>.</p>
+    </item>
+  </list>
+
+</page>

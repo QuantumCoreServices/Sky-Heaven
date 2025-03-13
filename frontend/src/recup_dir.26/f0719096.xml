@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="introduction" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index" group="#first"/>
+    <revision version="0.1" date="2011-12-19" status="stub"/>
+    <revision pkgversion="3.4" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.10" date="2012-07-24" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Michael Hill</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><app>Analizator wykorzystania dysku</app> to program wyświetlający wykorzystanie miejsca za pomocą wykresów.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2019</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Wprowadzenie</title>
+
+  <p><app>Analizator wykorzystania dysku</app> to graficzny program do analizowania wykorzystania urządzeń do przechowywania danych. Może być używany do skanowania wielu lokalnych lub zdalnych urządzeń, w tym dysków twardych, dysków SSD, pendrive’ów, aparatów cyfrowych i kart pamięci. <app>Analizator wykorzystania dysku</app> może skanować <link xref="scan-file-system">cały system plików</link>, <link xref="scan-home"><file>katalog domowy</file></link>, <link xref="scan-folder">podany katalog</link> lub <link xref="scan-remote">zdalny katalog</link>.</p>
+
+  <p>Wyniki mogą być przydatne do podejmowania decyzji, które katalogi <link href="help:file-roller">zarchiwizować</link>, <link href="help:gnome-help/files-delete">usunąć</link> lub <link href="help:gnome-help/files-copy">przenieść</link>, aby zwolnić miejsce. Można także używać wyników do szacowania ilości miejsca potrzebnego dla <link href="help:gnome-help/backup-how">kopii zapasowej</link> konkretnych katalogów.</p>
+
+</page>

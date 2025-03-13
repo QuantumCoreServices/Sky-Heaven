@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="question-open-folder" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#problems"/>
+
+    <revision pkgversion="3.14" date="2014-11-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Obriu una carpeta en un navegador de fitxers com ara el <app>Fitxers</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Com obro una carpeta?</title>
+
+  <p>Podeu obrir una carpeta al vostre navegador de fitxers per defecte, com ara el <app>Fitxers</app>. Això pot ser útil si voleu esbrinar ràpidament quins fitxers són a la carpeta.</p>
+
+  <steps>
+    <item>
+      <p>Feu clic dret a la carpeta que voleu obrir i seleccioneu <gui>Obre la carpeta</gui>.</p>
+    </item>
+  </steps>
+
+</page>

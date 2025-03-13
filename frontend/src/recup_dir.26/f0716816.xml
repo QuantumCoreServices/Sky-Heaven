@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="default" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="index#faq"/>
+    <desc>Faça o visualizador de imagens ser o aplicativo padrão para visualizar imagens.</desc>
+
+    <revision pkgversion="3.2" version="0.1" date="2011-09-05" status="final"/>
+    <revision pkgversion="3.38" version="0.2" date="2020-11-13" status="final"/>
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Atribuição-Compartilhada Igual 3.0</p>
+    </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Amadeu A. Barbosa Júnior</mal:name>
+      <mal:email>amadeu@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Flores</mal:name>
+      <mal:email>rodrigomarquesflores@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leo.fontenelle@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Gregianin</mal:name>
+      <mal:email>leogregianin@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Djavan Fagundes</mal:name>
+      <mal:email>djavan@comum.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Krix Apolinário</mal:name>
+      <mal:email>krixapolinario@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2018, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Abrindo imagens com o visualizador de imagens por padrão</title>
+<p>Se você deseja tornar o visualizador e imagens o programa padrão para abrir certos tipos de arquivos de imagem:</p>
+
+<steps>
+ <item>
+  <p>In <app>Files</app>, right click the file and choose
+<gui>Properties</gui>.</p>
+ </item>
+ <item>
+  <p>Vá até a aba <gui>Abrir com</gui>. Uma lista de <gui>Aplicativos recomendados</gui> aparecerá.</p>
+ </item>
+ <item>
+  <p>Selecione o <gui>Visualizador de imagens</gui> e clique em <gui>Definir como padrão</gui>.</p>
+  <p>If <app>Image Viewer</app> is not on the <gui>Recommended
+Applications</gui> list, select it from the <gui>Other Applications</gui>
+list and click <gui>Set as default</gui>.</p>
+ </item>
+ <item>
+  <p>Close the dialog.</p>
+ </item>
+</steps>
+
+<p>No futuro, quando você realizar duplo clique um arquivo do mesmo tipo, ele abrirá no visualizador de imagens.</p>
+
+</page>

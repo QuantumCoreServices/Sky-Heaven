@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="navigation" xml:lang="totem-sv">
+
+  <info>
+    <link type="guide" xref="index#playing-media"/>
+    <desc>Navigera under uppspelning av media.</desc>
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons DelaLika 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Nylander</mal:name>
+      <mal:email>po@danielnylander.se</mal:email>
+      <mal:years>2006, 2008, 2009.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2019, 2020.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Navigering</title>
+
+  <p>Du kan navigera <app>Videoklipp</app> via knappar i gränssnittet, menyobjekt eller tangentbordsgenvägar.</p>
+
+  <p>Rör på muspekaren för att visa knapparna längs ner när du tittar på ett videoklipp. Här kan du:</p>
+
+  <list>
+    <item>
+      <p>Spela upp media eller pausa dem: Använd tangentbordsgenvägen <key>Blanksteg</key> eller tryck på knappen <gui style="button">Spela upp/Gör paus</gui>.</p>
+    </item>
+    <item>
+      <p>Se på videoklippet i helskärmsläge. Tryck <key>F11</key> eller tryck på knappen med två pilar i rubrikraden.</p>
+    </item>
+    <item>
+      <p>Justera volymen. Se <link xref="sound-volume"/> för mer information.</p>
+    </item>
+    <item>
+      <p>För att växla till ett annat videoklipp, tryck på knappen <gui style="button">Bakåtpil</gui> i det övre vänstra hörnet.</p>
+    </item>
+    <item>
+      <p>För att växla till ett annat kapitel på en dvd eller för att gå tillbaka till huvudskärmen, se <link xref="playing-DVD"/>.</p>
+    </item>
+  </list>
+
+</page>

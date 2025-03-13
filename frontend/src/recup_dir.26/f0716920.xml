@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" id="license" xml:lang="pt-BR">
+  
+  <info>
+    <link type="seealso" xref="index"/>
+    <revision pkgversion="3.4" version="0.1" date="2012-03-08" status="final"/>
+    <desc>Informação legal.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Amadeu A. Barbosa Júnior</mal:name>
+      <mal:email>amadeu@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Flores</mal:name>
+      <mal:email>rodrigomarquesflores@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leo.fontenelle@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Gregianin</mal:name>
+      <mal:email>leogregianin@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Djavan Fagundes</mal:name>
+      <mal:email>djavan@comum.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Krix Apolinário</mal:name>
+      <mal:email>krixapolinario@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2018, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Licença</title>
+  <p>Este trabalho é distribuído sob a licença Creative Commons Atribuição-CompartilhaIgual 3.0 Não Adaptada.</p>
+  <p>Você é livre:</p>
+  <terms>
+    <item>
+      <title><em>Para compartilhar</em></title>
+      <p>Para copiar, distribuir e transmitir a obra.</p>
+    </item>
+    <item>
+      <title><em>Para remixar</em></title>
+      <p>Para adaptar o trabalho.</p> 
+    </item>
+  </terms>
+  <p>Em consonância com as seguintes condições:</p>
+  <terms>
+    <item>
+      <title><em>Atribuição</em></title>
+      <p>Você deve atribuir o trabalho da maneira especificada pelo autor ou licenciador (mas não de modo algum que sugira que o endossam ou o uso do trabalho).</p>
+    </item>
+    <item>
+      <title><em>Compartilhada Igual</em></title>
+      <p>Se você alterar, transformar ou construir sobre este trabalho, você pode distribuir o trabalho resultante apenas sob a mesma licença, similar ou compatível.</p>
+    </item>
+  </terms>
+  <p>Para o texto completo da licença, veja o <link href="http://creativecommons.org/licenses/by-sa/3.0/br/legalcode.pt">site do CreativeCommons</link> ou leia o <link href="http://creativecommons.org/licenses/by-sa/3.0/deed.pt_BR">Resumo Explicativo</link>.</p>
+</page>

@@ -1,0 +1,42 @@
+ervice] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2025-03-11T00:28:21.375Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2025-03-11T00:28:21.375Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2025-03-11T00:28:21.387Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2025-03-11T00:28:21.387Z] [ message] [VGAuthService] BEGIN SERVICE
+[2025-03-11T00:45:36.415Z] [ message] [VGAuthService] Processing SIGTERM; service exiting
+[2025-03-11T00:45:36.415Z] [ message] [VGAuthService] ServiceEndMainLoop: about to stop main loop
+[2025-03-11T00:45:36.434Z] [ message] [VGAuthService] END SERVICE
+[2025-03-11T00:47:29.955Z] [ message] [VGAuthService] VGAuthService 'build-23259341' logging at level 'normal'
+[2025-03-11T00:47:29.958Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2025-03-11T00:47:29.958Z] [ message] [VGAuthService] Group 'service'
+[2025-03-11T00:47:29.958Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2025-03-11T00:47:29.958Z] [ message] [VGAuthService] Group 'localization'
+[2025-03-11T00:47:29.958Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2025-03-11T00:47:29.958Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2025-03-11T00:47:29.968Z] [ message] [VGAuthService] INIT SERVICE
+[2025-03-11T00:47:30.385Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2025-03-11T00:47:30.450Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2025-03-11T00:47:30.489Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2025-03-11T00:47:30.490Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2025-03-11T00:47:30.499Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2025-03-11T00:47:30.499Z] [ message] [VGAuthService] BEGIN SERVICE
+[2025-03-11T00:48:47.196Z] [ message] [VGAuthService] Processing SIGTERM; service exiting
+[2025-03-11T00:48:47.196Z] [ message] [VGAuthService] ServiceEndMainLoop: about to stop main loop
+[2025-03-11T00:48:47.197Z] [ message] [VGAuthService] END SERVICE
+[2025-03-11T00:58:32.450Z] [ message] [VGAuthService] VGAuthService 'build-23259341' logging at level 'normal'
+[2025-03-11T00:58:32.453Z] [ message] [VGAuthService] Pref_LogAllEntries: 2 preference groups in file '/etc/vmware-tools/vgauth.conf'
+[2025-03-11T00:58:32.453Z] [ message] [VGAuthService] Group 'service'
+[2025-03-11T00:58:32.453Z] [ message] [VGAuthService] 	 samlSchemaDir=/etc/vmware-tools/vgauth/schemas
+[2025-03-11T00:58:32.453Z] [ message] [VGAuthService] Group 'localization'
+[2025-03-11T00:58:32.453Z] [ message] [VGAuthService] 	 msgCatalog=/usr/share/open-vm-tools
+[2025-03-11T00:58:32.453Z] [ message] [VGAuthService] Pref_LogAllEntries: End of preferences
+[2025-03-11T00:58:32.455Z] [ message] [VGAuthService] INIT SERVICE
+[2025-03-11T00:58:32.634Z] [ message] [VGAuthService] Using '/var/lib/vmware/VGAuth/aliasStore' for alias store root directory
+[2025-03-11T00:58:32.651Z] [ message] [VGAuthService] LoadCatalogAndSchema: Using '/etc/vmware-tools/vgauth/schemas' for SAML schemas
+[2025-03-11T00:58:32.678Z] [ message] [VGAuthService] LoadPrefs: Allowing 300 of clock skew for SAML date validation
+[2025-03-11T00:58:32.678Z] [ message] [VGAuthService] SAML_Init: Using xmlsec1 1.2.29 for XML signature support
+[2025-03-11T00:58:32.679Z] [ message] [VGAuthService] ServiceNetworkCreateSocketDir: Created socket directory '/var/run/vmware'
+[2025-03-11T00:58:32.680Z] [ message] [VGAuthService] BEGIN SERVICE
+[2025-03-11T01:08:10.092Z] [ message] [VGAuthService] Processing SIGTERM; service exiting
+[2025-03-11T01:08:10.092Z] [ message] [VGAuthService] ServiceEndMainLoop: about to stop main loop
+[2025-03-11T01:08:10.094Z

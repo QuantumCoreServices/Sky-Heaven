@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="problem-permissions" xml:lang="it">
+  <info>
+    <link type="guide" xref="index#problems"/>
+    <revision pkgversion="3.12" date="2014-01-25" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email>baptistem@gnome.org</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Messaggio di errore <gui>Impossibile analizzare alcune delle cartelle contenute in «/…»</gui> durante l'analisi.</desc>
+
+  </info>
+
+  <title>Errore durante l'analisi</title>
+
+  <p>Durante l'analisi è possibile venga visualizzato il messaggio <gui>Impossibile analizzare «/…»</gui> o <gui>Impossibile analizzare alcune delle cartelle contenute in «/…»</gui> nella finestra di <app>Analizzatore di utilizzo del disco</app>. Tale errore è causato dalla mancanza di permessi sufficienti per accedere ad alcuni file (in base alle restrizioni imposte a livello di sistema). I file a cui non è possibile accedere non vengono utilizzati per la creazione del <link xref="pref-view-chart">grafico</link> di utilizzo del disco, perciò i risultati visualizzati potrebbero non essere accurati.</p>
+
+  <p>La mancanza di accesso ad alcuni file e directory è normale e non vi è nulla da fare riguardo a questo errore.</p>
+
+  <note style="info"><p><app>Analizzatore di utilizzo del disco</app> usa il comando <cmd>du</cmd> per creare una visualizzazione dettagliata del sistema di archiviazione ed è necessario avere i permessi di lettura sui file e di esecuzione sulle directory.</p>
+
+  <p>On the other hand, filesystem disk usage uses the command <cmd>df</cmd>
+  which relies on the filesystem and not on file permissions.</p></note>
+</page>

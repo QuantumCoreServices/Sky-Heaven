@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="gedit-tab-groups" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="index#gedit-working-with-files" group="last"/>
+    <link type="seealso" xref="gedit-tabs"/>
+    <link type="seealso" xref="gedit-tabs-moving"/>
+    <desc>为相似的标签页分组。</desc>
+    <revision pkgversion="3.8" date="2013-06-19" status="draft"/>
+
+    <credit type="author copyright">
+      <name>Radina Matic</name>
+      <email its:translate="no">radina.matic@gmail.com</email>
+      <years>2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2009, 2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Colin Zhao</mal:name>
+      <mal:email>lonely.ibm@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>wancheng zhang</mal:name>
+      <mal:email>wancheng.com.cn@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Zhe Wei</mal:name>
+      <mal:email>weizhe86@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>通过分组标签页组织文件</title>
+
+  <p>If you are working with multiple tabs in <app>gedit</app> you can group
+  them, making it easier to keep your opened files organized. Adding a new tab
+  group will divide the <app>gedit</app> window in two panes, open a new
+  “Untitled Document” in the new pane, and make it active. You can open files
+  into that tab group and move tabs from one tab group to another.</p>
+
+<section id="open-new-tab-group">
+  <title>在 gedit 窗口中新建标签页组</title>
+
+  <p>新建一个标签页组：</p>
+
+  <list>
+    <item>
+      <p>Right click on a tab and select <gui>Move to New Tab Group</gui>.</p>
+    </item>
+    <item>
+      <p>使用快捷键<keyseq><key>Ctrl</key><key>Alt</key> <key>PageUp</key></keyseq>。</p>
+    </item>
+  </list>
+
+  <p>This action will divide the <app>gedit</app> window in two panes, and the
+  pane with the new tab group will be placed on the right of the active tab.
+  You can move the handle right or left assigning more or less space of the
+  <app>gedit</app> window between panes according to your needs.</p>
+
+  <p>You can open as much tab groups in a <app>gedit</app> window as your screen
+  allows, but you will have to move the handle in order to see them
+  correctly.</p>
+
+  <p>要关闭一个标签页组的窗格，您只需要关闭窗格中所有标签页就可以了。</p>
+</section>
+
+<!--
+FIXME: These shortcuts don't work.
+<section id="moving-through-tab-groups">
+  <title>Move through tab groups</title>
+
+  <p>To move forward (on the next) tab group:</p>
+
+  <list>
+    <item>
+      <p>Use the <keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>Page
+      down</key></keyseq> shortcut.</p>
+    </item>
+  </list>
+
+  <p>To move backward (on the previous) tab group:</p>
+
+  <list>
+    <item>
+      <p>Use the <keyseq><key>Shift</key><key>Ctrl</key><key>Alt</key><key>Page
+      up</key></keyseq> shortcut.</p>
+    </item>
+  </list>
+</section>
+-->
+
+<section id="moving-tabs-among-groups">
+  <title>将标签页移到其他标签页组中</title>
+
+  <p>如果您想将标签从一个标签页组移动到另一个标签页组：</p>
+
+  <steps>
+    <item>
+      <p>在标签上点击并按住鼠标按钮。</p>
+    </item>
+    <item>
+      <p>拖动标签页到另外一个标签页组。</p>
+    </item>
+    <item>
+      <p>将它放在该标签页组的其他标签旁。</p>
+    </item>
+    <item>
+      <p>松开鼠标按钮。</p>
+    </item>
+  </steps>
+
+</section>
+</page>

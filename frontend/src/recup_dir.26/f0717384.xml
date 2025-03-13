@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="zoom" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="index#viewing"/>
+    <desc>Увеличение изображения на экране.</desc>
+
+    <revision pkgversion="3.24" version="0.1" date="2011-09-05" status="final"/>
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Василий Фаронов &lt;qvvx@yandex.ru&gt;, 2007Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Масштабирование</title>
+
+<p>Можно изменить масштаб изображения, чтобы оно выглядело на экране крупнее или меньше. Это полезно, если вы хотите увидеть большое изображение целиком или получше рассмотреть мелкие детали изображения.</p>
+
+<list>
+ <item>
+  <p>Изменить масштаб можно с помощью колёсика мыши. Крутите его вверх, чтобы увеличить масштаб, или вниз для уменьшения масштаба.</p>
+ </item>
+ <item>
+  <p>Вы также можете изменить масштаб изображения с помощью кнопок в строке заголовка. Для увеличения масштаба нажмите на значок <gui>Увеличить изображение</gui>, а для уменьшения - на значок <gui>Уменьшить изображение</gui>. Они выглядят как знаки "плюс" и "минус".</p>
+ </item>
+ <item>
+ <p>В качестве альтернативы используйте комбинации клавиш <keyseq><key>Ctrl</key><key>+</key></keyseq> или <keyseq><key>Ctrl</key><key>-</key></keyseq>.</p>
+ </item>
+</list>
+
+<p>Чтобы просмотреть изображение в исходном, немасштабированном размере, выберите уровень масштабирования <gui style="menuitem">100%</gui> из выпадающего списка в строке заголовка. В качестве альтернативы используйте комбинации клавиш <keyseq><key>Ctrl</key><key>0</key></keyseq> или <key>1</key>.</p>
+
+<section id="bestfit">
+ <title>Изменение масштаба изображения по размеру окна</title>
+ <p>Вы можете выбрать такой масштаб, чтобы изображение полностью помещалось в окне, даже если вы измените его размер. Для этого в выпадающем меню в строке заголовка включите опцию <gui style="menuitem">Best fit</gui>.</p>
+</section>
+</page>

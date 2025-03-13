@@ -1,0 +1,19 @@
+ all, and the
+            returned PPD name is a last resort
+
+	@param mfg: MFG or MANUFACTURER field
+	@type mfg: string
+	@param mdl: MDL or MODEL field
+	@type mdl: string
+	@param description: DES or DESCRIPTION field, optional
+	@type description: string
+	@param commandsets: CMD or COMMANDSET field, optional
+	@type commandsets: string
+	@param uri: device URI, optional (only needed for debugging)
+	@type uri: string
+        @param downloadedfiles: filenames from downloaded packages
+        @type downloadedfiles: string list
+        @param make_and_model: device-make-and-model string
+        @type make_and_model: string
+	@returns: an integer,string pair of (status,ppd-name)
+	N)

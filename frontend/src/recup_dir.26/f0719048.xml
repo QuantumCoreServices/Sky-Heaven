@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="question-trash" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="index#problems"/>
+
+    <revision pkgversion="3.14" date="2014-11-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Spostare cartelle indesiderate nel <file>Cestino</file>.</desc>
+  </info>
+
+  <title>Come eliminare una cartella?</title>
+
+  <p>È possibile liberare dello spazio sul computer o su un file system remoto tramite <app>Analizzatore di utilizzo del disco</app> semplicemente spostando le cartelle nel <file>Cestino</file> ed eliminandole.</p>
+
+  <steps>
+    <item>
+      <p>Fare clic col pulsante destro sulla cartella da eliminare e selezionare <gui>Sposta nel cestino</gui>.</p>
+    </item>
+    <item>
+      <p>Aprire un visualizzatore di file come <app>Files</app> e svuotare il <file>Cestino</file>.</p>
+    </item>
+  </steps>
+
+</page>

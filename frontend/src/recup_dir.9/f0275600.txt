@@ -1,0 +1,37 @@
+:
+    --qt --keyword=tr:1,1t --keyword=tr:1,2c,2t --keyword=tr:1,1,2c,3t
+
+* xgettext --language=GCC-source now recognizes also the format strings
+  used in the Fortran front-end of the GCC compiler, and marks them as
+  'gfc-internal-format'.
+
+* autopoint can now be used to update several PO directories all together.
+
+* PO mode changes:
+  - PO files with plural entries are now correctly handled.
+  - Editing a message with previous msgid (in comments) removes these
+    comments.  Contributed by Noritada Kobayashi.
+
+* The po/Makevars file has a new field MSGMERGE_OPTIONS, that can be used
+  to adjust msgmerge's operation.
+
+* The use of the macro AM_GNU_GETTEXT without 'external' argument and the
+  --intl option of the gettextize program are deprecated and will be removed
+  in the next release. Instead of including the intl sources in your package,
+  we suggest making the libintl library an (optional) prerequisite of your
+  package.
+
+* Updated the meaning of 'gcc-internal-format' to match GCC 4.3.
+
+* Installation options:
+  The configure options --without-cvs and --with-git can be used to specify
+  whether 'autopoint' will use the 'cvs' program, or the 'git' program, or
+  none at all. These options allow to trade dependencies against installed
+  package size: If --without-cvs is specified and --with-git is not specified,
+  'autopoint' will not rely on 'cvs' or 'git', but will instead rely on a
+  locally installed a 3 MB large archive.
+
+* Portability:
+  - The msgfilter program now also works on native Woe32 platforms.
+  - Compiled C# message catalogs now also work with 'mono' versions from 2009
+    or newer.

@@ -1,0 +1,3 @@
+ This is what you want to use instead of %.*s, as it
+        does the "right" thing with regard to different Unicode character width
+        Eg. "%.*s" % (10, msg)   <= becomes => "%s" % (chop_str(msg, 10)) Nr

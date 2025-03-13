@@ -1,0 +1,3 @@
+     * `summary(s)`: a brief description of an alert. E.g. `"SELinux is preventing /usr/bin/bash from ioctl access on the unix_stream_socket unix_stream_socket."`
+        * `report_count(i)`: count of reports of this alert
+r

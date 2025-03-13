@@ -1,0 +1,25 @@
+%!PS-AdobeFont-1.0: URWGothic-Demi 1.00
+%%CreationDate: Wed May 17 2017
+% Copyright (URW)++,Copyright 2014 by (URW)++ Design & Development
+% (URW)++,Copyright 2014 by (URW)++ Design & Development
+10 dict begin
+/FontInfo 12 dict dup begin
+/version (1.00) readonly def
+/Notice ((URW)++,Copyright 2014 by (URW)++ Design & Development) readonly def
+/Copyright (Copyright (URW)++,Copyright 2014 by (URW)++ Design & Development) readonly def
+/FullName (URW Gothic Demi) readonly def
+/FamilyName (URW Gothic) readonly def
+/Weight (Demi) readonly def
+/ItalicAngle 0.0 def
+/isFixedPitch false def
+/UnderlinePosition -108 def
+/UnderlineThickness 90 def
+end readonly def
+/FontName /URWGothic-Demi def
+/PaintType 0 def
+/FontBBox {-144 -279 1248 1083} readonly def
+/FontType 1 def
+/FontMatrix [0.001 0.0 0.0 0.001 0.0 0.0] readonly def
+/Encoding StandardEncoding def
+currentdict end
+currentfile eexecÈç	◊`£¬,Ò

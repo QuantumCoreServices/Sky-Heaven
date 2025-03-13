@@ -1,0 +1,10 @@
+ is unable to recognize which one
+           is correct and you should assume that it is unpredictable which one
+           is returned.
+
+       Example:
+
+       ``select_short_long (10, _("Repo"), _("Repository"))``
+
+       will return "Repository" in English but the results in other languages
+       may be different. N)

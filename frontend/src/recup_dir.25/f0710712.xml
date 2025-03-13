@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="history" xml:lang="ca">
+
+    <info>
+        <link type="guide" xref="index#ui"/>
+        <revision pkgversion="3.8" version="0.1" date="2013-04-18" status="review"/>
+        <revision pkgversion="3.38.0" date="2020-09-25" status="review"/>
+
+        <credit type="author copyright">
+          <name>Gopal Krishnan</name>
+          <email its:translate="no">ingeniumed@outlook.com</email>
+          <years>2012, 2013</years>
+        </credit>
+
+        <credit type="author copyright">
+          <name>Sanket Dasgupta</name>
+          <email its:translate="no">sanketdasgupta@gmail.com</email>
+          <years>2016, 2017</years>
+        </credit>
+
+        <credit type="editor">
+          <name>Pranali Deixmukh</name>
+          <email>pranali21293@gmail.com</email>
+          <years>2020</years>
+        </credit>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sergi Morraja</mal:name>
+      <mal:email>sergi256@gmail.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Utilització de la vista d'històric</title>
+
+  <p>La Vista de l'historial es troba a sobre del quadre d'entrada i està dissenyada per a mostrar els vostres càlculs anteriors en forma d'una llista desplaçable que es pot fer clic i desplaçar mitjançant un ratolí.</p>
+  <p>Una vegada seleccionada una entrada, apareixerà immediatament al quadre d'entrada perquè la pugueu manipular i utilitzar.</p>
+  <p>Finalment, no hi ha límit màxim sobre el nombre de càlculs que es poden presentar en la llista per a utilitzar.</p>
+</page>

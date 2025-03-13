@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/": {
+      "name": "/",
+      "lambdaFunction": "fastapiBackend",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+d.
+
+* PO mode changes:
+  - New key bindings for 'po-previous-fuzzy-entry',
+    'po-previous-obsolete-entry', 'po-previous-translated-entry',
+    'po-previous-untranslated', 'po-undo', 'po-other-window', and
+    'po-select-auxiliary'.
+  - Support for merging two message catalogs, based on msgcat and ediff.
+
+* A fuzzy attribute of the header entry of a message catalog is now ignored
+  by the tools, i.e. it is used even if marked fuzzy.
+
+* gettextize has a new option --intl which determines whether a copy of the
+  intl directory is included in the package.
+
+* The Makefile variable @INTLLIBS@ is deprecated. It is replaced with
+  @LIBINTL@ (in projects without libtool) or @LTLIBINTL@ (in projects with
+  libtool).
+
+* New packaging hints for binary package distributors. See file PACKAGING.
+
+* New documentation sections:
+  - Manipulating
+  - po/LINGUAS
+  - po/Makevars
+  - lib/gettext.h
+  - autoconf macros
+  - Other Programming Languages

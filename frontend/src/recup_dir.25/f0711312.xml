@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="base" xml:lang="eu">
+
+    <info>
+        <link type="guide" xref="index#number"/>
+    </info>
+
+	<title>Zenbaki-oinarriak</title>
+    
+    <p>Zenbaki-oinarri jakin bat edukiko duten zenbakiak sartzeko, erabili <link xref="superscript">azpiindizeak diren zenbakiak</link>. Hurrengo zenbakiak baliokideak dira.</p>
+    <example>
+    <p>1001011₂</p>    
+    <p>113₈</p>
+    <p>75</p>
+    <p>4B₁₆</p>
+    </example>
+    <p><link xref="mouse">Programazio moduan</link>, erabili goitibeherako menua kalkuluaren oinarria aldatzeko.</p>
+    <p>
+    Keyboard shortcuts can be used to switch to <gui>Binary</gui> (<keyseq><key>Ctrl</key><key>B</key></keyseq>), <gui>Octal</gui> (<keyseq><key>Ctrl</key><key>O</key></keyseq>), <gui>Decimal</gui> (<keyseq><key>Ctrl</key><key>D</key></keyseq>) and <gui>Hexadecimal</gui> (<keyseq><key>Ctrl</key><key>H</key></keyseq>) modes.
+    </p>
+    <p>
+    To convert numbers to other base on the fly, <link xref="conv-base">Number Base conversion</link> can be used.
+    </p>
+</page>

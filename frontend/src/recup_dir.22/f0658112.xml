@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="color-import-linux" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="color#problems"/>
+    <link type="seealso" xref="color-whatisprofile"/>
+    <link type="seealso" xref="color-gettingprofiles"/>
+    <desc>Bagaimana mengimpor profil ICC yang ada menggunakan sistem Linux.</desc>
+    <credit type="author">
+      <name>Richard Hughes</name>
+      <email>richard@hughsie.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2019.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Memasang profil ICC di Linux</title>
+  <p>Jika Anda telah memasang <cmd>gnome-color-manager</cmd> atau <cmd>colord-kde</cmd> maka cukup klik saja profil <file>. icc</file> dan klik <gui>Impor</gui>. Anda kemudian dapat menetapkan profil baru untuk perangkat yang ada menggunakan panel <guiseq><gui>Pengaturan Sistem</gui><gui>Warna</gui></guiseq>.</p>
+  <p>Kurva kalibrasi profil secara otomatis dimuat saat login, atau dapat dimuat untuk semua pengguna saat awal mula jika tombol <gui>Ditetapkan untuk semua pengguna</gui> diklik.</p>
+
+</page>

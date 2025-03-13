@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="logarithm" xml:lang="da">
+
+    <info>
+        <link type="guide" xref="index#equation"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Logaritmer</title>
+    
+    <p>Logaritmer kan udregnes med <link xref="function">funktionen</link> log.</p>
+    <example>
+    <p>log 100</p>
+    </example>
+    <p>En logaritme med et andet grundtal udregnes ved at bruge et <link xref="superscript">hævet tal</link> efter funktionen.</p>
+    <example>
+    <p>log₂ 32</p>
+    </example>
+    <p>En naturlig logaritme udregnes ved at bruge funktionen ln.</p>
+    <example>
+    <p>ln 1,32</p>
+    </example>
+    <p>Eulers tal kan indtastes med <link xref="variable">variablen</link> e.</p>
+    <example>
+    <p>e^1,32</p>
+    </example>
+</page>

@@ -1,0 +1,1 @@
+><arg type="s" name="source_uid" direction="out"/></signal><property name="HasCalendars" type="b" access="read"/></interface></node>

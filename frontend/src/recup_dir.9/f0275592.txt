@@ -1,0 +1,12 @@
+DIRS in configure.ac.
+
+* Portability:
+  - msginit now does not require GNU sed.
+  - The Makefile rule for generating en@quot and en@boldquot now uses
+    @SED@ variable instead of hard-coded 'sed' command to allow users
+    to supply GNU sed.
+
+* Future backward-incompatibilities:
+  - In future Gettext versions, the files installed by 'gettextize'
+    will require Automake 1.10 or later.  This will improve the
+    compatibility of user projects with newer Automake versions.

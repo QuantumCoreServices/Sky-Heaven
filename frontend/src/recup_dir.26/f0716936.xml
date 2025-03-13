@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="plugin-exif-digital" xml:lang="pt-BR">
+
+  <info>
+   <link type="guide" xref="index#plugins"/>
+   <desc>Veja informações como configurações da câmera e histograma, geolocalização e data.</desc>
+
+   <revision pkgversion="3.24" version="0.1" date="2011-09-05" status="final"/>
+   <revision pkgversion="3.31.90" version="0.2" date="2019-03-03" status="final"/>
+   <revision pkgversion="3.32.0" version="0.3" date="2019-03-30" status="final"/>
+   <credit type="author">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+   </credit>
+   <credit type="editor">
+     <name>Fabiana Simões</name>
+     <email>fabianapsimoes@gmail.com</email>
+   </credit>
+   <license>
+     <p>Creative Commons Atribuição-Compartilhada Igual 3.0</p>
+   </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Amadeu A. Barbosa Júnior</mal:name>
+      <mal:email>amadeu@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Flores</mal:name>
+      <mal:email>rodrigomarquesflores@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leo.fontenelle@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Gregianin</mal:name>
+      <mal:email>leogregianin@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Djavan Fagundes</mal:name>
+      <mal:email>djavan@comum.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Krix Apolinário</mal:name>
+      <mal:email>krixapolinario@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2018, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Vendo informações detalhadas sobre uma imagem</title>
+
+<p>As imagens tiradas por câmeras digitais são armazenadas com uma série de informações adicionais incorporadas nelas, como a data em que foram realizadas, quais configurações de exposição foram usadas na câmera e, em alguns casos, mesmo quando a imagem foi tirada.</p>
+
+<p>Esse tópico lhe mostra como acessar essa informação.</p>
+
+<section id="date">
+<title>Mostrando a data na barra de status</title>
+  <p>Você pode exibir a data em que uma foto foi tirada na barra de status na parte inferior da janela.</p>
+  <p>Para mostrar a barra de status, pressione o botão de menu no canto superior direito da janela e selecione <guiseq><gui style="menuitem">Mostrar</gui> <gui style="menuitem">Barra de status</gui></guiseq>.</p>
+  <p>Então, pressione o botão de menu no canto superior direito da janela, selecione <gui style="menuitem">Preferências</gui> e vá para a aba <gui>Plug-ins</gui>. Em seguida, marque <gui>Data na barra de status</gui>.</p>
+</section>
+
+<section id="exif">
+ <title>Dados EXIF detalhados</title>
+  <p>As informações detalhadas armazenadas com fotos digitais são chamadas <em>Dados Exif</em>. Você pode visualizá-las instalando um plug-in para o visualizador de imagens.</p>
+
+  <steps>
+   <item>
+    <p>Para habilitar esse recurso, você precisa ter instalado <link xref="plugins">eog-plugins</link>.</p>
+   </item>
+   <item>
+    <p>Se <sys>eog-plugins</sys> estiver instalado, pressione o botão de menu no canto superior direito da janela, selecione <gui style="menuitem">Preferências</gui>, e vá à aba <gui>Plug-ins</gui>. Em seguida, marque <gui>Exibição Exif</gui> e feche a caixa de diálogo.</p>
+   </item>
+   <item>
+    <p>Pressione o botão de menu no canto superior direito da janela e selecione <guiseq><gui style="menuitem">Mostrar</gui><gui style="menuitem">Painel lateral</gui></guiseq> para ver as configurações da câmera usadas para tirar a foto. Para visualizar também os histogramas mostrando o equilíbrio das cores e a luz/sombra na imagem, selecione <gui>Exibir Exif</gui> na aba <gui>Plug-ins</gui> e clique em <gui>Preferências</gui>. Verifique os histogramas que deseja visualizar, listados em <gui>Histograma</gui>.</p>
+   </item>
+   <item>
+    <p>Você também pode ver as configurações da câmera usadas para tirar a foto na barra de status. Selecione <gui>Exibição Exif</gui> na aba <gui>Plug-ins</gui> e clique em <gui>Preferências</gui>. Verifique <gui>Exibir as configurações da câmera na barra de status</gui>.</p>
+   </item>
+  </steps>
+</section>
+
+<section id="map">
+ <title>Exibindo um mapa de localização das fotos</title>
+  <p>Algumas câmeras podem anexar informações de <em>geolocalização</em> (geotags) para fotos digitais. Geotags geralmente são apenas as coordenadas GPS (latitude e longitude) para o local onde uma foto foi tirada.</p>
+
+  <steps>
+   <item>
+    <p>Para habilitar esse recurso, você precisa ter instalado <link xref="plugins">eog-plugins</link>.</p>
+   </item>
+   <item>
+    <p>Se <sys>eog-plugins</sys> estiver instalado, pressione o botão de menu no canto superior direito da janela, selecione <gui style="menuitem">Preferências</gui> e vá à aba <gui>Plug-ins</gui>. Em seguida, marque <gui>Mapa</gui> e feche a caixa de diálogo.</p>
+   </item>
+   <item>
+    <p>Pressione o botão de menu no canto superior direito da janela e selecione <guiseq><gui style="menuitem">Mostrar</gui><gui style="menuitem">Painel lateral</gui></guiseq> para mostrar o mapa.</p>
+   </item>
+  </steps>
+  <p>O mapa mostrará o local em que uma foto foi tirada somente se houver informações de geolocalização anexadas à foto. Muitas câmeras não anexam informações de localização geográfica a imagens.</p>
+</section>
+
+
+</page>

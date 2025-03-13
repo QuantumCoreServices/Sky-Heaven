@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="scan-file-system" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#scan"/>
+    <revision pkgversion="3.4" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.8" date="2013-07-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>Хуліта Інка (Julita Inca)</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="author editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Сканування локальних пристроїв для зберігання даних.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Сканування файлової системи</title>
+
+  <p>Щоб виконати сканування вашого комп'ютера, виберіть назву вашого комп'ютера зі списку <gui>Пристрої і місця</gui>. Проскановано буде усі теки, до яких ви маєте доступ на вашому комп'ютері. Ситуація, у якій ви маєте доступу не до усіх каталогів на вашому комп'ютері, є цілком нормальною.</p>
+
+  <note style="tip">
+    <p>Якщо файлова система, яку ви намагаєтеся сканувати, є великою, сканування може тривати декілька хвилин. Щоб скасувати сканування, натисніть кнопку у верхньому лівому куті екран. Після натискання цієї кнопки ви повернетеся до списку пристроїв.</p>
+  </note>
+
+</page>

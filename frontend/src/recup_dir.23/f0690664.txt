@@ -1,0 +1,101 @@
+(sender);
+
+        this._activeNotifications.forEach((value, key) => {
+            if (value === sender)
+                this._activeNotifications.delete(key);
+        });
+    }
+
+    _checkNotificationId(invocation, id) {
+        if (id === 0)
+            return true;
+
+        if (!this._activeNotifications.has(id))
+            return true;
+
+        if (this._activeNotifications.get(id) === invocation.get_sender())
+            return true;
+
+        const error = new GLib.Error(Gio.DBusError,
+            Gio.DBusError.INVALID_ARGS, 'Invalid notification ID');
+        this._handleError(invocation, error);
+        return false;
+    }
+
+    register() {
+        Gio.DBus.session.own_name(
+            'org.freedesktop.Notifications',
+            Gio.BusNameOwnerFlags.REPLACE,
+            null, null);
+    }
+
+    async NotifyAsync(params, invocation) {
+        const sender = invocation.get_sender();
+        const pid = await this._getSenderPid(sender);
+        const replaceId = params[1];
+        const hints = params[6];
+
+        if (!this._checkNotificationId(invocation, replaceId))
+            return;
+
+        params[6] = {
+            ...hints,
+            'sender-pid': new GLib.Variant('u', pid),
+        };
+
+        this._proxy.NotifyRemote(...params, (res, error) => {
+            if (this._handleError(invocation, error))
+                return;
+
+            const [id] = res;
+            this._activeNotifications.set(id, sender);
+            invocation.return_value(new GLib.Variant('(u)', res));
+        });
+    }
+
+    CloseNotificationAsync(params, invocation) {
+        const [id] = params;
+        if (!this._checkNotificationId(invocation, id))
+            return;
+
+        this._proxy.CloseNotificationRemote(...params, (res, error) => {
+            if (this._handleError(invocation, error))
+                return;
+
+            invocation.return_value(null);
+        });
+    }
+
+    GetCapabilitiesAsync(params, invocation) {
+        this._proxy.GetCapabilitiesRemote(...params, (res, error) => {
+            if (this._handleError(invocation, error))
+                return;
+
+            invocation.return_value(new GLib.Variant('(as)', res));
+        });
+    }
+
+    GetServerInformationAsync(params, invocation) {
+        this._proxy.GetServerInformationRemote(...params, (res, error) => {
+            if (this._handleError(invocation, error))
+                return;
+
+            invocation.return_value(new GLib.Variant('(ssss)', res));
+        });
+    }
+
+    async _getSenderPid(sender) {
+        const res = await Gio.DBus.session.call(
+            'org.freedesktop.DBus',
+            '/',
+            'org.freedesktop.DBus',
+            'GetConnectionUnixProcessID',
+            new GLib.Variant('(s)', [sender]),
+            new GLib.VariantType('(u)'),
+            Gio.DBusCallFlags.NONE,
+            -1,
+            null);
+        const [pid] = res.deepUnpack();
+        return pid;
+    }
+};

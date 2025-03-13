@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<libosinfo version="0.0.1">
+  <os id="http://oracle.com/ol/9-unknown">
+    <short-id>ol9-unknown</short-id>
+    <name>Oracle Linux 9 Unknown</name>
+    <name xml:lang="zh_Hans">Oracle Linux 9 Unknown</name>
+    <name xml:lang="ka">Oracle Linux 9 Unknown</name>
+    <name xml:lang="ko">&#xC624;&#xB77C;&#xD074; &#xB9AC;&#xB205;&#xC2A4; 9 (&#xC54C; &#xC218; &#xC5C6;&#xC74C;)</name>
+    <name xml:lang="uk">Oracle Linux 9, &#x43D;&#x435;&#x432;&#x456;&#x434;&#x43E;&#x43C;&#x430;</name>
+    <name xml:lang="tr">Oracle Linux 9 Bilinmeyen</name>
+    <name xml:lang="pl">Oracle Linux 9 (nieznany)</name>
+    <name xml:lang="it">Oracle Linux 9 (sconosciuto)</name>
+    <name xml:lang="id">Oracle Linux 9 Tak Diketahui</name>
+    <version>9-unknown</version>
+    <vendor>Oracle America</vendor>
+    <vendor xml:lang="zh_Hans">Oracle America</vendor>
+    <vendor xml:lang="ka">Oracle America</vendor>
+    <vendor xml:lang="ko">&#xC624;&#xB77C;&#xD074; &#xC544;&#xBA54;&#xB9AC;&#xCE74;</vendor>
+    <vendor xml:lang="uk">Oracle America</vendor>
+    <vendor xml:lang="tr">Oracle America</vendor>
+    <vendor xml:lang="pt_BR">Oracle America</vendor>
+    <vendor xml:lang="pl">Oracle America</vendor>
+    <vendor xml:lang="it">Oracle America</vendor>
+    <vendor xml:lang="id">Oracle America</vendor>
+    <vendor xml:lang="fr">Oracle America</vendor>
+    <vendor xml:lang="de">Oracle America</vendor>
+    <family>linux</family>
+    <distro>ol</distro>
+    <upgrades id="http://oracle.com/ol/9.3"/>
+    <derives-from id="http://oracle.com/ol/9.3"/>
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>OL-9-([4-9]|[1-9][0-9])(-[0-9]|[1-9][0-9])?.*x86_64.*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <media arch="aarch64">
+      <iso>
+        <volume-id>OL-9-([4-9]|[1-9][0-9])(-[0-9]|[1-9][0-9])?.*aarch64.*</volume-id>
+      </iso>
+      <kernel>images/pxeboot/vmlinuz</kernel>
+      <initrd>images/pxeboot/initrd.img</initrd>
+    </media>
+    <tree arch="x86_64">
+      <treeinfo>
+        <family>Oracle Linux</family>
+        <version>^9.([4-9]|[1-9][0-9])(.([0-9]|[1-9][0-9]))?$</version>
+        <arch>x86_64</arch>
+      </treeinfo>
+    </tree>
+    <tree arch="aarch64">
+      <treeinfo>
+        <family>Oracle Linux</family>
+        <version>^9.([4-9]|[1-9][0-9])(.([0-9]|[1-9][0-9]))?$</version>
+        <arch>aarch64</arch>
+      </treeinfo>
+    </tree>
+  </os>
+</libosinfo>

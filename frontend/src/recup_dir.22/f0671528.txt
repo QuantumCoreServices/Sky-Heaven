@@ -1,0 +1,20 @@
+de on each line of disassembled output.
+    The value given to 'annotate' must be an integer and is used as a
+    hint for the column where annotation should start.  The default
+    value is 0, meaning no annotations.
+
+    In addition to printing the disassembly, some sanity checks are made:
+
+    + All embedded opcode arguments "make sense".
+
+    + Explicit and implicit pop operations have enough items on the stack.
+
+    + When an opcode implicitly refers to a markobject, a markobject is
+      actually on the stack.
+
+    + A memo entry isn't referenced before it's defined.
+
+    + The markobject isn't stored in the memo.
+
+    + A memo entry isn't redefined.
+    Nr

@@ -1,0 +1,36 @@
+10 localhost sudo[3757]:   seano : TTY=pts/0 ; PWD=/home/seano ; USER=root ; COMMAND=/bin/dnf install dhclient -y
+Mar 10 19:52:10 localhost sudo[3757]: pam_unix(sudo:session): session opened for user root(uid=0) by seano(uid=1000)
+Mar 10 19:52:11 localhost sudo[3757]: pam_unix(sudo:session): session closed for user root
+Mar 10 19:56:34 localhost polkitd[910]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 10 19:56:34 localhost polkitd[910]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 10 19:56:34 localhost polkitd[910]: Finished loading, compiling and executing 13 rules
+Mar 10 19:56:34 localhost polkitd[910]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar 10 19:56:37 localhost sshd[1112]: Server listening on 0.0.0.0 port 22.
+Mar 10 19:56:37 localhost sshd[1112]: Server listening on :: port 22.
+Mar 10 19:56:37 localhost systemd[1165]: pam_unix(systemd-user:session): session opened for user gdm(uid=42) by gdm(uid=0)
+Mar 10 19:56:38 localhost gdm-launch-environment][1144]: pam_unix(gdm-launch-environment:session): session opened for user gdm(uid=42) by (uid=0)
+Mar 10 19:56:44 localhost polkitd[910]: Registered Authentication Agent for unix-session:c1 (system bus name :1.27 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 10 19:56:59 localhost gdm-password][2293]: gkr-pam: unable to locate daemon control file
+Mar 10 19:56:59 localhost gdm-password][2293]: gkr-pam: stashed password to try later in open session
+Mar 10 19:56:59 localhost systemd[2305]: pam_unix(systemd-user:session): session opened for user seano(uid=1000) by seano(uid=0)
+Mar 10 19:57:00 localhost gdm-password][2293]: pam_unix(gdm-password:session): session opened for user seano(uid=1000) by seano(uid=0)
+Mar 10 19:57:00 localhost gdm-password][2293]: gkr-pam: gnome-keyring-daemon started properly and unlocked keyring
+Mar 10 19:57:03 localhost polkitd[910]: Registered Authentication Agent for unix-session:2 (system bus name :1.76 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Mar 10 19:57:11 localhost gdm-launch-environment][1144]: pam_unix(gdm-launch-environment:session): session closed for user gdm
+Mar 10 19:57:11 localhost polkitd[910]: Unregistered Authentication Agent for unix-session:c1 (system bus name :1.27, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Mar 10 19:57:33 localhost sudo[3152]:   seano : TTY=pts/0 ; PWD=/home/seano ; USER=root ; COMMAND=/bin/vi /etc/sysconfig/network-scripts/ifcfg-ens160
+Mar 10 19:57:33 localhost sudo[3152]: pam_unix(sudo:session): session opened for user root(uid=0) by seano(uid=1000)
+Mar 10 19:57:58 localhost sudo[3152]: pam_unix(sudo:session): session closed for user root
+Mar 10 19:58:04 localhost sudo[3184]:   seano : TTY=pts/0 ; PWD=/home/seano ; USER=root ; COMMAND=/bin/systemctl restart NetworkManager
+Mar 10 19:58:04 localhost sudo[3184]: pam_unix(sudo:session): session opened for user root(uid=0) by seano(uid=1000)
+Mar 10 19:58:04 localhost sudo[3184]: pam_unix(sudo:session): session closed for user root
+Mar 10 19:58:43 localhost sudo[3415]:   seano : TTY=pts/0 ; PWD=/home/seano ; USER=root ; COMMAND=/bin/tee /etc/resolv.conf
+Mar 10 19:58:43 localhost sudo[3415]: pam_unix(sudo:session): session opened for user root(uid=0) by seano(uid=1000)
+Mar 10 19:58:43 localhost sudo[3415]: pam_unix(sudo:session): session closed for user root
+Mar 10 20:09:09 localhost polkitd[907]: Loading rules from directory /etc/polkit-1/rules.d
+Mar 10 20:09:09 localhost polkitd[907]: Loading rules from directory /usr/share/polkit-1/rules.d
+Mar 10 20:09:09 localhost polkitd[907]: Finished loading, compiling and executing 13 rules
+Mar 10 20:09:09 localhost polkitd[907]: Acquired the name org.freedesktop.PolicyKit1 on the system bus
+Mar 10 20:09:12 localhost sshd[1106]: Server listening on 0.0.0.0 port 22.
+Mar 10 20:09:12 localhost sshd[1106]: Server listening on :: port 22.
+Mar 10 20:09:13 localhost systemd[1161]: pam_unix(syst

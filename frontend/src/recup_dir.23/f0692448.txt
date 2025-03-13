@@ -1,0 +1,8 @@
+evision-Date: 2020-08-11 10:00+0100
+Last-Translator: Asier Sarasua Garmendia <asiersarasua@ni.eus>
+Language-Team: Basque <librezale@librezale.eus>
+Language: eu
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+Plural-Forms: nplurals=2; plural=n != 1;

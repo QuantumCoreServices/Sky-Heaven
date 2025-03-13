@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="problem-permissions" xml:lang="pl">
+  <info>
+    <link type="guide" xref="index#problems"/>
+    <revision pkgversion="3.12" date="2014-01-25" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email>baptistem@gnome.org</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Podczas skanowania widoczny jest błąd <gui>Nie można skanować katalogu „/…” lub niektórych zawartych w nim katalogów</gui>.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2019</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Błąd podczas skanowania</title>
+
+  <p>Podczas skanowania może pojawić się komunikat <gui>Nie można skanować katalogu „/…” lub niektórych zawartych w nim katalogów</gui> na górze okna <app>Analizatora wykorzystania dysku</app>. Ten błąd występuje, jeśli brak wymaganych uprawnień dostępu do niektórych plików z powodu ograniczeń ustawionych w systemie docelowym. Pliki, których nie można skanować nie są używane do obliczenia <link xref="pref-view-chart">wykresu</link> przedstawiającego wykorzystanie dysku, więc zgłaszany wynik może być błędny.</p>
+
+  <p>Brak dostępu do pewnych plików i katalogów jest rzeczą normalną i częstą, więc nie należy się przejmować tym błędem.</p>
+
+  <note style="info"><p><app>Analizator wykorzystania dysku</app> używa polecenia <cmd>du</cmd> do tworzenia szczegółowego widoku wykorzystania urządzeń do przechowywania danych, które wymaga uprawnienia do odczytu plików i uprawnienia do wykonywania katalogów.</p>
+
+  <p>Z drugiej strony, widok wykorzystania systemów plików używa polecenia <cmd>df</cmd>, które korzysta z uprawnień systemów plików, nie uprawnień plików.</p></note>
+</page>

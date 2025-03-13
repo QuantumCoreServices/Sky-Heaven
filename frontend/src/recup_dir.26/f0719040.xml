@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="question-open-folder" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="index#problems"/>
+
+    <revision pkgversion="3.14" date="2014-11-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Aprire una cartella con un visualizzatore file come <app>File</app>.</desc>
+  </info>
+
+  <title>Come aprire una cartella?</title>
+
+  <p>È possibile aprire una cartella nel visualizzatore di file predefinito, come <app>File</app>, per controllare velocemente quali file sono presenti in tale cartella.</p>
+
+  <steps>
+    <item>
+      <p>Fare clic col pulsante destro sulla cartella da aprire e selezionare <gui>Apri cartella</gui>.</p>
+    </item>
+  </steps>
+
+</page>

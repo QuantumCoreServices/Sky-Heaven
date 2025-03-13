@@ -1,0 +1,6 @@
+literally as the string content.  These are
+      usually decoded into a str instance using the encoding given to
+      the Unpickler constructor. or the default, 'ASCII'.  If the
+      encoding given was 'bytes' however, they will be decoded as bytes
+      object instead.
+      ÚBINBYTESÚ

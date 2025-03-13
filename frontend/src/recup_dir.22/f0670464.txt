@@ -1,0 +1,5 @@
+elf.version) to
+        'file' (default stdout).  As with print_usage(), any occurrence
+        of "%prog" in self.version is replaced by the current program's
+        name.  Does nothing if self.version is empty or undefined.
+        rl

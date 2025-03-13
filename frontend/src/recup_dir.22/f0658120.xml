@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="color-import-osx" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="color#problems"/>
+    <link type="seealso" xref="color-whatisprofile"/>
+    <link type="seealso" xref="color-gettingprofiles"/>
+    <desc>Cara mengimpor profil ICC yang ada menggunakan sistem OS X.</desc>
+    <credit type="author">
+      <name>Richard Hughes</name>
+      <email>richard@hughsie.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2019.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Memasang profil ICC di Apple OS X</title>
+  <p>Apple OS X mendukung skema serupa dengan Linux, dalam profil tersebut dapat dipasang di seluruh sistem atau spesifik untuk pengguna. Profil seluruh sistem disimpan di <file>/Library/ColorSync/Profiles</file> dan profil pengguna tertentu disimpan di <file>~/Library/ColorSync/Profiles</file>.</p>
+  <p>Gunakan perkakas <guiseq> <gui>Preferensi Sistem</gui><gui>Tampilan</gui><gui>Warna</gui></guiseq> untuk mengimpor berkas dan menetapkan profil ke perangkat yang benar.</p>
+
+</page>

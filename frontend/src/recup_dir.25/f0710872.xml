@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="conv-currency" xml:lang="da">
+
+  <info>
+    <link type="guide" xref="index#conversion"/>
+
+    <credit type="author copyright">
+      <name>Robert Ancell</name>
+      <email its:translate="no">robert.ancell@gmail.com</email>
+      <years>2010</years>
+    </credit>
+    <credit type="author copyright">
+      <name>Robin Sonefors</name>
+      <email its:translate="no">ozamosi@flukkost.nu</email>
+      <years>2010</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Valuta</title>
+
+  <p>Konvertér valutaer ved at gå i <link xref="financial">tilstanden finansiel</link> og brug valutastyringerne.</p>
+
+  <steps>
+    <item>
+      <p>Indtast det beløb, du vil konvertere.</p>
+    </item>
+    <item>
+      <p>Vælg den valuta, du vil konvertere fra, og den valuta du vil konvertere til i rullegardinet nedenfor.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>Valutainformation er omtrentligt og bør ikke bruges til at foretage beslutninger angående valuta.</p>
+  </note>
+</page>

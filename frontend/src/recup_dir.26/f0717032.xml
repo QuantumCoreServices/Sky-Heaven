@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="print" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="index#printing"/>
+    <desc>Clique em <gui style="menuitem">Imprimir…</gui> e use as abas para alterar as configurações de impressão.</desc>
+
+    <revision pkgversion="3.2" version="0.1" date="2011-09-06" status="final"/>
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Atribuição-Compartilhada Igual 3.0</p>
+    </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Amadeu A. Barbosa Júnior</mal:name>
+      <mal:email>amadeu@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Flores</mal:name>
+      <mal:email>rodrigomarquesflores@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leo.fontenelle@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Gregianin</mal:name>
+      <mal:email>leogregianin@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Djavan Fagundes</mal:name>
+      <mal:email>djavan@comum.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Krix Apolinário</mal:name>
+      <mal:email>krixapolinario@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2018, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Imprimindo uma imagem</title>
+
+<p>Para imprimir a imagem que você está vendo atualmente:</p>
+
+<steps>
+ <item>
+  <p>Clique em <gui style="menuitem">Imprimir…</gui>.</p>
+ </item>
+ <item>
+  <p>Na aba <gui>Geral</gui>, escolha a impressora que você deseja usar e o número de cópias que deseja imprimir.</p>
+ </item>
+ <item>
+  <p>Se você for até a aba <gui>Configurações da imagem</gui>, poderá ajustar a <gui>Posição</gui> e <gui>Tamanho</gui> da imagem.</p>
+  <p>A posição da imagem na página também pode ser ajustada arrastando-a pela visualização.</p>
+ </item>
+ <item>
+  <p>Se você estiver usando papel fotográfico de alta qualidade, vá até a aba <gui>Configurar página</gui> e selecione o <gui>Tipo de papel</gui> correto. Você também deve ir para a aba <gui>Qualidade da imagem</gui> e escolher uma configuração de alta qualidade, para obter a melhor qualidade de foto possível.</p>
+ </item>
+ <item>
+  <p>Clique em <gui>Imprimir</gui>.</p>
+ </item>
+</steps>
+
+<p>Observe que algumas das abas mencionadas acima não são exibidas para determinados modelos de impressoras. Isso ocorre porque os <em>drivers de impressora</em> para essas impressoras não permitem que algumas configurações sejam alteradas. Portanto, por exemplo, se você não vir uma aba <gui>Qualidade de imagem</gui>, isso provavelmente significa que os drivers de impressora que estão sendo usados não oferecem suporte a essas configurações.</p>
+
+</page>

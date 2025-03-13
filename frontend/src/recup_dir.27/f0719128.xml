@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="problem-slow-scan" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#problems"/>
+    <revision pkgversion="3.12" date="2014-01-25" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email>baptistem@gnome.org</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Skanowanie katalogu lub zdalnego położenia jest wolne.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2019</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2019</mal:years>
+    </mal:credit>
+  </info>
+  <title>Skanowanie jest wolne</title>
+
+  <p>Czas skanowania katalogu lub zdalnego położenia zależy od prędkości skanowanego nośnika. Na przykład, mechaniczny dysk twardy jest wolniejszy niż dysk SSD, a skanowanie zdalnego katalogu przez Internet zwykle zajmuje dłużej niż skanowanie katalogu przez sieć lokalną.</p>
+
+  <p>Prędkość zależy także od głębokości struktury katalogów i liczby przechowywanych plików.</p>
+
+</page>

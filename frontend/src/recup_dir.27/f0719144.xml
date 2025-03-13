@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="question-trash" xml:lang="pl">
+
+  <info>
+    <link type="guide" xref="index#problems"/>
+
+    <revision pkgversion="3.14" date="2014-11-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Przenoszenie niepotrzebnych katalogów do <file>Kosza</file>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Piotr Drąg</mal:name>
+      <mal:email>piotrdrag@gmail.com</mal:email>
+      <mal:years>2017-2019</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Aviary.pl</mal:name>
+      <mal:email>community-poland@mozilla.org</mal:email>
+      <mal:years>2017-2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Jak usunąć katalog?</title>
+
+  <p>Można wyczyścić trochę miejsca na komputerze lub zdalnym systemie plików za pomocą <app>Analizatora wykorzystania dysku</app> przenosząc katalogi do <file>Kosza</file> i je usuwając.</p>
+
+  <steps>
+    <item>
+      <p>Kliknij katalog do usunięcia prawym przyciskiem myszy i wybierz <gui>Przenieś do kosza</gui>.</p>
+    </item>
+    <item>
+      <p>Otwórz przeglądarkę plików, taką jak <app>Menedżer plików</app> i opróżnij <file>Kosz</file>.</p>
+    </item>
+  </steps>
+
+</page>

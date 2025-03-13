@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="complex" xml:lang="ca">
+
+    <info>
+        <link type="guide" xref="index#number"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sergi Morraja</mal:name>
+      <mal:email>sergi256@gmail.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Nombres complexos</title>
+    
+    <p>La <app>Calculadora</app> admet nombres complexos així com les funcions següents mentre que és en <link xref="mouse">Mode avançat</link>.</p>
+
+    <table>
+    
+    <tr>
+    <td><p>Re</p></td>
+    <td><p>Retorna la part real d'un nombre complex. Per exemple:</p>
+    <example>
+    <p>Re (2-5i) = 2</p>
+    </example>
+    </td>
+    </tr>
+
+    <tr>
+    <td><p>Im</p></td>
+    <td><p>Retorna la part imaginària d'un nombre complex. Per exemple:</p>
+    <example>
+    <p>Im (2-5i) = -5</p>
+    </example>
+    </td>
+    </tr>
+ 
+    <tr>
+    <td><p>conj</p></td>
+    <td><p>Retorna el conjugat d'un nombre complex. Per exemple:</p>
+    <example>
+    <p>conj (2-5i) = 2+5i</p>
+    </example>
+    </td>
+    </tr>
+
+    <tr>
+    <td><p>Arg</p></td>
+    <td><p>Retorna l'argument d'un nombre complex. Per exemple:</p>
+    <example>
+    <p>Arg (2-5i) = -68.1986</p>
+    </example>
+    </td>
+    </tr> 
+
+    </table>
+
+
+</page>

@@ -1,0 +1,25 @@
+%!PS-AdobeFont-1.0: URWBookman-Demi 1.00
+%%CreationDate: Wed May 17 2017
+% Copyright (URW)++,Copyright 2014 by (URW)++ Design & Development
+% (URW)++,Copyright 2014 by (URW)++ Design & Development
+10 dict begin
+/FontInfo 12 dict dup begin
+/version (1.00) readonly def
+/Notice ((URW)++,Copyright 2014 by (URW)++ Design & Development) readonly def
+/Copyright (Copyright (URW)++,Copyright 2014 by (URW)++ Design & Development) readonly def
+/FullName (URW Bookman Demi) readonly def
+/FamilyName (URW Bookman) readonly def
+/Weight (Demi) readonly def
+/ItalicAngle 0.0 def
+/isFixedPitch false def
+/UnderlinePosition -125 def
+/UnderlineThickness 60 def
+end readonly def
+/FontName /URWBookman-Demi def
+/PaintType 0 def
+/FontBBox {-194 -306 1346 1093} readonly def
+/FontType 1 def
+/FontMatrix [0.001 0.0 0.0 0.001 0.0 0.0] readonly def
+/Encoding StandardEncoding def
+currentdict end
+currentfile eexecÈç	◊`£¬,Ò

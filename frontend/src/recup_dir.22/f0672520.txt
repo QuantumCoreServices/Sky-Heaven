@@ -1,0 +1,4 @@
+nd __main__ directory is not.
+
+    Exception: __main__ dir is left alone if it's also pydoc's directory.
+    r

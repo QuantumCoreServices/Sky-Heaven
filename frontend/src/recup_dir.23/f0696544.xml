@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="subtitles" xml:lang="totem-sv">
+
+  <info>
+    <link type="guide" xref="index#playing-media"/>
+    <link type="seealso" xref="preferences"/>
+    <revision pkgversion="3.30.0" version="0.1" date="2019-01-11" status="draft"/>
+    <desc>Välj manuellt undertexten för den spelade filmen.</desc>
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <license>
+      <p>Creative Commons DelaLika 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Nylander</mal:name>
+      <mal:email>po@danielnylander.se</mal:email>
+      <mal:years>2006, 2008, 2009.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2019, 2020.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Undertexter</title>
+
+  <p>Beroende på videoformatet kan undertexter vara inbyggda i själva videofilen eller skivan, eller tillgängliga som externa filer.</p>
+
+  <p>För att välja vilken undertext som ska användas då videofilen eller skivan innehåller undertexter, tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Undertexter</gui>.</p>
+
+  <p><app>Videoklipp</app> läser in externa undertexter automatiskt om <gui>Läs in undertextfiler när filmen läses in</gui> är aktiverat i <link xref="preferences">Inställningar</link>.</p>
+
+  <p>För att manuellt läsa in en extern undertextfil för en film:</p>
+  <steps>
+    <item>
+      <p>Tryck på menyknappen i fönstrets övre högra hörn och välj <guiseq><gui style="menuitem">Undertexter</gui> <gui>Välj undertexter…</gui></guiseq>.</p>
+    </item>
+    <item>
+       <p>Filväljaren kommer att öppnas. Sök efter de önskade undertexterna.</p>
+    </item>
+    <item>
+      <p>Välj dem och klicka på <gui>Öppna</gui>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Justera storlek och typsnitt för undertexter enligt dina behov. Se avsnittet <guiseq><gui>Allmänt</gui><gui>Externa undertexter</gui></guiseq> på sidan <link xref="preferences"/>.</p>
+  </note>
+
+</page>

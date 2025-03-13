@@ -1,0 +1,21 @@
+Please print this out, sign it, write the date, and snail it to
+this address:
+
+Attn: Disclaimer Clerk
+Free Software Foundation
+51 Franklin Street, Fifth Floor
+Boston, MA 02110-1301
+USA
+
+Please print your email and snail addresses on the printed disclaimer.
+*Don't forget to include the date.*
+
+In the unlikely event that you are employed on a continuing basis to do
+translation, we may need a disclaimer from your employer as well, to assure
+your employer does not claim to own this work.  Please contact the FSF to
+ask for advice if you think this may apply to you.
+
+Note: if you want the wording modified to cover only a specific category
+of programs, or a specific program, we can easily do that.
+
+

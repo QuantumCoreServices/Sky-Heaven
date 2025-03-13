@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://docbook.org/xml/4.5/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY url_refdocs_base "http://developer.gnome.org/grilo/unstable/">
+<!ENTITY url_examples_base "http://git.gnome.org/browse/grilo-plugins/tree/help/examples/">
+<!ENTITY uuml "&#252;">
+<!ENTITY szlig "&#223;">
+<!ENTITY verbar "&#124;">
+<!ENTITY copy "&#169;">
+<!ENTITY nbsp "&#160;">
+]>
+<!-- The XSL for developer.gnome.org requires this id. -->
+<book id="index" lang="pl">
+
+  <bookinfo>
+
+    <title>Wtyczki Grilo</title>
+
+    <authorgroup>
+      <author><firstname>Murray</firstname> <surname>Cumming</surname></author>
+    </authorgroup>
+
+    <abstract>
+
+      <!-- This text is copied from the introduction. -->
+      <para>Grilo to mechanizm do przeglądania i wyszukiwania multimediów z różnych źródeł za pomocą jednego API. Wtyczki dla mechanizmu Grilo zapewniają dostęp do różnych źródeł multimediów i metadanych.</para>
+    </abstract>
+
+    <copyright><year>2012</year> <holder>Openismus GmbH</holder></copyright>
+
+    <legalnotice>
+      <para>Udziela się zezwolenia na kopiowanie, rozpowszechnianie i/lub modyfikację tego dokumentu zgodnie z zasadami Licencji GNU Wolnej Dokumentacji w wersji 1.2 lub dowolnej późniejszej opublikowanej przez Free Software Foundation; bez Sekcji Niezmiennych, bez Tekstu na Przedniej Okładce i bez Tekstu na Tylnej Okładce. Egzemplarz licencji dostępny jest na stronie Free Software Foundation lub pocztą pod adresem Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02111-1301, USA.</para>
+    </legalnotice>
+
+  
+    <othercredit class="translator">
+      <personname>
+        <firstname>Piotr Drąg</firstname>
+      </personname>
+      <email>piotrdrag@gmail.com</email>
+    </othercredit>
+    <copyright>
+      
+        <year>2018-2020</year>
+      
+      <holder>Piotr Drąg</holder>
+    </copyright>
+  
+    <othercredit class="translator">
+      <personname>
+        <firstname>Aviary.pl</firstname>
+      </personname>
+      <email>community-poland@mozilla.org</email>
+    </othercredit>
+    <copyright>
+      
+        <year>2018-2020</year>
+      
+      <holder>Aviary.pl</holder>
+    </copyright>
+  </bookinfo>
+
+<chapter id="chapter-introduction">
+<title>Wprowadzenie</title>
+
+<para>Grilo to mechanizm do przeglądania i wyszukiwania multimediów z różnych źródeł za pomocą jednego API. Wtyczki dla mechanizmu Grilo zapewniają dostęp do różnych źródeł multimediów i metadanych.</para>
+</chapter>
+
+
+<chapter id="chapter-plugins">
+<title>Wtyczki Grilo</title>
+
+
+<sect1 id="sec-plugin-apple-trailers">
+<title>Zwiastuny firmy Apple</title>
+<para>To wtyczka Grilo dla zwiastunów firmy Apple. Jej identyfikator to <literal>"grl-apple-trailers"</literal></para>
+</sect1>
+
+<sect1 id="sec-plugin-bookmarks">
+<title>Zakładki</title>
+<para>To wtyczka Grilo do zakładek. Jej identyfikator to <literal>"grl-bookmarks"</literal></para>
+</sect1>
+
+<sect1 id="sec-plugin-dmap">
+<title>DMap</title>
+<para>To wtyczka Grilo dla DMap. Jej identyfikator to <literal>"grl-dmap"</literal></para>
+</sect1>
+
+<sect1 id="sec-plugin-filesystem">
+<title>System plików</title>
+<para>To wtyczka Grilo dla systemu plików. Jej identyfikator to <literal>"grl-filesystem"</literal></para>
+</sect1>
+
+<sect1 id="sec-plugin-flickr">
+<title>Flickr</title>
+<para>To wtyczka Grilo dla serwisu Flickr. Jej identyfikator to <literal>"grl-flickr"</literal></para>
+</sect1>
+
+<sect1 id="sec-plugin-gravatar">
+<title>Gravatar</title>
+<para>To wtyczka Grilo dla serwisu Gravatar. Jej identyfikator to <literal>"grl-gravatar"</literal></para>
+</sect1>
+
+<sect1 id="sec-plugin-jamendo">
+<title>Jamendo</title>
+<para>To wtyczka Grilo dla serwisu Jamendo. Jej identyfikator to <literal>"grl-jamendo"</literal></para>
+</sect1>
+
+<sect1 id="sec-plugin-local-metadata">
+<title>Lokalne metadane</title>
+<para>To wtyczka Grilo do lokalnych metadanych. Jej identyfikator to <literal>"grl-local-metadata"</literal></para>
+</sect1>
+
+<sect1 id="sec-plugin-metadata-store">
+<title>Przechowalnia metadanych</title>
+<para>To wtyczka Grilo dla przechowalni metadanych. Jej identyfikator to <literal>"grl-metadata-store"</literal></para>
+</sect1>
+
+<sect1 id="sec-plugin-optical-media">
+<title>Nośniki optyczne</title>
+<para>To wtyczka Grilo do nośników optycznych. Jej identyfikator to <literal>"grl-optical-media"</literal></para>
+</sect1>
+
+<sect1 id="sec-plugin-podcasts">
+<title>Podcasty</title>
+<para>To wtyczka Grilo do podcastów. Jej identyfikator to <literal>"grl-podcasts"</literal></para>
+</sect1>
+
+<sect1 id="sec-plugin-shoutcast">
+<title>Shoutcast</title>
+<para>To wtyczka Grilo dla serwisu Shoutcast. Jej identyfikator to <literal>"grl-shoutcast"</literal></para>
+</sect1>
+
+<sect1 id="sec-plugin-tmdb">
+<title>Wtyczka TMDb</title>
+<para>Wtyczka TMDb pobiera informacje o filmach z <ulink url="http://themoviedb.org">internetowego serwisu TMDb</ulink>, który jest bazą danych o filmach zarządzaną przez społeczność. Identyfikator wtyczki to <literal>"grl-tmdb"</literal></para>
+<para>Przed użyciem tej wtyczki należy ustawić klucz API serwisu TMDb za pomocą funkcji <ulink url="http://developer.gnome.org/grilo/unstable/GrlConfig.html#grl-config-set-api-key"><function>grl_config_set_api_key()</function></ulink>.</para>
+<para>Następnie można użyć funkcji <ulink url="http://developer.gnome.org/grilo/unstable/GrlSource.html#grl-source-resolve"><function>grl_source_resolve()</function></ulink> do wykrywania informacji o istniejących elementach GrlMediaItem.</para>
+<para>Ta wtyczka nie obsługuje wyszukiwania przez funkcję <ulink url="http://developer.gnome.org/grilo/unstable/GrlSource.html#grl-source-search"><function>grl_source_search()</function></ulink> ani zapytań przez funkcję <ulink url="http://developer.gnome.org/grilo/unstable/GrlSource.html#grl-source-query"><function>grl_source_query()</function></ulink>.</para>
+
+<para>Przykład użycia wtyczki Grilo serwisu TMDb:</para>
+
+<para>Plik: <ulink url="https://gitlab.gnome.org/GNOME/grilo-plugins/blob/master/help/examples/example-tmdb.c"><filename>example-tmdb.c</filename></ulink></para>
+<programlisting>
+/*
+ * Copyright (C) 2012 Canonical Ltd.
+ *
+ * Author: Jens Georg &lt;jensg@openismus.com&gt;
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public License
+ * as published by the Free Software Foundation; version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA
+ *
+ */
+
+#include &lt;grilo.h&gt;
+#include &lt;stdio.h&gt;
+
+/**
+ * Ten klucz TMDb służy tylko do testowania.
+ * Do prawdziwych zastosowań należy utworzyć własny klucz na stronie
+ * http://api.themoviedb.org
+ */
+#define TMDB_KEY "719b9b296835b04cd919c4bf5220828a"
+
+#define TMDB_PLUGIN_ID "grl-tmdb"
+
+GMainLoop *loop = NULL;
+GrlKeyID director_key = 0;
+
+static void
+resolve_cb (GrlSource *src, guint operation_id, GrlMedia *media, gpointer user_data, const GError *error)
+{
+  const char *title, *studio;
+
+  g_assert_no_error (error);
+  g_assert (media);
+
+  title = grl_media_get_title (media);
+  studio = grl_media_get_studio (media);
+  printf ("Media: Title='%s', Studio='%s'\n",
+    title, studio);
+
+  if (director_key != 0) {
+    const gchar *director =
+      grl_data_get_string (GRL_DATA (media), director_key);
+    printf ("  Director=%s\n", director);
+  }
+
+  g_main_loop_quit (loop);
+}
+
+int main (int argc, char *argv[])
+{
+  GrlRegistry *reg;
+  GrlConfig *config;
+  GError *error = NULL;
+  GrlSource *src;
+  gboolean plugin_activated;
+  GrlCaps *caps;
+  GrlOperationOptions *options;
+  GrlMedia *media;
+  const GList *keys;
+  const GList* l;
+
+  grl_init (&amp;argc, &amp;argv);
+
+  /*
+   * Ustaw klucz API serwisu TMDb:
+   * We własnym programie należy użyć własnego klucza API serwisu TMDb.
+   */
+  reg = grl_registry_get_default ();
+  config = grl_config_new (TMDB_PLUGIN_ID, NULL);
+  grl_config_set_api_key (config, TMDB_KEY);
+  grl_registry_add_config (reg, config, NULL);
+  grl_registry_load_all_plugins (reg, FALSE, NULL);
+
+  /*
+   * Uzyskaj wtyczkę:
+   */
+  error = NULL;
+  plugin_activated =
+    grl_registry_activate_plugin_by_id (reg, TMDB_PLUGIN_ID, &amp;error);
+  g_assert (plugin_activated);
+  g_assert_no_error (error);
+
+  /*
+   * Uzyskaj źródło Grilo:
+   */
+  src = grl_registry_lookup_source (reg, TMDB_PLUGIN_ID);
+
+  /*
+   * Sprawdź, czy ma oczekiwane możliwości:
+   */
+  g_assert (grl_source_supported_operations (src) &amp; GRL_OP_RESOLVE);
+  caps = grl_source_get_caps (src, GRL_OP_RESOLVE);
+  g_assert (caps);
+
+  options = grl_operation_options_new (caps);
+
+  /*
+   * Element multimedialny przekazywany do wtyczki TMDb,
+   * aby wykryć o nim informacje.
+   */
+  media = grl_media_video_new ();
+  grl_media_set_title (media, "Sherlock Holmes");
+
+  /*
+   * Wykryj klucze dostarczane przez źródło:
+   */
+  keys = grl_source_supported_keys (src);
+  for (l = keys; l != NULL; l = l-&gt;next) {
+    const gchar *name;
+    GrlKeyID id = GPOINTER_TO_INT (l-&gt;data);
+
+    g_assert (id);
+
+    name = grl_metadata_key_get_name (id);
+    printf ("Supported key: %s\n", name);
+
+    /*
+     * Zapamiętaj to do późniejszego użytku:
+     * Można zamiast tego użyć funkcji grl_registry_lookup_metadata_key_name().
+     */
+    if (g_strcmp0 (name, "tmdb-director") == 0) {
+      director_key = id;
+    }
+  }
+
+  /*
+   * Zapytaj wtyczkę TMDb o informacje o tym elemencie multimedialnym
+   * z internetowego serwisu TMDb:
+   */
+  grl_source_resolve (src, media,
+    keys, options,
+    resolve_cb, NULL);
+
+  /*
+   * Rozpocznij główną pętlę, aby można było wywołać nasze wywołanie zwrotne:
+   */
+  loop = g_main_loop_new (NULL, FALSE);
+  g_main_loop_run (loop);
+
+  /*
+   * Zwolnij obiekty:
+   */
+  g_object_unref (media);
+  g_object_unref (config);
+  g_object_unref (options);
+
+  /*
+   * Deinicjuj usługę Grilo:
+   */
+  grl_deinit ();
+}
+
+
+
+</programlisting>
+
+</sect1>
+
+<sect1 id="sec-plugin-tracker">
+<title>Tracker</title>
+<para>To wtyczka Grilo dla usługi Tracker. Jej identyfikator to <literal>"grl-tracker"</literal></para>
+</sect1>
+
+<sect1 id="sec-plugin-vimeo">
+<title>Vimeo</title>
+<para>To wtyczka Grilo dla serwisu Vimeo. Jej identyfikator to <literal>"grl-vimeo"</literal></para>
+</sect1>
+
+<sect1 id="sec-plugin-youtube">
+<title>YouTube</title>
+<para>To wtyczka Grilo dla serwisu YouTube. Jej identyfikator to <literal>"grl-youtube"</literal></para>
+</sect1>
+
+<sect1 id="sec-plugin-dleyna">
+<title>DLeyna</title>
+<para>To wtyczka Grilo do urządzeń UPnP/DLNA. Jej identyfikator to <literal>"grl-dleyna"</literal></para>
+</sect1>
+
+</chapter>
+
+</book>

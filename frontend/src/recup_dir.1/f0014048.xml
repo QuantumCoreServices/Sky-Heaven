@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<libosinfo version="0.0.1">
+  <!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://miraclelinux.com/miraclelinux/8-unknown">
+    <short-id>miraclelinux8-unknown</short-id>
+    <name>MIRACLE LINUX 8 Unknown</name>
+    <name xml:lang="ka">MIRACLE LINUX 8 Unknown</name>
+    <name xml:lang="ko">&#xBBF8;&#xB77C;&#xD074; &#xB9AC;&#xB205;&#xC2A4; 8 (&#xC54C; &#xC218; &#xC5C6;&#xC74C;)</name>
+    <name xml:lang="uk">MIRACLE LINUX 8, &#x43D;&#x435;&#x432;&#x456;&#x434;&#x43E;&#x43C;&#x430;</name>
+    <name xml:lang="tr">MIRACLE LINUX 8 Bilinmeyen</name>
+    <name xml:lang="pl">MIRACLE LINUX 8 (nieznany)</name>
+    <name xml:lang="it">MIRACLE LINUX 8 (sconosciuto)</name>
+    <name xml:lang="id">MIRACLE LINUX 8 Tak Dikenal</name>
+    <version>8-unknown</version>
+    <vendor>Cybertrust Japan Co., Ltd.</vendor>
+    <vendor xml:lang="zh_Hans">Cybertrust Japan Co., Ltd.</vendor>
+    <vendor xml:lang="ka">Cybertrust Japan Co., Ltd.</vendor>
+    <vendor xml:lang="ko">Cybertrust Japan Co., Ltd.</vendor>
+    <vendor xml:lang="uk">Cybertrust Japan Co., Ltd.</vendor>
+    <vendor xml:lang="tr">Cybertrust Japan Co., Ltd.</vendor>
+    <vendor xml:lang="pl">Cybertrust Japan Co., Ltd.</vendor>
+    <vendor xml:lang="it">Cybertrust Japan Co., Ltd.</vendor>
+    <vendor xml:lang="id">Cybertrust Japan Co., Ltd.</vendor>
+    <vendor xml:lang="de">Cybertrust Japan Co., Ltd.</vendor>
+    <family>linux</family>
+    <distro>miraclelinux</distro>
+    <codename>Peony</codename>
+    <upgrades id="http://miraclelinux.com/miraclelinux/8.4"/>
+    <derives-from id="http://miraclelinux.com/miraclelinux/8.4"/>
+    <media arch="x86_64">
+      <iso>
+        <system-id>LINUX</system-id>
+        <volume-id>.*MIRACLE-LINUX-8-([5-9]|[1-9][0-9])(-[0-9]|[1-9][0-9])?.*x86_64.*</volume-id>
+      </iso>
+      <kernel>isolinux/vmlinuz</kernel>
+      <initrd>isolinux/initrd.img</initrd>
+    </media>
+    <resources arch="all">
+      <minimum>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>10737418240</storage>
+      </minimum>
+      <recommended>
+        <cpu>1000000000</cpu>
+        <ram>1610612736</ram>
+        <storage>21474836480</storage>
+      </recommended>
+      <maximum>
+        <n-cpus>768</n-cpus>
+        <ram>26388279066624</ram>
+      </maximum>
+      <network-install>
+        <ram>3221225472</ram>
+      </network-install>
+    </resources>
+  </os>
+</libosinfo>

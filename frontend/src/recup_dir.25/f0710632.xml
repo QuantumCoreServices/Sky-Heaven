@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="conv-currency" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#conversion"/>
+
+    <credit type="author copyright">
+      <name>Robert Ancell</name>
+      <email its:translate="no">robert.ancell@gmail.com</email>
+      <years>2010</years>
+    </credit>
+    <credit type="author copyright">
+      <name>Robin Sonefors</name>
+      <email its:translate="no">ozamosi@flukkost.nu</email>
+      <years>2010</years>
+    </credit>
+    <credit type="copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sergi Morraja</mal:name>
+      <mal:email>sergi256@gmail.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Divisa</title>
+
+  <p>Per a convertir entre monedes, canvieu al <link xref="financial">mode financer</link> i utilitzeu els controls de divisa.</p>
+
+  <steps>
+    <item>
+      <p>Introduïu la quantitat que voleu convertir.</p>
+    </item>
+    <item>
+      <p>Seleccioneu la divisa des de la qual voleu convertir i la divisa a la qual voleu convertir des de la llista desplegable de sota.</p>
+    </item>
+  </steps>
+
+  <note>
+    <p>La conversió entre divises és aproximada i no s'ha d'utilitzar per a prendre decisions financeres.</p>
+  </note>
+</page>

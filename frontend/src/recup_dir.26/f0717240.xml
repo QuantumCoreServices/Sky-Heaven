@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="plugin-exif-digital" xml:lang="ru">
+
+  <info>
+   <link type="guide" xref="index#plugins"/>
+   <desc>Просмотр информации типа настроек камеры и гистограммы, географического местоположения и даты.</desc>
+
+   <revision pkgversion="3.24" version="0.1" date="2011-09-05" status="final"/>
+   <revision pkgversion="3.31.90" version="0.2" date="2019-03-03" status="final"/>
+   <revision pkgversion="3.32.0" version="0.3" date="2019-03-30" status="final"/>
+   <credit type="author">
+     <name>Tiffany Antopolski</name>
+     <email>tiffany.antopolski@gmail.com</email>
+   </credit>
+   <credit type="editor">
+     <name>Fabiana Simões</name>
+     <email>fabianapsimoes@gmail.com</email>
+   </credit>
+   <license>
+     <p>Creative Commons Share Alike 3.0</p>
+   </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Василий Фаронов &lt;qvvx@yandex.ru&gt;, 2007Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Просмотр подробной информации об изображении</title>
+
+<p>В изображения, сделанные с помощью цифровых фотокамер, встраивается различная дополнительная информация: дата съёмки, значение экспозиции и даже иногда место съёмки.</p>
+
+<p>В этом разделе объясняется, как получить доступ к этой информации.</p>
+
+<section id="date">
+<title>Просмотр даты в строке состояния</title>
+  <p>Можно сделать так, чтобы в строке состояния внизу окна отображалась дата съёмки изображения.</p>
+  <p>Чтобы отобразить строку состояния, нажмите кнопку меню в правом верхнем углу окна и выберите пункт <guiseq><gui style="menuitem">Показать</gui> <gui style="menuitem">Строка состояния</gui></guiseq>.</p>
+  <p>Затем нажмите кнопку меню в правом верхнем углу окна, выберите <gui style="menuitem">Preferences</gui> и перейдите на вкладку <gui>Plugins</gui>. Затем установите флажок <gui>Дата в строке состояния</gui>.</p>
+</section>
+
+<section id="exif">
+ <title>Подробные данные Exif</title>
+  <p>Подробная информация, хранящаяся в цифровых фотографиях, называется <em>данными Exif</em>. Её можно просматривать, установив модуль расширения для программы просмотра изображений.</p>
+
+  <steps>
+   <item>
+    <p>Для включения этой возможности должен быть установлен пакет <link xref="plugins">eog-plugins</link>.</p>
+   </item>
+   <item>
+    <p>Если установлен <sys>eog-plugins</sys>, нажмите кнопку меню в правом верхнем углу окна, выберите <gui style="menuitem">Preferences</gui> и перейдите на вкладку <gui>Plugins</gui>. Затем установите флажок <gui>Exif display</gui> и закройте диалоговое окно.</p>
+   </item>
+   <item>
+    <p>Нажмите кнопку меню в правом верхнем углу окна и выберите пункт <guiseq><gui style="menuitem">Показать</gui><gui style="menuitem">Боковая панель</gui></guiseq> чтобы просмотреть настройки камеры, использованные при съемке фотографии. Чтобы также просмотреть гистограммы, показывающие баланс цветов и света/тени на снимке, выберите <gui>Exif display</gui> на вкладке <gui>Plugins</gui> и нажмите <gui>Preferences</gui>. Отметьте гистограммы, которые вы хотите просмотреть, в разделе <gui>Гистограмма</gui>.</p>
+   </item>
+   <item>
+    <p>Также можно выводить в строку состояния параметры камеры, используемые при съёмке фото. Выберите <gui>Данные EXIF</gui> на вкладке <gui>Модули</gui> и нажмите <gui>Параметры</gui>. Отметьте флажком параметр <gui>Показывать параметры камеры в панели состояния</gui>.</p>
+   </item>
+  </steps>
+</section>
+
+<section id="map">
+ <title>Отображение места съёмки на карте</title>
+  <p>Некоторые фотокамеры умеют добавлять к цифровым фотографиям информацию о <em>географическом местоположении</em> (геотеги). Обычно геотеги — это просто координаты GPS (широта и долгота) места, в котором был сделан снимок.</p>
+
+  <steps>
+   <item>
+    <p>Для включения этой возможности должен быть установлен пакет <link xref="plugins">eog-plugins</link>.</p>
+   </item>
+   <item>
+    <p>Если установлен <sys>eog-plugins</sys>, нажмите кнопку меню в правом верхнем углу окна, выберите <gui style="menuitem">Preferences</gui> и перейдите на вкладку <gui>Plugins</gui>. Затем установите флажок <gui>Map</gui> и закройте диалоговое окно.</p>
+   </item>
+   <item>
+    <p>Нажмите кнопку меню в правом верхнем углу окна и выберите пункт <guiseq><gui style="menuitem">Показать</gui><gui style="menuitem">Боковая панель</gui></guiseq> чтобы показать карту.</p>
+   </item>
+  </steps>
+  <p>На карте будет показано место съёмки изображения, только если в это изображение добавлена информация о географическом местоположении. Многие фотокамеры не добавляют эту информацию в изображения.</p>
+</section>
+
+
+</page>

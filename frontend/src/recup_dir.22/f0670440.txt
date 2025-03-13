@@ -1,0 +1,33 @@
+         -ablah -- foo bar -bboo baz
+        -- ie. we stop processing options as soon as we see the first
+        non-option argument.  (This is the tradition followed by
+        Python's getopt module, Perl's Getopt::Std, and other argument-
+        parsing libraries, but it is generally annoying to users.)
+
+      process_default_values : bool = true
+        if true, option default values are processed similarly to option
+        values from the command line: that is, they are passed to the
+        type-checking function for the option's type (as long as the
+        default value is a string).  (This really only matters if you
+        have defined custom types; see SF bug #955889.)  Set it to false
+        to restore the behaviour of Optik 1.4.1 and earlier.
+
+      rargs : [string]
+        the argument list currently being parsed.  Only set when
+        parse_args() is active, and continually trimmed down as
+        we consume arguments.  Mainly there for the benefit of
+        callback options.
+      largs : [string]
+        the list of leftover arguments that we have skipped while
+        parsing options.  If allow_interspersed_args is false, this
+        list is always empty.
+      values : Values
+        the set of option values currently being accumulated.  Only
+        set when parse_args() is active.  Also mainly for callbacks.
+
+    Because of the 'rargs', 'largs', and 'values' attributes,
+    OptionParser is not thread-safe.  If, for some perverse reason, you
+    need to parse command-line arguments simultaneously in different
+    threads, use different OptionParser instances.
+
+    Nr

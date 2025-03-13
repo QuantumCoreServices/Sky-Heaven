@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="flip-rotate" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="index#edit"/>
+    <desc>Rotate pictures clockwise/counter-clockwise</desc>
+
+    <revision pkgversion="3.2" version="0.1" date="2011-09-05" status="outdated"/>
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Atribuição-Compartilhada Igual 3.0</p>
+    </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Amadeu A. Barbosa Júnior</mal:name>
+      <mal:email>amadeu@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Flores</mal:name>
+      <mal:email>rodrigomarquesflores@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leo.fontenelle@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Gregianin</mal:name>
+      <mal:email>leogregianin@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Djavan Fagundes</mal:name>
+      <mal:email>djavan@comum.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Krix Apolinário</mal:name>
+      <mal:email>krixapolinario@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2018, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Rotate pictures</title>
+
+<p>If your pictures are the wrong way up, you can
+rotate them so that they look right.</p>
+
+<section id="rotate">
+<title>Girando uma figura</title>
+<steps>
+ <item><p>Mova o ponteiro do mouse sobre a imagem. Dois botões com a seta aparecerão na parte inferior.</p></item>
+ <item><p>Selecione <gui> Gira a imagem 90 graus para a esquerda</gui> ou <gui>Gira a imagem 90 graus para a direita</gui>.</p></item>
+ <item>
+  <p>Se você deseja manter a imagem girada desta forma, clique em <gui style="menuitem">Salvar</gui>.</p>
+  <p>Caso contrário, não salve a imagem e ela retornará à sua orientação original na próxima vez que você a abrir.</p>
+ </item>
+</steps>
+
+<p>Você também pode usar os atalhos de teclado:</p>
+
+<table>
+  <tr>
+    <td><p>Girar no sentido horário</p></td>
+    <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td>
+  </tr>
+  <tr>
+    <td><p>Girar no sentido anti-horário</p></td>
+    <td><p><keyseq><key>Ctrl</key><key>Shift</key><key>R</key></keyseq></p></td>
+  </tr>
+</table>
+
+</section>
+</page>

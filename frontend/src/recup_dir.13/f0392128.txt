@@ -1,0 +1,10 @@
+[com.redhat.AccountsServiceUser.System]
+id='almalinux'
+version-id='9.5'
+
+[User]
+Language=en_US.UTF-8
+Session=gnome
+PasswordHint=
+Icon=/var/lib/AccountsService/icons/seano
+SystemAccount=false

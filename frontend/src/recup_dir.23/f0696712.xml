@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="subtitles" xml:lang="totem-uk">
+
+  <info>
+    <link type="guide" xref="index#playing-media"/>
+    <link type="seealso" xref="preferences"/>
+    <revision pkgversion="3.30.0" version="0.1" date="2019-01-11" status="draft"/>
+    <desc>Вибір субтитрів відтворюваного відео вручну.</desc>
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Максим Дзюманенко</mal:name>
+      <mal:email>mvd@mylinux.ua</mal:email>
+      <mal:years>2005-2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергій Гаврилов</mal:name>
+      <mal:email>sergiovana@bigmir.net</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Субтитри</title>
+
+  <p>Залежно від формату відео, субтитри може бути вбудовано до відеофайла або диска або додано як зовнішні файли.</p>
+
+  <p>Щоб вибрати субтитри, які буде використано для відеофайла, або диск, що містить субтитри, натисніть кнопку меню у верхньому правому куті вікна програми і виберіть пункт <gui style="menuitem">Субтитри</gui>.</p>
+
+  <p><app>Відео</app> завантажує зовнішні субтитри автоматично, якщо позначено пункт <gui>Завантажувати файли субтитрів при завантаженому відео</gui> у вікні <link xref="preferences">Параметри</link>.</p>
+
+  <p>Щоб завантажити файл зовнішніх субтитрів для відео, виконайте такі дії:</p>
+  <steps>
+    <item>
+      <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть <guiseq><gui style="menuitem">Субтитри</gui> <gui>Вибрати текстові субтитри…</gui></guiseq>.</p>
+    </item>
+    <item>
+       <p>Буде відкрито вікно вибору файлів. Виберіть бажані субтитри.</p>
+    </item>
+    <item>
+      <p>Виберіть файл і натисніть кнопку <gui>Відкрити</gui>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Скоригуйте розмір і шрифт субтитрів за вашими уподобаннями. Див. розділ <guiseq><gui>Загальне</gui><gui>Зовнішні субтитри</gui></guiseq> на сторінці <link xref="preferences"/>.</p>
+  </note>
+
+</page>

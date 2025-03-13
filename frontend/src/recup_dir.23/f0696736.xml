@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="troubleshooting-DVD" xml:lang="totem-uk">
+
+  <info>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="supported-formats"/>
+    <revision pkgversion="3.30" version="0.2" date="2019-01-11" status="draft"/>
+    <desc>Не можу відтворити мій DVD.</desc>
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Максим Дзюманенко</mal:name>
+      <mal:email>mvd@mylinux.ua</mal:email>
+      <mal:years>2005-2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергій Гаврилов</mal:name>
+      <mal:email>sergiovana@bigmir.net</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Проблем із відтворенням відео з DVD</title>
+
+  <p>Це може статися після вставлення DVD до пристрою для читання CD/DVD. <app>Відео</app> показує повідомлення про помилку <gui>Виникла помилка ‒ Фільм неможливо прочитати.</gui> Причиною може бути те, що <link xref="supported-formats">потрібний вам додаток <sys>GStreamer</sys> для читання формату відео не встановлено у системі</link>, або те, що DVD зашифровано, а пакунок для розшифровування DVD у вашій системі не встановлено.</p>
+
+  <note style="tip">
+    <p>Щоб мати змогу відкривати зашифровані DVD, вам варто встановити пакунок <sys>libdvdcss</sys>. Втім, зауважте, що використання цього пакунка є законним не в усіх країнах. Щоб отримати подальші відомості щодо того, де можна взяти пакунок для вашого дистрибутива і як можна встановити пакунок, будь ласка, зверніться до форуму підтримки вашого дистрибутива.</p>
+  </note>
+
+</page>

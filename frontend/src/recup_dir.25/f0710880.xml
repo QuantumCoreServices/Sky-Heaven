@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="conv-length" xml:lang="da">
+
+    <info>
+        <link type="guide" xref="index#conversion"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Længde/område/volumen</title>
+    
+    <p>Brug operatoren <em>in</em> til at konvertere mellem længde-, areal- og rumfangsenheder.</p>
+    <example>
+    <p>6 meter i tommer</p>
+    <p>1 hektar in cm²</p>
+    <p>1 pint i mL</p>
+    </example>
+    <note>
+    <p>Konverteringer af længde/areal/rumfang skal udføres med tastaturet.</p>
+    </note>
+</page>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="history" xml:lang="ko">
+
+    <info>
+        <link type="guide" xref="index#ui"/>
+        <revision pkgversion="3.8" version="0.1" date="2013-04-18" status="review"/>
+        <revision pkgversion="3.38.0" date="2020-09-25" status="review"/>
+
+        <credit type="author copyright">
+          <name>Gopal Krishnan</name>
+          <email its:translate="no">ingeniumed@outlook.com</email>
+          <years>2012, 2013</years>
+        </credit>
+
+        <credit type="author copyright">
+          <name>Sanket Dasgupta</name>
+          <email its:translate="no">sanketdasgupta@gmail.com</email>
+          <years>2016, 2017</years>
+        </credit>
+
+        <credit type="editor">
+          <name>Pranali Deshmukh</name>
+          <email>pranali21293@gmail.com</email>
+          <years>2020</years>
+        </credit>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>류창우</mal:name>
+      <mal:email>cwryu@debian.org</mal:email>
+      <mal:years>2007, 2008, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>조성호</mal:name>
+      <mal:email>shcho@gnome.org</mal:email>
+      <mal:years>2016, 2017, 2018, 2021.</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>기록 보기 사용법</title>
+
+  <p>기록 보기는 항목 상자 위에 있으며, 마우스로 클릭하거나 스크롤할 수 있는 목록의 형태로 앞서 수행했던 계산을 볼 수 있게 설계했습니다.</p>
+  <p>항목을 선택하면, 항목 상자의 해당 항목을 바로 편집하고 사용할 수 있도록 나타납니다.</p>
+  <p>따라서, 목록에 나타낼 수 있는 계산 항목의 상한은 없습니다.</p>
+</page>

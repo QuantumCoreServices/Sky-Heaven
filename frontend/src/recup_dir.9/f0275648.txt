@@ -1,0 +1,56 @@
+tead of tupdate
+
+* escape notation in .po files are only used when explicitly selected
+
+* changed interface of msgunfmt to conform to GNU coding standard
+
+* msgmerge now knows how to handle obsolete entries.  If a formerly obsolete
+  entry is used again msgmerge will find it
+
+* better implementation of comment extraction in xgettext.
+
+* better C format string implementation.  The xgettext will classify
+  strings as being a format string, or not, in the .po file.  The
+  programmer can override the decision explicitly for each string
+  by specifying 'xgettext:c-format' and 'xgettext:no-c-format'
+  respectively in a C comment preceding the string.
+
+* msgmerge program now always produces output.  Fuzzy or non-existing
+  translations are no reason for holding back the result.
+
+* reasonable header entry format implemented
+
+* Norwegian translation by Karl Anders �gard
+
+* Configure command line option '--with-gnu-gettext' is renamed to
+  '--with-included-gettext'
+
+* gettextize now can determine whether the aclocal.m4 of the project
+  is sufficient
+
+* use automake for Makefile.in generation
+
+* by default now only c-format is emitted in xgettext.  If using the new
+  --debug option one can enable printing possible-c-format to see who
+  decided about the string: xgettext or the programmer
+
+* the installed libintl.h file no longer depends on HAVE_LOCALE_H being
+  defined.  After running configure we know whether this file exists.
+
+* wrapping of lines in PO file output finally enabled.
+  A new special comment no-wrap prevents wrapping.
+
+* add --statistics option to msgfmt to get information about number of
+  translated, untranslated, and fuzzy messages
+
+* change behaviour of --verbose option to msgfmt.  This no longer
+  causes the check on the messages to be performed.  The check for leading
+  and trailing \n is always performed and the check of the format specifiers
+  is performed when --check is given.
+
+* shared library support based On Gord Matzigkeit's libtool package
+
+* msgcomm program by Peter Miller to extract messages shared by input
+  files
+
+* many more translations.

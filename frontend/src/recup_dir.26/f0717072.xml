@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="view" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="index#viewing"/>
+    <desc>Pressione <key>Esquerda</key> e <key>Direita</key> para alternar entre as imagens, ou use a galeria de imagens para mostrar todas elas.</desc>
+
+    <revision pkgversion="3.2" version="0.1" date="2011-09-05" status="final"/>
+    <revision pkgversion="3.32.0" version="0.2" date="2019-03-30" status="final"/>
+  <credit type="author">
+    <name>Tiffany Antopolski</name>
+    <email>tiffany.antopolski@gmail.com</email>
+  </credit>
+  <license>
+   <p>Creative Commons Atribuição-Compartilhada Igual 3.0</p>
+  </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Amadeu A. Barbosa Júnior</mal:name>
+      <mal:email>amadeu@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Flores</mal:name>
+      <mal:email>rodrigomarquesflores@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leo.fontenelle@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Gregianin</mal:name>
+      <mal:email>leogregianin@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Djavan Fagundes</mal:name>
+      <mal:email>djavan@comum.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Krix Apolinário</mal:name>
+      <mal:email>krixapolinario@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2018, 2019</mal:years>
+    </mal:credit>
+  </info>
+<title>Visualizando todas as imagens em uma pasta</title>
+
+<p>Você pode navegar rapidamente por todas as imagens em uma pasta abrindo uma das imagens e clicando nos botões <gui>Próximo</gui> e <gui>Anterior</gui> à esquerda e à direita da imagem exibida (por exemplo). Você também pode ver uma <em>galeria de imagens</em>, com pequenas visualizações de todas as imagens em uma pasta mostrada ao mesmo tempo.</p>
+
+<section id="browse">
+ <title>Navegando por todas as imagens em uma pasta</title>
+ <p>Se você tiver uma pasta contendo várias imagens, você pode navegar convenientemente por todas as imagens sem precisar abri-las individualmente.</p>
+ <steps>
+  <item>
+   <p><link xref="open">Abra</link> qualquer uma das imagens da pasta pela qual você deseja navegar.</p>
+  </item>
+  <item>
+   <p>Clique em <gui>Próximo</gui> e <gui>Anterior</gui> à esquerda e à direita da imagem exibida, ou pressione as teclas <key>Direita</key> e <key>Esquerda</key>, para alternar entre as imagens.</p>
+  </item>
+  <item>
+   <p>You can browse through the pictures in fullscreen mode by clicking the
+<gui>Fullscreen</gui> button in the header bar or by pressing
+<key>F11</key>. Use your keyboard's <key>Left</key> or <key>Right</key> arrow 
+keys to flip between pictures in fullscreen mode. You can also use <key>Home</key> 
+or <key>End</key> keys to go to the first or last pictures in folder.</p>
+ <p>Para retornar à visualização normal, pressione <key>Esc</key> ou <key>F11</key>.</p>
+  </item>
+ </steps>
+</section>
+
+
+<section id="image-gallery"><title>Navegando pela galeria de imagens</title>
+ <p>A <em>galeria de imagens</em> mostra pequenas visualizações (miniaturas) de todas as imagens em uma pasta de uma só vez. Isso facilita a navegação rápida por grandes coleções de imagens.</p>
+ 
+ <steps>
+  <item> 
+   <p>Para mostrar a galeria de imagens, pressione o botão de menu no canto superior direito da janela e selecione <guiseq><gui style="menuitem">Mostrar</gui><gui style="menuitem">Galeria de imagens</gui></guiseq> ou pressione <keyseq><key>Ctrl</key><key>F9</key></keyseq>.</p>
+  </item>
+  <item>
+   <p>Clique em uma imagem da galeria para mostrá-la em tamanho completo.</p>
+   <p>Você também pode usar as teclas <key>Esquerda</key> e <key>Direita</key> para pular as imagens na galeria</p>
+  </item>
+  <item>
+   <p>Para ocultar a galeria, pressione o botão de menu no canto superior direito da janela e desmarque <guiseq><gui style="menuitem">Mostrar</gui><gui style="menuitem">Galeria de imagens</gui></guiseq> ou pressione <keyseq><key>Ctrl</key><key>F9</key></keyseq>.</p>
+  </item>
+ </steps>
+ </section>
+</page>

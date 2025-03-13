@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="troubleshooting-debug" xml:lang="totem-uk">
+
+  <info>
+    <link type="guide" xref="index#troubleshooting"/>
+    <revision pkgversion="3.30" version="0.1" date="2019-01-11" status="draft"/>
+    <desc>Як отримати дані діагностики для звіту щодо вади.</desc>
+    <credit type="author">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Максим Дзюманенко</mal:name>
+      <mal:email>mvd@mylinux.ua</mal:email>
+      <mal:years>2005-2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергій Гаврилов</mal:name>
+      <mal:email>sergiovana@bigmir.net</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Визначення причин інших проблем із відео</title>
+
+<p>Якщо ви вже ознайомилися із настановами розділів <link xref="supported-formats"/> і <link xref="troubleshooting-DVD"/> і відео все одно не вдається відтворити, відкрийте вікно термінала і введіть команду <cmd>totem --help-gst</cmd>. У відповідь буде показано список доступних параметрів, яким ви можете скористатися для отримання діагностичних даних. Часто проблему пов'язано із відповідним додатком, наприклад, у <sys>GStreamer</sys>, а не у самій програмі <app>Відео</app>.</p>
+
+<note style="info"><p>Про вади у програмному забезпеченні <sys>GStreamer</sys> можна повідомити у <link href="https://gitlab.freedesktop.org/gstreamer">системі стеження за вадами <sys>GStreamer</sys></link>.</p></note>
+
+</page>

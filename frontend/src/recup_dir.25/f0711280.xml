@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="superscript" xml:lang="el">
+
+    <info>
+        <revision pkgversion="3.38.0" date="2020-09-25" status="review"/>
+
+        <credit type="editor copyright">
+            <name>Pranali Deshmukh</name>
+            <email>pranali21293@gmail.com</email>
+            <years>2020</years>
+        </credit>
+
+        <!-- Place this at the end of the section -->
+        <title type="sort">_</title>
+        <link type="guide" xref="index#ui"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ελληνική μεταφραστική ομάδα GNOME</mal:name>
+      <mal:email>team@gnome.gr</mal:email>
+      <mal:years>2009-2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Δημήτρης Σπίγγος</mal:name>
+      <mal:email>dmtrs32@gmail.com</mal:email>
+      <mal:years>2013, 2014</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Τζένη Πετούμενου</mal:name>
+      <mal:email>epetoumenou@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name> Μάριος Ζηντίλης</mal:name>
+      <mal:email>m.zindilis@dmajor.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Δυνάμεις και δείκτες</title>
+
+    <p>
+    Some equations may require numbers to be entered in superscript or subscript form, such as:
+    </p>
+    <example>
+    <p>x³+2x²−5</p>
+    </example>
+    <p>
+    To enter superscript numbers with the mouse select the number mode using the <gui>↑n</gui> and <gui>↓n</gui> buttons (available in the <gui>Advanced Mode</gui> and the <gui>Programming Mode</gui>).
+    When one of these modes is active clicking the number buttons will enter numbers in superscript or subscript.
+    To return to normal number mode click the active number button.
+    </p>
+    <p>
+    To enter superscript numbers use <keyseq><key>Ctrl</key>number</keyseq>, for subscript numbers use <keyseq><key>Alt</key>number</keyseq>. 
+    </p>
+    <p>
+    The number mode returns to normal when entering the next non-number character, such as "+" or "-".
+    </p>
+</page>

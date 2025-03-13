@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="edit" xml:lang="ru">
+
+  <info>
+    <link type="guide" xref="index#edit"/>
+    <desc>Нажмите <gui style="menuitem">Открыть с</gui>, чтобы отредактировать изображение с помощью внешнего редактора изображений.</desc>
+
+    <revision pkgversion="3.24" version="0.1" date="2011-09-06" status="final"/>
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Fabiana Simões</name>
+      <email>fabianapsimoes@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Василий Фаронов &lt;qvvx@yandex.ru&gt;, 2007Алексей Кабанов</mal:name>
+      <mal:email>ak099@mail.ru</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  </info>
+<title>Редактирование или удаление изображения</title>
+
+<section id="edit"><title>Редактирование изображения</title>
+<p>Программа просмотра изображений может использоваться только для просмотра изображений; она не может их редактировать. Для этого необходимо использовать приложение для редактирования изображений, например, редактор изображений <app>GIMP</app>. Чтобы открыть изображение для редактирования в другом приложении, выполните следующие действия:</p>
+<steps>
+ <item>
+  <p>Нажмите <gui style="menuitem">Открыть с помощью</gui> или щелкните правой кнопкой мыши на изображении.</p>
+ </item>
+ <item>
+  <p>Выберите приложение, которое необходимо использовать для редактирования изображения.</p>
+ </item>
+ <item>
+  <p>После завершения редактирования сохраните изображение и закройте приложение.</p>
+ </item>
+ <item>
+  <p> <app>Программа просмотра изображений</app> обнаружит, что изображение было изменено, и перезагрузит его.</p>
+ </item>
+</steps>
+</section>
+
+<section id="delete">
+<title>Удаление изображения</title>
+<p>Чтобы удалить ненужную фотографию, щелкните ее правой кнопкой мыши и выберите <gui>Переместить в корзину</gui>.</p>
+</section>
+
+</page>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="troubleshooting-subtitles" xml:lang="totem-sv">
+
+  <info>
+    <link type="guide" xref="index#troubleshooting"/>
+    <link type="seealso" xref="subtitles"/>
+    <link type="seealso" xref="preferences"/>
+    <revision pkgversion="3.30" version="0.2" date="2019-01-11" status="draft"/>
+    <desc>Jag kan inte läsa in undertexter.</desc>
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <license>
+      <p>Creative Commons DelaLika 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Nylander</mal:name>
+      <mal:email>po@danielnylander.se</mal:email>
+      <mal:years>2006, 2008, 2009.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2019, 2020.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Problem vid inläsning av undertexter</title>
+
+  <p>Det kan hända att även om du följer instruktioner gällande undertexter från sidan <link xref="subtitles"/> eller sidan <link xref="preferences"/>, så kan <app>Videoklipp</app> ändå inte läsa in undertexter. Orsaken för detta kan vara:</p>
+
+  <list>
+    <item>
+      <p>Fel namn på undertextfilen - öppna filväljaren och kontrollera om namnet på undertextfilen är samma som namnet på filmfilen.</p>
+    </item>
+    <item>
+      <p>Avsaknad av undertextfilen - öppna filväljaren och kontrollera om det också finns en fil med undertexterna i katalogen med filmen.</p>
+    </item>
+  </list>
+
+  <p>Om du inte har en undertextfil för din film kan du söka efter den i <app>Videoklipp</app>:</p>
+  <steps>
+    <item><p>Tryck på menyknappen i fönstrets övre högra hörn och välj <gui style="menuitem">Inställningar</gui>.</p>
+    </item>
+    <item>
+      <p>I fliken <gui>Allmänt</gui> under <gui>Insticksmoduler</gui>, tryck på <gui style="button">Insticksmoduler…</gui>.</p>
+    </item>
+    <item>
+      <p>I fönstret <gui>Konfigurera insticksmoduler</gui>, aktivera insticksmodulen <gui>Hämta undertexter</gui>. Den kommer att försöka hitta och hämta undertexten för filmen som spelas.</p>
+    </item>
+  </steps>
+
+  <note>
+  <p>Observera att för att söka efter undertexter behöver du vara ansluten till internet.</p>
+  </note>
+
+</page>

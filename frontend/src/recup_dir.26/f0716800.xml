@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="commandline" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="index#advanced"/>
+    <title type="sort">Linha de comando</title>
+    <desc>O comando <cmd>eog</cmd> pode abrir qualquer número de imagens em vários modos.</desc>
+
+    <revision pkgversion="3.2" version="0.1" date="2011-09-05" status="final"/>
+    <credit type="author">
+    <name>Tiffany Antopolski</name>
+    <email>tiffany@antopolski.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Fabiana Simões</name>
+      <email>fabianapsimoes@gmail.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Atribuição-Compartilhada Igual 3.0</p>
+    </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Amadeu A. Barbosa Júnior</mal:name>
+      <mal:email>amadeu@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Flores</mal:name>
+      <mal:email>rodrigomarquesflores@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leo.fontenelle@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Gregianin</mal:name>
+      <mal:email>leogregianin@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Djavan Fagundes</mal:name>
+      <mal:email>djavan@comum.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Krix Apolinário</mal:name>
+      <mal:email>krixapolinario@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2018, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+<title>A linha de comando</title>
+
+<p>Para iniciar o <app>Visualizador de imagem</app> a partir do <app>Terminal</app>, digite <cmd>eog</cmd>.</p>
+<p>Você pode abrir um arquivo específico digitando o nome de arquivo após o comando <cmd>eog</cmd>:</p>
+<screen>eog imagem.jpeg</screen>
+<p>Você pode abrir uma pasta específica digitando o nome da pasta após o comando <cmd>eog</cmd>:</p>
+<screen>eog pasta</screen>
+<p>Para ver todas as imagens na pasta de uma só vez, você pode querer <link xref="view#image-gallery">navegar pela galeria de imagens</link>.</p>
+
+<section id="fullscreen">
+    <title>Abre uma imagem em modo de tela cheia</title>
+    <screen>eog --fullscreen imagem.jpeg</screen>
+</section>
+<section id="disable-gallery">
+    <title>Abre a imagem com a galeria desabilitada</title>
+    <screen>eog --disable-gallery imagem.jpeg</screen>
+</section>
+<section id="new-instance">
+    <title>Abre a imagem em uma nova instância</title>
+    <screen>eog --new-instance imagem.jpeg</screen>
+</section>
+<section id="slide-show">
+    <title>Abre uma pasta no modo de apresentação de slides</title>
+    <screen>eog --slide-show Imagens/</screen>
+</section>
+</page>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="boolean" xml:lang="da">
+
+    <info>
+        <link type="guide" xref="index#equation"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Boolesk algebra</title>
+    
+    <p>Boolesk algebra kan udregnes med operatorerne AND, OR og XOR.</p>
+    <example>
+    <p>010011₂ AND 110101₂</p>
+    </example>
+    <p>Knapper til disse symboler findes i <link xref="mouse">tilstanden programmering</link>.</p>
+    <p><link xref="function">Funktionen</link> NOT vender bittene om i et tal. Indstil word-størrelsen ved at trykke på menuknappen i øverste højre hjørne af vinduet og vælg <gui style="menuitem">Indstillinger</gui>.</p>
+    <example>
+    <p>NOT 010011₂</p>
+    </example>
+</page>

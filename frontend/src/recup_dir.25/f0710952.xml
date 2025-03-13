@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="index" xml:lang="da">
+
+	<info>
+		<credit type="author">
+			<name>Robert Ancell</name>
+			<email>robert.ancell@gmail.com</email>
+		</credit>
+		<include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+	
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title><media type="image" src="figures/org.gnome.Calculator.svg" width="32" height="32" its:translate="no"/> Hjælp til Lommeregner</title>
+
+    <section id="ui" style="2column">
+        <title>Brugerflade</title>
+    </section>
+    
+    <section id="equation" style="2column">
+        <title>Ligninger</title>
+    </section>
+
+    <section id="number" style="2column">
+        <title>Tal</title>
+    </section>
+
+    <section id="conversion" style="2column">
+        <title>Konverteringer</title>
+    </section>
+
+    <section id="financial" style="2column">
+        <title>Finansielle udregninger</title>
+    </section>
+</page>

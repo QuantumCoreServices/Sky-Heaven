@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="bug-filing" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="index#get-involved"/>
+    <desc>File a bug against the <app>Image Viewer</app>.</desc>
+
+    <revision pkgversion="3.30" version="0.2" date="2018-08-13" status="final"/>
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Atribuição-Compartilhada Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Amadeu A. Barbosa Júnior</mal:name>
+      <mal:email>amadeu@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Flores</mal:name>
+      <mal:email>rodrigomarquesflores@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leo.fontenelle@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Gregianin</mal:name>
+      <mal:email>leogregianin@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Djavan Fagundes</mal:name>
+      <mal:email>djavan@comum.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Krix Apolinário</mal:name>
+      <mal:email>krixapolinario@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2018, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Relate um problema com o visualizador de imagens</title>
+<p>
+ The <app>Image Viewer</app> is maintained by a volunteer community.  You are welcome to participate.
+ </p>
+
+<p>Se você presenciar problemas com o visualizador de imagens (por exemplo, se ele travar ou se comportar de forma inesperada) ou se estiver faltando algum recursos que você pensa que ele deveria ter, por favor preencha um <em>relatório de erro</em>. Para relatar um erro, acesse <link href="https://gitlab.gnome.org/GNOME/eog/issues/"/>.</p>
+   <p>Para participar, você precisa de uma conta que lhe concederá a habilidade de relatar erros e fazer comentários. Também, você precisa se registrar para receber atualizações por e-mail sobre o status de seu relatório de erro. Se você não tiver uma conta, basta clicar no link <gui>Sign in / Register</gui> para criar uma.</p>
+   <p>
+   Once you have an account, log in, and click on <gui>New issue</gui>.
+   Before reporting a bug, please read the <link href="https://wiki.gnome.org/Community/GettingInTouch/BugReportingGuidelines">bug writing guidelines</link>, and please <link href="https://gitlab.gnome.org/GNOME/eog/issues">browse</link> for the bug to see if it already exists.
+   </p>
+   <p>Se você está requisitando um novo recurso, escolha <gui>1. Feature</gui> no menu <gui>Labels</gui>. Preencha as seções Title e Description e clique em <gui>Submit Issue</gui>.</p>
+   <p>Seu relatório receberá um número de ID e seu status será atualizado na medida em que ele é tratado. Eles podem demorar um tempo para serem resolvidos e desenvolvedores de software podem lhe perguntar por mais informações para ajudá-los a descobrir qual é o problema.</p>
+</page>

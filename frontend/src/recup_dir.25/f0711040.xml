@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="trigonometry" xml:lang="da">
+
+    <info>
+        <link type="guide" xref="index#equation"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Trigonometri</title>
+    
+    <p>Trigonometri kan udføres med <link xref="function">funktionerne</link> sin, cos og tan.</p>
+    <example>
+    <p>sin 45</p>
+    </example>
+    <p>Ændr den vinkelenhed som bruges ved at trykke på menuknappen i øverste højre hjørne af vinduet og vælge <gui style="menuitem">Indstillinger</gui>. Trigonometriknapperne vises når <link xref="mouse">tilstanden Avanceret</link> er aktiv.</p>
+    <p>Hyperbolske funktioner er tilgængelige ved at tilføje “h” til slutningen af en funktion.</p>
+    <example>
+    <p>sinh 0,34</p>
+    </example>
+    <p>Funktionen reciprok indtastes enten med reciproksymbolet ⁻¹ (<keyseq><key>Ctrl</key><key>I</key></keyseq>) eller med “a”-formen af funktionen. Følgende to ligninger giver samme resultat.</p>
+    <example>
+    <p>sin⁻¹ 0,5</p>
+    <p>asin 0,5</p>
+    </example>   
+    <p>Indtast <link xref="variable">π</link> med tastaturet med <keyseq><key>Ctrl</key><key>P</key></keyseq>.</p>
+</page>

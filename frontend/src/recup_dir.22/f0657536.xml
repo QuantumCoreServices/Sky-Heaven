@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://docbook.org/xml/4.5/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY url_refdocs_base "http://developer.gnome.org/grilo/unstable/">
+<!ENTITY url_examples_base "http://git.gnome.org/browse/grilo-plugins/tree/help/examples/">
+<!ENTITY uuml "&#252;">
+<!ENTITY szlig "&#223;">
+<!ENTITY verbar "&#124;">
+<!ENTITY copy "&#169;">
+<!ENTITY nbsp "&#160;">
+]>
+<!-- The XSL for developer.gnome.org requires this id. -->
+<book id="index" lang="cs">
+
+  <bookinfo>
+
+    <title>Zásuvné moduly pro Grilo</title>
+
+    <authorgroup>
+      <author><firstname>Murray</firstname> <surname>Cumming</surname></author>
+    </authorgroup>
+
+    <abstract>
+
+      <!-- This text is copied from the introduction. -->
+      <para>Grilo je vývojářský rámec pro procházení a vyhledávání multimediálního obsahu z různorodých zdrojů pomocí jednoduchého API. Pomocí zásuvných modulů se do něj doplňuje přístup k různým zdrojům multimédií a metadat.</para>
+    </abstract>
+
+    <copyright><year>2012</year> <holder>Openismus GmbH</holder></copyright>
+
+    <legalnotice>
+      <para>Je povoleno kopírovat, šířit a/nebo upravovat tento dokument za podmínek GNU Free Documentation License, verze 1.2 nebo jakékoli novější verze vydané nadací Free Software Foundation; bez neměnných oddílů, bez textů předních desek a bez textů zadních desek. Kopii licence GNU Free Documentation License od Free Software Foundation můžete získat navštívením jejich webových stránek nebo když si napíšete na: Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor Boston, MA 02110-1335, USA.</para>
+    </legalnotice>
+
+  </bookinfo>
+
+<chapter id="chapter-introduction">
+<title>Úvod</title>
+
+<para>Grilo je vývojářský rámec pro procházení a vyhledávání multimediálního obsahu z různorodých zdrojů pomocí jednoduchého API. Pomocí zásuvných modulů se do něj doplňuje přístup k různým zdrojům multimédií a metadat.</para>
+</chapter>
+
+
+<chapter id="chapter-plugins">
+<title>Zásuvné moduly pro Grilo</title>
+
+
+<sect1 id="sec-plugin-apple-trailers">
+<title>Apple Trailers</title>
+<para>Jedná se o zásuvný modul Grilo pro filmové upoutávky Apple Trailers. Jeho ID je <literal>"grl-apple-trailers"</literal>.</para>
+</sect1>
+
+<sect1 id="sec-plugin-bookmarks">
+<title>Záložky</title>
+<para>Jedná se o zásuvný modul Grilo pro záložky. Jeho ID je <literal>"grl-bookmarks"</literal>.</para>
+</sect1>
+
+<sect1 id="sec-plugin-dmap">
+<title>DMap</title>
+<para>Jedná se o zásuvný modul Grilo pro protokol DMap. Jeho ID je <literal>"grl-dmap"</literal>.</para>
+</sect1>
+
+<sect1 id="sec-plugin-filesystem">
+<title>Souborový systém</title>
+<para>Jedná se o zásuvný modul Grilo pro souborový systém. Jeho ID je <literal>"grl-filesystem"</literal>.</para>
+</sect1>
+
+<sect1 id="sec-plugin-flickr">
+<title>Flickr</title>
+<para>Jedná se o zásuvný modul Grilo pro fotky Flickr. Jeho ID je <literal>"grl-flickr"</literal>.</para>
+</sect1>
+
+<sect1 id="sec-plugin-gravatar">
+<title>Gravatar</title>
+<para>Jedná se o zásuvný modul Grilo pro avatary Gravatar. Jeho ID je <literal>"grl-gravatar"</literal>.</para>
+</sect1>
+
+<sect1 id="sec-plugin-jamendo">
+<title>Jamendo</title>
+<para>Jedná se o zásuvný modul Grilo pro hudbu Jamendo. Jeho ID je <literal>"grl-jamendo"</literal>.</para>
+</sect1>
+
+<sect1 id="sec-plugin-local-metadata">
+<title>Místní metadata</title>
+<para>Jedná se o zásuvný modul Grilo pro místní metadata. Jeho ID je <literal>"grl-local-metadata"</literal>.</para>
+</sect1>
+
+<sect1 id="sec-plugin-metadata-store">
+<title>Úložiště metadat</title>
+<para>Jedná se o zásuvný modul Grilo pro úložiště metadat. Jeho ID je <literal>"grl-metadata-store"</literal>.</para>
+</sect1>
+
+<sect1 id="sec-plugin-optical-media">
+<title>Optická média</title>
+<para>Jedná se o zásuvný modul Grilo pro optická média. Jeho ID je <literal>"grl-optical-media"</literal>.</para>
+</sect1>
+
+<sect1 id="sec-plugin-podcasts">
+<title>Podcasty</title>
+<para>Jedná se o zásuvný modul Grilo pro podcasty. Jeho ID je <literal>"grl-podcasts"</literal>.</para>
+</sect1>
+
+<sect1 id="sec-plugin-shoutcast">
+<title>Shoutcast</title>
+<para>Jedná se o zásuvný modul Grilo pro Shoutcast. Jeho ID je <literal>"grl-shoutcast"</literal>.</para>
+</sect1>
+
+<sect1 id="sec-plugin-tmdb">
+<title>Zásuvný modul TMDb</title>
+<para>Zásuvný modul TMDb získává informace o filmech ze <ulink url="http://themoviedb.org">služby TMDb on-line</ulink>, což je komunitně spravovaná databáze filmů. Jeho ID je <literal>"grl-tmdb"</literal>.</para>
+<para>Než začnete tento zásuvný modul používat, musíte nastavit klíč k API TMDB pomocí <ulink url="http://developer.gnome.org/grilo/unstable/GrlConfig.html#grl-config-set-api-key"><function>grl_config_set_api_key()</function></ulink>.</para>
+<para>Můžete používat <ulink url="http://developer.gnome.org/grilo/unstable/GrlSource.html#grl-source-resolve"><function>grl_source_resolve()</function></ulink> k vyhledání podrobností o stávající GrlMediaItem.</para>
+<para>Tento zásuvný modul nepodporuje vyhledávání přes <ulink url="http://developer.gnome.org/grilo/unstable/GrlSource.html#grl-source-search"><function>grl_source_search()</function></ulink> nebo dotazy přes <ulink url="http://developer.gnome.org/grilo/unstable/GrlSource.html#grl-source-query"><function>grl_source_query()</function></ulink>.</para>
+
+<para>Zde je jednoduchý příklad použití zásuvného modulu TMDb pro Grilo:</para>
+
+<para>Soubor: <ulink url="http://git.gnome.org/browse/grilo-plugins/tree/help/examples/example-tmdb.c"><filename>example-tmdb.c</filename></ulink></para>
+<programlisting>
+/*
+ * Copyright (C) 2012 Canonical Ltd.
+ *
+ * Author: Jens Georg &lt;jensg@openismus.com&gt;
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public License
+ * as published by the Free Software Foundation; version 2.1 of
+ * the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
+ * 02110-1301 USA
+ *
+ */
+
+#include &lt;grilo.h&gt;
+#include &lt;stdio.h&gt;
+
+/**
+ * Tento klíč TMDB je jen pro testovací účely.
+ * Pro reálné použití si prosím požádejte o svůj vlastní na
+ * http://api.themoviedb.org
+ */
+#define TMDB_KEY "719b9b296835b04cd919c4bf5220828a"
+
+#define TMDB_PLUGIN_ID "grl-tmdb"
+
+GMainLoop *loop = NULL;
+GrlKeyID director_key = 0;
+
+static void
+resolve_cb (GrlSource *src, guint operation_id, GrlMedia *media, gpointer user_data, const GError *error)
+{
+  const char *title, *studio;
+
+  g_assert_no_error (error);
+  g_assert (media);
+
+  title = grl_media_get_title (media);
+  studio = grl_media_get_studio (media);
+  printf ("Media: Title='%s', Studio='%s'\n",
+    title, studio);
+
+  if (director_key != 0) {
+    const gchar *director =
+      grl_data_get_string (GRL_DATA (media), director_key);
+    printf ("  Director=%s\n", director);
+  }
+
+  g_main_loop_quit (loop);
+}
+
+int main (int argc, char *argv[])
+{
+  GrlRegistry *reg;
+  GrlConfig *config;
+  GError *error = NULL;
+  GrlSource *src;
+  gboolean plugin_activated;
+  GrlCaps *caps;
+  GrlOperationOptions *options;
+  GrlMedia *media;
+  const GList *keys;
+  const GList* l;
+
+  grl_init (&amp;argc, &amp;argv);
+
+  /*
+   * Nastavení klíče k API TMDB:
+   * Ve své aplikaci musíte použít svůj vlastní klíč k API TMDB.
+   */
+  reg = grl_registry_get_default ();
+  config = grl_config_new (TMDB_PLUGIN_ID, NULL);
+  grl_config_set_api_key (config, TMDB_KEY);
+  grl_registry_add_config (reg, config, NULL);
+  grl_registry_load_all_plugins (reg, FALSE, NULL);
+
+  /*
+   * Získání zásuvného modulu:
+   */
+  GError *error = NULL;
+  gboolean plugin_activated =
+    grl_registry_activate_plugin_by_id (reg, TMDB_PLUGIN_ID, &amp;error);
+  g_assert (plugin_activated);
+  g_assert_no_error (error);
+
+  /*
+   * Získání zdroje Grilo:
+   */
+  src = grl_registry_lookup_source (reg, TMDB_PLUGIN_ID);
+
+  /*
+   * Kontrola, že podporuje očekávané schopnosti::
+   */
+  g_assert (grl_source_supported_operations (src) &amp; GRL_OP_RESOLVE);
+  caps = grl_source_get_caps (src, GRL_OP_RESOLVE);
+  g_assert (caps);
+
+  options = grl_operation_options_new (caps);
+
+  /*
+   * Multimediální položka, kterou předáme zásuvnému modulu TMDB,
+   * aby k ní dohledal podrobnosti.
+   */
+  media = grl_media_video_new ();
+  grl_media_set_title (media, "Sherlock Holmes");
+
+  /*
+   * Zjištění, které klíče zdroj poskytuje:
+   */
+  keys = grl_source_supported_keys (src);
+  for (l = keys; l != NULL; l = l-&gt;next) {
+    const gchar *name;
+    GrlKeyID id = GPOINTER_TO_INT (l-&gt;data);
+
+    g_assert (id);
+
+    name = grl_metadata_key_get_name (id);
+    printf ("Supported key: %s\n", name);
+
+    /*
+     * Zapamatování pro pozdější použití:
+     * Místo toho můžete použít grl_registry_lookup_metadata_key_name().
+     */
+    if (g_strcmp0 (name, "tmdb-director") == 0) {
+      director_key = id;
+    }
+  }
+
+  /*
+   * Dotaz na zásuvný modul TMDB na podrobnosti k multimediální
+   * položce ze služby TMDB on-line:
+   */
+  grl_source_resolve (src, media,
+    keys, options,
+    resolve_cb, NULL);
+
+  /*
+   * Spuštění hlavní smyčky, takže mohou být volána naše
+   * zpětná volání:
+   */
+  loop = g_main_loop_new (NULL, FALSE);
+  g_main_loop_run (loop);
+
+  /*
+   * Uvolnění objektů:
+   */
+  g_object_unref (media);
+  g_object_unref (config);
+  g_object_unref (options);
+
+  /*
+   * Deinicializace Grilo:
+   */
+  grl_deinit ();
+}
+
+
+
+</programlisting>
+
+</sect1>
+
+<sect1 id="sec-plugin-tracker">
+<title>Tracker</title>
+<para>Jedná se o zásuvný modul Grilo pro nástroj Tracker. Jeho ID je <literal>"grl-tracker"</literal>.</para>
+</sect1>
+
+<sect1 id="sec-plugin-vimeo">
+<title>Vimeo</title>
+<para>Jedná se o zásuvný modul Grilo pro videa Vimeo. Jeho ID je <literal>"grl-vimeo"</literal>.</para>
+</sect1>
+
+<sect1 id="sec-plugin-youtube">
+<title>YouTube</title>
+<para>Jedná se o zásuvný modul Grilo pro videa YouTube. Jeho ID je <literal>"grl-youtube"</literal>.</para>
+</sect1>
+
+<sect1 id="sec-plugin-dleyna">
+<title>DLeyna</title>
+<para>Jedná se o zásuvný modul Grilo pro protokoly UPnP/DLNA. Jeho ID je <literal>"grl-dleyna"</literal>.</para>
+</sect1>
+
+</chapter>
+
+</book>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" id="introduction" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index" group="#first"/>
+    <revision version="0.1" date="2011-12-19" status="stub"/>
+    <revision pkgversion="3.4" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.10" date="2012-07-24" status="review"/>
+
+    <credit type="author copyright">
+      <name>Хуліта Інка (Julita Inca)</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc><app>Аналізатор використання диска</app> — програма, яка показує рівень вжитку пристроїв для зберігання даних у графічній формі.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Вступ</title>
+
+  <p><app>Аналізатор використання диска</app> — програма з графічним інтерфейсом для аналізу використання пристрою для зберігання даних. Нею можна скористатися для сканування локальних або віддалених пристроїв для зберігання даних, зокрема жорстких дисків, дисків SSD, флешок USB, цифрових фотокамер та карток пам'яті. <app>Аналізатор використання диска</app> може сканувати  <link xref="scan-file-system">усю файлову систему</link>, <link xref="scan-home">ваш каталог <file>Домівка</file></link>, <link xref="scan-folder">вказану теку</link> або <link xref="scan-remote">віддалений каталог</link>.</p>
+
+  <p>Результати можуть бути корисними у визначенні того, які теки варто <link href="help:file-roller">архівувати</link>, <link href="help:gnome-help/files-delete">вилучати</link> або <link href="help:gnome-help/files-copy">пересувати</link> для вивільнення місця на диску. Крім того, ви можете скористатися результатами роботи програми для оцінки того, скільки місця знадобиться для створення <link href="help:gnome-help/backup-how">резервних копій</link> певних тек.</p>
+
+</page>

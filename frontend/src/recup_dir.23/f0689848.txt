@@ -1,0 +1,32 @@
+tretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:new;font-family:Sans;-inkscape-font-specification:Sans" />
+        <rect
+           height="1.9999993"
+           id="rect19159"
+           style="opacity:0.35;color:#000000;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           width="2.9999993"
+           x="551.00018"
+           y="309" />
+      </g>
+      <g
+         id="g19161"
+         inkscape:label="emblems"
+         style="fill:#bebebe;fill-opacity:1;display:inline"
+         transform="translate(-541.0002,-301)" />
+      <g
+         id="g19163"
+         inkscape:label="emotes"
+         style="fill:#bebebe;fill-opacity:1;display:inline"
+         transform="translate(-541.0002,-301)" />
+      <g
+         id="g19165"
+         inkscape:label="categories"
+         style="fill:#bebebe;fill-opacity:1;display:inline"
+         transform="translate(-541.0002,-301)" />
+      <g
+         id="g19167"
+         inkscape:label="actions"
+         style="fill:#bebebe;fill-opacity:1;display:inline"
+         transform="translate(-541.0002,-301)" />
+    </g>
+  </g>
+</svg>

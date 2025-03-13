@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="superscript" xml:lang="ca">
+
+    <info>
+        <revision pkgversion="3.38.0" date="2020-09-25" status="review"/>
+
+        <credit type="editor copyright">
+            <name>Pranali Deixmukh</name>
+            <email>pranali21293@gmail.com</email>
+            <years>2020</years>
+        </credit>
+
+        <!-- Place this at the end of the section -->
+        <title type="sort">_</title>
+        <link type="guide" xref="index#ui"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sergi Morraja</mal:name>
+      <mal:email>sergi256@gmail.com</mal:email>
+      <mal:years>2011, 2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gil Forcada</mal:name>
+      <mal:email>gilforcada@guifi.net</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Miquel-Àngel Burgos i Fradeja</mal:name>
+      <mal:email>miquel.angel.burgos@gmail.com</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Superíndexs i subíndexs</title>
+
+    <p>Algunes equacions poden requerir nombres introduïts en forma de superíndexs o subíndexs, com ara:</p>
+    <example>
+    <p>x³+2x²−5</p>
+    </example>
+    <p>Per a introduir els nombres de superíndex amb el ratolí seleccioneu el mode de nombre utilitzant els botons <gui>↑n</gui> i <gui>↓n</gui> (disponible en el <gui>Mode avançat</gui> i el <gui>mode de programació</gui>). Quan un d'aquests modes està actiu en fer clic als botons dels nombres s'introduiran en superíndex o subíndex. Per a tornar al mode de nombre normal, feu clic al botó de número actiu.</p>
+    <p>Per a introduir nombres de superíndex utilitzeu <keyseq><key>Ctrl</key>nombre</keyseq>, per als nombres de subíndex utilitzeu <keyseq><key>Alt</key>nombre</keyseq>.</p>
+    <p>El mode de nombre retorna a la normalitat en introduir el següent caràcter no numèric, com ara «+» o «-».</p>
+</page>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="view-zoom" xml:lang="totem-pt-BR">
+
+  <info>
+    <revision pkgversion="3.8" version="0.1" date="2013-03-29" status="draft"/>
+    <revision pkgversion="3.30.0" version="0.2" date="2019-01-09" status="draft"/>
+    <link type="guide" xref="index#playing-media"/>
+
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name its:translate="no">Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+
+    <license>
+      <p>Creative Commons Atribuição-Compartilhada Igual 3.0</p>
+    </license>
+
+    <desc>Aumente o tamanho do vídeo e mantenha as proporções corretas.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Raphael Higino</mal:name>
+      <mal:email>In memoriam</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Irapuan Pascoal</mal:name>
+      <mal:email>irapuan.menezes@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fabrício Godoy</mal:name>
+      <mal:email>skarllot@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ísis Binder</mal:name>
+      <mal:email>isis.binder@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2014-2021</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Alterando o tamanho do vídeo e a taxa de proporção</title>
+
+  <p>Você pode aumentar o vídeo ou corrigir sua proporção.</p>
+
+  <terms>
+    <item>
+      <title>Ampliar</title>
+      <p>Pressione o botão de menu no canto superior direito da janela e selecione <gui style="menuitem">Ampliar</gui> ou pressione <key>R</key>. Para reduzir o tamanho, desative <gui style="menuitem">Ampliar</gui> novamente ou pressione <key>T</key>.</p>
+    </item>
+    <item>
+      <title>Configurando a taxa de proporção</title>
+      <p>Pressione o botão de menu no canto superior direito da janela e selecione <gui style="menuitem">Taxa de proporção</gui>.</p>
+      <p>Selecione entre:</p>
+      <list>
+        <item><p><gui>Automático</gui></p></item>
+        <item><p><gui>Quadrado</gui></p></item>
+        <item><p><gui>4∶3 (TV)</gui></p></item>
+        <item><p><gui>16∶9 (Tela ampla)</gui></p></item>
+        <item><p><gui>2.11∶1 (DVB)</gui></p></item>
+      </list>
+    </item>
+  </terms>
+
+  <note style="info">
+    <p>A taxa de proporção é a proporção entre largura e altura. Esta opção permite forçar uma taxa de proporção diferente a ser usada na exibição do filme.</p>
+  </note>
+
+</page>

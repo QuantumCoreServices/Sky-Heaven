@@ -1,0 +1,230 @@
+%!PS-AdobeFont-1.0: D050000L 2.00
+%%CreationDate: Tue Mar 1 2016
+% Copyright (URW)++,Copyright 2013 by (URW)++ Design & Development
+% (URW)++,Copyright 2013 by (URW)++ Design & Development
+10 dict begin
+/FontInfo 12 dict dup begin
+/version (2.00) readonly def
+/Notice ((URW)++,Copyright 2013 by (URW)++ Design & Development) readonly def
+/Copyright (Copyright (URW)++,Copyright 2013 by (URW)++ Design & Development) readonly def
+/FullName (D050000L) readonly def
+/FamilyName (D050000L) readonly def
+/Weight (Regular) readonly def
+/ItalicAngle 0.0 def
+/isFixedPitch false def
+/UnderlinePosition -72 def
+/UnderlineThickness 36 def
+end readonly def
+/FontName /D050000L def
+/PaintType 0 def
+/FontBBox {-1 -144 981 819} readonly def
+/FontType 1 def
+/FontMatrix [0.001 0.0 0.0 0.001 0.0 0.0] readonly def
+/Encoding 256 array 
+0 1 255 {1 index exch /.notdef put} for 
+dup 32 /space put
+dup 33 /a1 put
+dup 34 /a2 put
+dup 35 /a202 put
+dup 36 /a3 put
+dup 37 /a4 put
+dup 38 /a5 put
+dup 39 /a119 put
+dup 40 /a118 put
+dup 41 /a117 put
+dup 42 /a11 put
+dup 43 /a12 put
+dup 44 /a13 put
+dup 45 /a14 put
+dup 46 /a15 put
+dup 47 /a16 put
+dup 48 /a105 put
+dup 49 /a17 put
+dup 50 /a18 put
+dup 51 /a19 put
+dup 52 /a20 put
+dup 53 /a21 put
+dup 54 /a22 put
+dup 55 /a23 put
+dup 56 /a24 put
+dup 57 /a25 put
+dup 58 /a26 put
+dup 59 /a27 put
+dup 60 /a28 put
+dup 61 /a6 put
+dup 62 /a7 put
+dup 63 /a8 put
+dup 64 /a9 put
+dup 65 /a10 put
+dup 66 /a29 put
+dup 67 /a30 put
+dup 68 /a31 put
+dup 69 /a32 put
+dup 70 /a33 put
+dup 71 /a34 put
+dup 72 /a35 put
+dup 73 /a36 put
+dup 74 /a37 put
+dup 75 /a38 put
+dup 76 /a39 put
+dup 77 /a40 put
+dup 78 /a41 put
+dup 79 /a42 put
+dup 80 /a43 put
+dup 81 /a44 put
+dup 82 /a45 put
+dup 83 /a46 put
+dup 84 /a47 put
+dup 85 /a48 put
+dup 86 /a49 put
+dup 87 /a50 put
+dup 88 /a51 put
+dup 89 /a52 put
+dup 90 /a53 put
+dup 91 /a54 put
+dup 92 /a55 put
+dup 93 /a56 put
+dup 94 /a57 put
+dup 95 /a58 put
+dup 96 /a59 put
+dup 97 /a60 put
+dup 98 /a61 put
+dup 99 /a62 put
+dup 100 /a63 put
+dup 101 /a64 put
+dup 102 /a65 put
+dup 103 /a66 put
+dup 104 /a67 put
+dup 105 /a68 put
+dup 106 /a69 put
+dup 107 /a70 put
+dup 108 /a71 put
+dup 109 /a72 put
+dup 110 /a73 put
+dup 111 /a74 put
+dup 112 /a203 put
+dup 113 /a75 put
+dup 114 /a204 put
+dup 115 /a76 put
+dup 116 /a77 put
+dup 117 /a78 put
+dup 118 /a79 put
+dup 119 /a81 put
+dup 120 /a82 put
+dup 121 /a83 put
+dup 122 /a84 put
+dup 123 /a97 put
+dup 124 /a98 put
+dup 125 /a99 put
+dup 126 /a100 put
+dup 128 /a89 put
+dup 129 /a90 put
+dup 130 /a93 put
+dup 131 /a94 put
+dup 132 /a91 put
+dup 133 /a92 put
+dup 134 /a205 put
+dup 135 /a85 put
+dup 136 /a206 put
+dup 137 /a86 put
+dup 138 /a87 put
+dup 139 /a88 put
+dup 140 /a95 put
+dup 141 /a96 put
+dup 161 /a101 put
+dup 162 /a102 put
+dup 163 /a103 put
+dup 164 /a104 put
+dup 165 /a106 put
+dup 166 /a107 put
+dup 167 /a108 put
+dup 168 /a112 put
+dup 169 /a111 put
+dup 170 /a110 put
+dup 171 /a109 put
+dup 172 /a120 put
+dup 173 /a121 put
+dup 174 /a122 put
+dup 175 /a123 put
+dup 176 /a124 put
+dup 177 /a125 put
+dup 178 /a126 put
+dup 179 /a127 put
+dup 180 /a128 put
+dup 181 /a129 put
+dup 182 /a130 put
+dup 183 /a131 put
+dup 184 /a132 put
+dup 185 /a133 put
+dup 186 /a134 put
+dup 187 /a135 put
+dup 188 /a136 put
+dup 189 /a137 put
+dup 190 /a138 put
+dup 191 /a139 put
+dup 192 /a140 put
+dup 193 /a141 put
+dup 194 /a142 put
+dup 195 /a143 put
+dup 196 /a144 put
+dup 197 /a145 put
+dup 198 /a146 put
+dup 199 /a147 put
+dup 200 /a148 put
+dup 201 /a149 put
+dup 202 /a150 put
+dup 203 /a151 put
+dup 204 /a152 put
+dup 205 /a153 put
+dup 206 /a154 put
+dup 207 /a155 put
+dup 208 /a156 put
+dup 209 /a157 put
+dup 210 /a158 put
+dup 211 /a159 put
+dup 212 /a160 put
+dup 213 /a161 put
+dup 214 /a163 put
+dup 215 /a164 put
+dup 216 /a196 put
+dup 217 /a165 put
+dup 218 /a192 put
+dup 219 /a166 put
+dup 220 /a167 put
+dup 221 /a168 put
+dup 222 /a169 put
+dup 223 /a170 put
+dup 224 /a171 put
+dup 225 /a172 put
+dup 226 /a173 put
+dup 227 /a162 put
+dup 228 /a174 put
+dup 229 /a175 put
+dup 230 /a176 put
+dup 231 /a177 put
+dup 232 /a178 put
+dup 233 /a179 put
+dup 234 /a193 put
+dup 235 /a180 put
+dup 236 /a199 put
+dup 237 /a181 put
+dup 238 /a200 put
+dup 239 /a182 put
+dup 241 /a201 put
+dup 242 /a183 put
+dup 243 /a184 put
+dup 244 /a197 put
+dup 245 /a185 put
+dup 246 /a194 put
+dup 247 /a198 put
+dup 248 /a186 put
+dup 249 /a195 put
+dup 250 /a187 put
+dup 251 /a188 put
+dup 252 /a189 put
+dup 253 /a190 put
+dup 254 /a191 put
+readonly def
+/UniqueID 5020164 def
+currentdict end
+currentfile eexecé	×`£Â,ñ

@@ -1,0 +1,3 @@
+omount mounts filesystems as you change
+    directory into them.  This should resolve Savannah bugs #3998,
+    #9043.

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="gedit-spellcheck" xml:lang="zh-CN">
+  
+  <info>
+    <link type="guide" xref="gedit-plugin-guide#gedit-default-plugins"/> 
+    <desc>检查文件中的拼写错误。</desc>
+    <revision pkgversion="3.8" date="2013-02-24" status="review"/>
+    <revision pkgversion="3.8" date="2013-03-21" status="review"/>
+
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jcampbell@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Baptiste Mille-Mathias</name>
+      <email>baptistem@gnome.org</email>
+    </credit>
+    <credit type="author">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+    </credit>
+    
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+    
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2009, 2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Colin Zhao</mal:name>
+      <mal:email>lonely.ibm@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>wancheng zhang</mal:name>
+      <mal:email>wancheng.com.cn@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Zhe Wei</mal:name>
+      <mal:email>weizhe86@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+  
+  <title>拼写检查</title>
+  <section id="enable-spell-check">
+    <title>启用拼写检查器</title>
+    <p>拼写检查是 <app>gedit</app> 提供的一个按需启用的插件。启用该插件：</p>
+
+    <steps>
+      <item>
+        <p>点菜单 <guiseq><gui style="menu">gedit</gui> <gui style="menuitem">首选项</gui> <gui style="tab">插件</gui></guiseq>。</p>
+      </item>
+      <item>
+        <p>选择 <gui style="menuitem">拼写检查器</gui> 来启用该插件。</p>
+      </item>
+    </steps>
+
+  </section>
+
+  <section id="spell-check">
+    <title>拼写检查</title>
+
+    <p>检查文档中拼写错误的单词：</p>
+
+    <steps>
+      <item>
+        <p>选择<guiseq><gui style="menu">工具</gui><gui style="menuitem">检查拼写</gui></guiseq>。</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>要让 <app>gedit</app> 自动高亮显示您在文档中拼写错误的单词，请选择 <guiseq><gui style="menu">工具</gui><gui style="menuitem">高亮显示拼写错误的单词</gui></guiseq>。</p>
+    </note>
+  </section>
+
+  <section id="use-spell-check">
+    <title>拼写检查使用中</title>
+
+    <p>在拼写检查对话框中您可以选择正确的单词替代拼写错误的单词。被拼写检查器检查出拼写错误的单词会在  <gui>拼写错误的单词:</gui> 后边粗体显示。您可以从以下校对方法中选择：</p>
+
+    <list>
+      <item>
+        <p><gui style="input">更改为:</gui> 允许您输入一个单词并使用 <gui style="button">检查单词</gui> 来检查拼写是否正确。</p>
+      </item>
+      <item>
+        <p><gui style="menu">建议:</gui> 列出可选的替代词。</p>
+      </item>
+      <item>
+        <p><gui style="button">忽略</gui> 允许您忽略对当前单词的 <em>这一个</em> 拼写检查。</p>
+      </item>
+      <item>
+        <p><gui style="button">忽略所有</gui> 允许您忽略当前单词的 <em>所有</em> 拼写检查。</p>
+      </item>
+      <item>
+        <p>按下 <gui style="button">更改</gui> 按钮，在 <gui style="menuitem">建议:</gui> 列表中选择的单词将替代掉这个拼写错误或无法识别的单词。</p>
+      </item>
+      <item>
+        <p>按下 <gui style="button">更改</gui> 按钮，在 <gui style="menuitem">建议:</gui> 列表中选择的单词将替代掉 <em>所有的</em> 这个拼写错误或无法识别的单词。</p>
+      </item>
+      <item>
+        <p><gui style="button">添加单词</gui> 允许您将当前单词添加到 <app>gedit</app> 的 <gui>用户词典</gui>。添加自定义单词到 <gui>用户辞典</gui> 会使 <app>gedit</app> 将识别这个单词并且不会将它高亮显示为拼写错误的单词。</p>
+      </item>
+    </list>
+
+  </section>
+
+  <section id="define-spell-check-language">
+    <title>为拼写检查定义语言</title>
+    <p>默认，<app>gedit</app> 会使用当前的语言对文档进行拼写检查。如果需要使用其他语言，请选择 <guiseq><gui style="menu">工具</gui><gui style="menuitem">选择语言…</gui></guiseq>，然后选择您想使用的语言。</p>
+  </section>
+
+  <section id="dict">
+    <title>字典</title>
+
+    <p><app>gedit</app> uses
+    <link href="https://www.abisource.com/projects/enchant/">Enchant</link>,
+    a small system utility, for spell checking. Enchant can use
+    several different dictionaries to check your spelling. Two such
+    dictionary back-ends are <em>Hunspell</em> and <em>Aspell</em>.</p>
+
+    <p>如果您需要使用的语言在 <app>gedit</app> 中不可用，请使用软件安装器或软件包管理器安装您需要的词典后端程序。</p>
+  </section>
+</page>

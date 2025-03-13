@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE fontconfig SYSTEM "urn:fontconfig:fonts.dtd">
+<!-- SPDX-License-Identifier: MIT -->
+<fontconfig>
+  <match target="scan">
+    <test name="fullname">
+      <string>PT Sans</string>
+    </test>
+    <test name="family">
+      <string>PT Sans</string>
+    </test>
+    <test name="style">
+      <string>Regular</string>
+    </test>
+    <edit name="fontversion">
+      <int>2</int>
+    </edit>
+  </match>
+  <match target="scan">
+    <test name="fullname">
+      <string>PT Sans Italic</string>
+    </test>
+    <test name="family">
+      <string>PT Sans</string>
+    </test>
+    <test name="style">
+      <string>Italic</string>
+    </test>
+    <edit name="fontversion">
+      <int>2</int>
+    </edit>
+  </match>
+  <match target="scan">
+    <test name="fullname">
+      <string>PT Sans Bold</string>
+    </test>
+    <test name="family">
+      <string>PT Sans</string>
+    </test>
+    <test name="style">
+      <string>Bold</string>
+    </test>
+    <edit name="fontversion">
+      <int>2</int>
+    </edit>
+  </match>
+  <match target="scan">
+    <test name="fullname">
+      <string>PT Sans Bold Italic</string>
+    </test>
+    <test name="family">
+      <string>PT Sans</string>
+    </test>
+    <test name="style">
+      <string>Bold Italic</string>
+    </test>
+    <edit name="fontversion">
+      <int>2</int>
+    </edit>
+  </match>
+  <match target="scan">
+    <test name="fullname">
+      <string>PT Sans Narrow</string>
+    </test>
+    <test name="family">
+      <string>PT Sans Narrow</string>
+    </test>
+    <test name="style">
+      <string>Regular</string>
+    </test>
+    <edit name="fullname" mode="prepend">
+      <string>PT Sans Condensed</string>
+    </edit>
+    <edit name="family" mode="prepend">
+      <string>PT Sans</string>
+    </edit>
+    <edit name="style" mode="prepend">
+      <string>Condensed</string>
+    </edit>
+    <edit name="fontversion">
+      <int>1</int>
+    </edit>
+  </match>
+  <match target="scan">
+    <test name="fullname">
+      <string>PT Sans Narrow Bold</string>
+    </test>
+    <test name="family">
+      <string>PT Sans Narrow</string>
+    </test>
+    <test name="style">
+      <string>Bold</string>
+    </test>
+    <edit name="fullname" mode="prepend">
+      <string>PT Sans Condensed Bold</string>
+    </edit>
+    <edit name="family" mode="prepend">
+      <string>PT Sans</string>
+    </edit>
+    <edit name="style" mode="prepend">
+      <string>Condensed Bold</string>
+    </edit>
+    <edit name="fontversion">
+      <int>1</int>
+    </edit>
+  </match>
+  <alias binding="same">
+    <family>PT Sans</family>
+    <accept>
+      <family>Myriad Pro</family>
+      <family>sans-serif</family>
+    </accept>
+  </alias>
+  <alias binding="same">
+    <family>Myriad Pro</family>
+    <accept>
+      <family>PT Sans</family>
+    </accept>
+  </alias>
+  <alias>
+    <family>sans-serif</family>
+    <prefer>
+      <family>PT Sans</family>
+    </prefer>
+  </alias>
+  <match>
+    <test name="family">
+      <string>PT Sans</string>
+    </test>
+    <test name="size" compare="less_eq">
+      <double>8.0</double>
+    </test>
+    <edit name="family" mode="prepend" binding="same">
+      <string>PT Sans Caption</string>
+    </edit>
+  </match>
+  <alias binding="same">
+    <family>PT Sans Caption</family>
+    <accept>
+      <family>PT Sans</family>
+    </accept>
+  </alias>
+  <alias binding="same">
+    <family>PT Sans</family>
+    <accept>
+      <family>PT Sans Caption</family>
+    </accept>
+  </alias>
+</fontconfig>

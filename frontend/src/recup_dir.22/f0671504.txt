@@ -1,0 +1,11 @@
+t to be passed to the object's __setstate__, and then the REDUCE
+      opcode is followed by code to create setstate's argument, and then a
+      BUILD opcode to apply  __setstate__ to that argument.
+
+      If not isinstance(callable, type), REDUCE complains unless the
+      callable has been registered with the copyreg module's
+      safe_constructors dict, or the callable has a magic
+      '__safe_for_unpickling__' attribute with a true value.  I'm not sure
+      why it does this, but I've sure seen this complaint often enough when
+      I didn't want to <wink>.
+      Ú

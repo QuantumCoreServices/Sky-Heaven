@@ -1,0 +1,4 @@
+sistent
+      ID is passed to self.persistent_load(), and whatever object that
+      returns is pushed on the stack.  See PERSID for more detail.
+      z%repeated name %r at indices %d and %dz%repeated code %r at indices %d and %dFc

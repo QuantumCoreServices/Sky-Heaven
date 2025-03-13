@@ -1,0 +1,3 @@
+unted or in use) and involves reading data and then writing it back. As a result, the contents of the disk is not changed.
+
+If not checked, the write-part of the benchmark will not be done but on the other hand exclusive access to the device is not needed (e.g. the disk or device can be in use).

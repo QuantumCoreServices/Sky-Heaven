@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="superscript" xml:lang="da">
+
+    <info>
+        <revision pkgversion="3.38.0" date="2020-09-25" status="review"/>
+
+        <credit type="editor copyright">
+            <name>Pranali Deshmukh</name>
+            <email>pranali21293@gmail.com</email>
+            <years>2020</years>
+        </credit>
+
+        <!-- Place this at the end of the section -->
+        <title type="sort">_</title>
+        <link type="guide" xref="index#ui"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Hævet og sænket</title>
+
+    <p>Nogle ligninger kan kræve, at tal indtastes i hævet eller sænket form såsom:</p>
+    <example>
+    <p>x³+2x²−5</p>
+    </example>
+    <p>Indtast hævede tal med musen ved at vælge tilstanden tal med knapperne <gui>↑n</gui> og <gui>↓n</gui> (findes i <gui>tilstanden Avanceret</gui> og <gui>tilstanden Programmering</gui>). Når en af tilstandende er aktiv, så vil klik på talknapperne indtaste tallene som hævet eller sænket. Vend tilbage til normal tilstand ved at klikke på knappen med det aktive tal.</p>
+    <p>Indtast hævede tal med <keyseq><key>Ctrl</key>tal</keyseq> og sænkede tal med <keyseq><key>Alt</key>tal</keyseq>.</p>
+    <p>Tilstanden Tal vender tilbage til normal, når det næste indtastede tegn ikke er et tal såsom “+” eller “-”.</p>
+</page>

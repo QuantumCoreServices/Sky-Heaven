@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="conv-base" xml:lang="da">
+
+    <info>
+        <link type="guide" xref="index#conversion"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Numeriske grundtal</title>
+    
+    <p>For at konvertere tallet til et andet grundtal bruges operatoren <em>in</em>.</p>
+    <example>
+    <p>12 i heksadecimal</p>
+    <p>5 i binær</p>
+    <p>1A₁₆ i titalssystem</p>
+    <p>1010₂ i oktal</p>
+    </example>
+    <note>
+      <p>Konverteringer af numeriske grundtal skal udføres med tastaturet.</p>
+    </note>
+</page>

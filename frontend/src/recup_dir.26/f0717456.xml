@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="flip-rotate" xml:lang="sv">
+
+  <info>
+    <link type="guide" xref="index#edit"/>
+    <desc>Rotera bilder medurs/moturs</desc>
+
+    <revision pkgversion="3.2" version="0.1" date="2011-09-05" status="outdated"/>
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons DelaLika 3.0</p>
+    </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Nylander</mal:name>
+      <mal:email>po@danielnylander.se</mal:email>
+      <mal:years>2007, 2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Henrik Löwendahl</mal:name>
+      <mal:email>henrik.lowendahl@purplescout.se</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2016, 2017</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2017</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Rotera bilder</title>
+
+<p>Om dina bilder har fel sida upp kan du rotera dem så att de ser rätt ut.</p>
+
+<section id="rotate">
+<title>Rotera en bild</title>
+<steps>
+ <item><p>Flytta musmarkören över bilden. Två knappar med pilar kommer att synas längst ned.</p></item>
+ <item><p>Välj antingen <gui>Rotera bilden 90 grader åt vänster</gui> eller <gui>Rotera bilden 90 grader åt höger</gui>.</p></item>
+ <item>
+  <p>Om du vill behålla bilden roterad på detta sätt, klicka på <gui style="menuitem">Spara</gui>.</p>
+  <p>Annars, spara inte bilden så kommer den att återgå till dess ursprungliga orientering nästa gång du öppnar den.</p>
+ </item>
+</steps>
+
+<p>Du kan också använda tangentbordsgenvägarna:</p>
+
+<table>
+  <tr>
+    <td><p>Rotera medurs</p></td>
+    <td><p><keyseq><key>Ctrl</key><key>R</key></keyseq></p></td>
+  </tr>
+  <tr>
+    <td><p>Rotera moturs</p></td>
+    <td><p><keyseq><key>Skift</key><key>Ctrl</key><key>R</key></keyseq></p></td>
+  </tr>
+</table>
+
+</section>
+</page>

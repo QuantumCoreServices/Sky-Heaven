@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fontconfig SYSTEM "../fonts.dtd">
+<!--
+
+     Define aliasing and other fontconfig settings for Cantarell.
+
+-->
+<fontconfig>
+  <!-- Font substitution -->
+  <alias binding="same">
+    <family>system-ui</family>
+    <accept>
+      <family>Cantarell</family>
+    </accept>
+  </alias>
+
+  <!-- Generic name assignment -->
+  <alias>
+    <family>Cantarell</family>
+    <default>
+      <family>system-ui</family>
+    </default>
+  </alias>
+
+  <match target="pattern">
+    <test qual="any" name="family">
+      <string>Cantarell</string>
+    </test>
+    <edit name="family" mode="assign" binding="weak">
+      <string>Cantarell</string>
+    </edit>
+  </match>
+</fontconfig>

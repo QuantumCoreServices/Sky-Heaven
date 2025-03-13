@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="problem-permissions" xml:lang="ca">
+  <info>
+    <link type="guide" xref="index#problems"/>
+    <revision pkgversion="3.12" date="2014-01-25" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email>baptistem@gnome.org</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Veig un missatge d'error <gui>No s'ha pogut escanejar /... o algunes de les carpetes que conté</gui> en escanejar.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Error en escanejar</title>
+
+  <p>En escanejar, és possible que vegeu un missatge <gui>No s'ha pogut escanejar /... o algunes de les carpetes que conté</gui> a la part superior de la finestra de l'<app>Analitzador de l'ús dels discs</app>. Aquest error apareix perquè no teniu els permisos necessaris per a accedir a alguns fitxers a causa de les restriccions establertes al sistema de destinació. Els fitxers als quals no podeu accedir no s'utilitzaran per a calcular el <link xref="pref-view-chart">diagrama</link> que representa l'ús del disc; per tant, el resultat pot ser incorrecte.</p>
+
+  <p>No tenir accés a tots els fitxers i directoris és perfectament normal, així que no hi ha res que es pugui fer amb aquest error.</p>
+
+  <note style="info"><p>L'<app>Analitzador de l'ús dels discs</app> utilitza l'ordre <cmd>du</cmd> per a crear la vista detallada de l'ús de l'emmagatzematge i necessita que tingueu permís de lectura de fitxers i permís d'execució de directoris.</p>
+
+  <p>D'altra banda, l'ús del disc del sistema de fitxers utilitza l'ordre <cmd>df</cmd>, que es basa en el sistema de fitxers i no en els permisos de fitxer.</p></note>
+</page>

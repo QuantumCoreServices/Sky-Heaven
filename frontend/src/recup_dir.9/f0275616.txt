@@ -1,0 +1,25 @@
+nes.  The default encoding is now ASCII, no longer
+    ISO-8859-1.
+
+* libgettextpo library:
+  - The error handler type passed to po_file_read(), po_file_write(),
+    po_message_check_format() has changed.
+    This is an incompatible change: Programs using the library *must* update
+    their code.
+    Binary compatibility is guaranteed, however.
+
+* The 'mkinstalldirs' shell script is no longer needed and no longer installed
+  by gettextize.
+
+* Portability:
+  - Building on mingw is now supported.
+  - Building shared libraries (--enable-shared) on Cygwin and mingw is now
+    supported.
+
+* Interoperability with expat version 2.0.0.
+
+* Documentation:
+  A complete example showing the use of GNU gettext with the wxWidgets GUI
+  toolkit has been added.
+
+* The gettext autoconf macros now assume 'aclocal' from automake 1.8 or newer.

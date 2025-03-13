@@ -1,0 +1,4 @@
+ str-style string, without embedded escapes,
+                        or bracketing quotes.  It should consist solely of
+                        printable ASCII characters.
+                        c

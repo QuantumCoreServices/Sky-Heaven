@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="supported-formats" xml:lang="totem-uk">
+
+  <info>
+    <link type="guide" xref="index#troubleshooting"/>
+    <revision pkgversion="3.30" version="0.2" date="2019-01-11" status="draft"/>
+    <desc>Ознайомтеся зі списком підтримуваних форматів файлів.</desc>
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Максим Дзюманенко</mal:name>
+      <mal:email>mvd@mylinux.ua</mal:email>
+      <mal:years>2005-2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергій Гаврилов</mal:name>
+      <mal:email>sergiovana@bigmir.net</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Не можу відтворити відео у певному форматі</title>
+
+  <p>Перелік форматів, дані у яких здатна показувати програма <app>Відео</app>, залежить від встановлених додатків <sys>GStreamer</sys>. Якщо підтримки певного формату файлів не передбачено, будь ласка, зверніться на форум підтримки вашого дистрибутива, щоб дізнатися, який пакунок слід встановити.</p>
+
+  <note><p>Якщо ви спробуєте відкрити файл у форматі, підтримки якого не передбачено, у багатьох дистрибутивах <app>Відео</app> покаже діалогове вікно, за допомогою якого ви зможете виконати пошук додатків (кодеків), яких не вистачає, і встановити їх.</p></note>
+
+</page>

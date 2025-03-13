@@ -1,0 +1,25 @@
+%!PS-AdobeFont-1.0: P052-BoldItalic 1.00
+%%CreationDate: Thu Jul 20 2017
+% Copyright (URW)++,Copyright 2014 by (URW)++ Design & Development
+% (URW)++,Copyright 2014 by (URW)++ Design & Development
+10 dict begin
+/FontInfo 12 dict dup begin
+/version (1.00) readonly def
+/Notice ((URW)++,Copyright 2014 by (URW)++ Design & Development) readonly def
+/Copyright (Copyright (URW)++,Copyright 2014 by (URW)++ Design & Development) readonly def
+/FullName (P052 Bold Italic) readonly def
+/FamilyName (P052) readonly def
+/Weight (Bold) readonly def
+/ItalicAngle -9.9 def
+/isFixedPitch false def
+/UnderlinePosition -90 def
+/UnderlineThickness 69 def
+end readonly def
+/FontName /P052-BoldItalic def
+/PaintType 0 def
+/FontBBox {-170 -314 1134 1107} readonly def
+/FontType 1 def
+/FontMatrix [0.001 0.0 0.0 0.001 0.0 0.0] readonly def
+/Encoding StandardEncoding def
+currentdict end
+currentfile eexecÈç	◊`£¬,Ò

@@ -1,0 +1,6 @@
+ Unicode string object.
+
+      There are two arguments:  the first is an 8-byte little-endian signed int
+      giving the number of bytes in the string.  The second is that many
+      bytes, and is the UTF-8 encoding of the Unicode string.
+      Ú

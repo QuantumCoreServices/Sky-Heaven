@@ -1,0 +1,519 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- -*- indent-tabs-mode: nil -*- -->
+<!--
+This program is free software; you can redistribute it and/or modify it under
+the terms of the GNU Lesser General Public License as published by the Free
+Software Foundation; either version 2 of the License, or (at your option) any
+later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more
+details.
+
+You should have received a copy of the GNU Lesser General Public License
+along with this program; see the file COPYING.LGPL. If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+                xmlns:html="http://www.w3.org/1999/xhtml"
+                xmlns:mml="http://www.w3.org/1998/Math/MathML"
+                xmlns:exsl="http://exslt.org/common"
+                xmlns:set="http://exslt.org/sets"
+                xmlns:str="http://exslt.org/strings"
+                xmlns:its="http://www.w3.org/2005/11/its"
+                xmlns="http://www.w3.org/1999/xhtml"
+                exclude-result-prefixes="html mml set str its"
+                extension-element-prefixes="exsl"
+                version="1.0">
+
+<!--!!==========================================================================
+HTML Output
+Common utilities and CSS for transformations to HTML.
+@revision[version=1.0 date=2010-05-26 status=final]
+
+This stylesheet contains common templates for creating HTML output. The
+{html.output} template creates an output file for a node in the source XML
+document, calling {html.page} to create the actual output. Output files can
+be either XHTML or HTML, depending on the {html.xhtml} parameter.
+
+This stylesheet matches `/` and calls {html.output} on the root XML element.
+This works for most input formats. If you need to do something different, you
+should override the match for `/`.
+-->
+<xsl:template match="/">
+  <xsl:call-template name="html.output">
+    <xsl:with-param name="node" select="*"/>
+  </xsl:call-template>
+</xsl:template>
+
+
+<!--@@==========================================================================
+html.basename
+The base filename of the primary output file.
+@revision[version=1.0 date=2010-05-25 status=final]
+
+This parameter specifies the base filename of the primary output file, without
+the filename extension. This is used by {html.output} to determine the output
+filename, and may be used by format-specific linking code. By default, it uses
+the value of an `id` or `xml:id` attribute, if present. Otherwise, it uses
+the static string `index`.
+-->
+<xsl:param name="html.basename">
+  <xsl:choose>
+    <xsl:when test="/*/@xml:id">
+      <xsl:value-of select="/*/@xml:id"/>
+    </xsl:when>
+    <xsl:when test="/*/@id">
+      <xsl:value-of select="/*/@id"/>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:text>index</xsl:text>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:param>
+
+
+<!--@@==========================================================================
+html.xhtml
+Whether to output XHTML.
+@revision[version=1.0 date=2010-05-25 status=final]
+
+If this parameter is set to true, this stylesheet will output XHTML. Otherwise,
+the output is assumed to be HTML. Note that for HTML output, the importing
+stylesheet still needs to call `xsl:namespace-alias` to map the XHTML namespace
+to `#default`. The {html.namespace} parameter will be set automatically based
+on this parameter. Stylesheets can use this parameter to check the output type,
+for example when using `xsl:element`.
+-->
+<xsl:param name="html.xhtml" select="true()"/>
+
+
+<!--@@==========================================================================
+html.namespace
+The XML namespace for the output document.
+@revision[version=1.0 date=2010-05-25 status=final]
+
+This parameter specifies the XML namespace of all output documents. It will be
+set automatically based on the {html.xhtml} parameter, either to the XHTML
+namespace, or to the empty namespace. Stylesheets can use this parameter when
+using `xsl:element`.
+-->
+<xsl:param name="html.namespace">
+  <xsl:choose>
+    <xsl:when test="$html.xhtml">
+      <xsl:value-of select="'http://www.w3.org/1999/xhtml'"/>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:text></xsl:text>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:param>
+
+
+<!--@@==========================================================================
+html.mathml.namespace
+The XML namespace for MathML in the output document.
+@revision[version=3.18 date=2015-05-04 status=final]
+
+This parameter specifies the XML namespace for MathML in output documents. It
+will be set automatically based on the {html.xhtml} parameter, either to the
+MathML namespace namespace, or to the empty namespace. Stylesheets can use this
+parameter when using `xsl:element`.
+-->
+<xsl:param name="html.mathml.namespace">
+  <xsl:choose>
+    <xsl:when test="$html.xhtml">
+      <xsl:value-of select="'http://www.w3.org/1998/Math/MathML'"/>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:text></xsl:text>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:param>
+
+
+<!--@@==========================================================================
+html.svg.namespace
+The XML namespace for SVG in the output document.
+@revision[version=3.18 date=2015-05-04 status=final]
+
+This parameter specifies the XML namespace for SVG in output documents. It
+will be set automatically based on the {html.xhtml} parameter, either to the
+SVG namespace namespace, or to the empty namespace. Stylesheets can use this
+parameter when using `xsl:element`.
+-->
+<xsl:param name="html.svg.namespace">
+  <xsl:choose>
+    <xsl:when test="$html.xhtml">
+      <xsl:value-of select="'http://www.w3.org/2000/svg'"/>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:text></xsl:text>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:param>
+
+
+<!--@@==========================================================================
+html.extension
+The filename extension for all output files.
+@revision[version=1.0 date=2010-05-25 status=final]
+
+This parameter specifies a filename extension for all HTML output files. It
+should include the leading dot. By default, `.xhtml` will be used if
+{html.xhtml} is true; otherwise, `.html` will be used.
+-->
+<xsl:param name="html.extension">
+  <xsl:choose>
+    <xsl:when test="$html.xhtml">
+      <xsl:text>.xhtml</xsl:text>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:text>.html</xsl:text>
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:param>
+
+
+<!--@@==========================================================================
+html.grid.size
+The width of the page for grid layouts.
+@revision[version=40 date=2021-01-09 status=final]
+
+This parameter sets the width of the main page content, including padding, but
+excluding any sidebars. These stylesheets frequently use flexible grids for
+layouts, and columnds are based on this parameter. This parameter should be a
+multiple of 12 for best results. Common grid sizes are 1200, 1080, and 960.
+-->
+<xsl:param name="html.grid.size" select="1080"/>
+<xsl:variable name="html.grid.col1" select="$html.grid.size - 20"/>
+<xsl:variable name="html.grid.col2" select="$html.grid.size div 2 - 20"/>
+<xsl:variable name="html.grid.col3" select="$html.grid.size div 3 - 20"/>
+<xsl:variable name="html.grid.col4" select="$html.grid.size div 4 - 20"/>
+
+
+<!--@@==========================================================================
+html.css.root
+The URI root for external CSS files.
+@revision[version=1.0 date=2010-12-06 status=final]
+
+This parameter provides a root URI for any external CSS files that are
+referenced from the output HTML file. If non-empty, it must end with
+a trailing slash character.
+-->
+<xsl:param name="html.css.root" select="''"/>
+
+
+<!--@@==========================================================================
+html.js.root
+The URI root for external JavaScript files.
+@revision[version=1.0 date=2010-12-06 status=final]
+
+This parameter provides a root URI for any external JavaScript files that are
+referenced from the output HTML file. If non-empty, it must end with
+a trailing slash character.
+-->
+<xsl:param name="html.js.root" select="''"/>
+
+
+<!--@@==========================================================================
+html.syntax.highlight
+Whether to include syntax highlighting support for code blocks.
+@revision[version=1.0 date=2010-12-06 status=final]
+
+This parameter specifies whether syntax highlighting should be enabled for
+code blocks in the output HTML. Syntax highlighting is done at document load
+time by JavaScript.
+-->
+<xsl:param name="html.syntax.highlight" select="true()"/>
+
+
+<!--@@==========================================================================
+html.output.prefix
+An optional path prefix for files output with {html.output}.
+@revision[version=3.28 date=2017-05-24 status=final]
+
+This parameter allows you to specify an prefix to place before the output path
+used by {html.output} when creating files. You can use this to override the
+output directory. Make sure you include a trailing slash, unless you want to
+prefix the base file name itself.
+-->
+<xsl:param name="html.output.prefix" select="''"/>
+
+
+<!--@@==========================================================================
+html.sidebar.left
+List of components to add to the left sidebar.
+@revision[version=3.30 date=2018-06-10 status=candidate]
+
+This parameter takes a space-separated list of tokens that specify which
+components to add to the stock left sidebar. These stylesheets recognize
+certain tokens, and you can add your own with {html.sidebar.mode}. See
+{html.sidebar} for further details.
+-->
+<xsl:param name="html.sidebar.left" select="''"/>
+
+
+<!--@@==========================================================================
+html.sidebar.right
+List of components to add to the right sidebar.
+@revision[version=3.30 date=2018-06-10 status=candidate]
+
+This parameter takes a space-separated list of tokens that specify which
+components to add to the stock right sidebar. These stylesheets recognize
+certain tokens, and you can add your own with {html.sidebar.mode}. See
+{html.sidebar} for further details.
+-->
+<xsl:param name="html.sidebar.right" select="''"/>
+
+
+<!--**==========================================================================
+html.output
+Create an HTML output file.
+@revision[version=1.0 date=2010-05-26 status=final]
+
+[xsl:params]
+$node: The node to create an output file for.
+$href: The output filename.
+
+This template creates an HTML output file for the source element $node. It
+uses `exsl:document` to output the file, and calls {html.page} with the
+$node parameter to output the actual HTML contents.
+
+If $href is not provided, this template will attempt to generate a base
+filename and append {html.extension} to it. The base filename is generated
+as follows:
+
+* If an `xml:id` attribute is present, it is used.
+* Otherwise, if an `id` attribute is present, it is used.
+* Otherwise, if $node is the root element, {html.basename} is used.
+* Otherwise, `generate-id()` is called.
+
+This template prepends {html.output.prefix} to the value of $href when
+it calls `exsl:document`, regardless of whether $href was passed in or
+generated automatically.
+
+After calling `exsl:document`, this template calls the {html.output.after.mode}
+mode on $node. Importing stylesheets that create multiple output files can
+use this to process output files without blocking earlier output.
+-->
+<xsl:template name="html.output">
+  <xsl:param name="node" select="."/>
+  <xsl:param name="href">
+    <xsl:choose>
+      <xsl:when test="$node/@xml:id">
+        <xsl:value-of select="concat($node/@xml:id, $html.extension)"/>
+      </xsl:when>
+      <xsl:when test="$node/@id">
+        <xsl:value-of select="concat($node/@id, $html.extension)"/>
+      </xsl:when>
+      <xsl:when test="set:has-same-node($node, /*)">
+        <xsl:value-of select="concat($html.basename, $html.extension)"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="concat(generate-id(), $html.extension)"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:param>
+  <xsl:choose>
+    <xsl:when test="$html.xhtml">
+      <exsl:document href="{$html.output.prefix}{$href}">
+	<xsl:call-template name="html.page">
+	  <xsl:with-param name="node" select="$node"/>
+	</xsl:call-template>
+      </exsl:document>
+    </xsl:when>
+    <xsl:otherwise>
+      <exsl:document href="{$html.output.prefix}{$href}" method="html"
+		     doctype-system="about:legacy-compat">
+	<xsl:call-template name="html.page">
+	  <xsl:with-param name="node" select="$node"/>
+	</xsl:call-template>
+      </exsl:document>
+    </xsl:otherwise>
+  </xsl:choose>
+  <xsl:apply-templates mode="html.output.after.mode" select="$node"/>
+</xsl:template>
+
+
+
+<!--%%==========================================================================
+html.output.after.mode
+Process an element after its content are output.
+@revision[version=1.0 date=2010-05-26 status=final]
+
+This mode is called by {html.output} after `exsl:document` has finished. It
+can be used to create further output files without blocking the output of
+parent elements.
+-->
+<xsl:template mode="html.output.after.mode" match="*"/>
+
+
+<!--**==========================================================================
+html.page
+Create an HTML document.
+@revision[version=3.28 date=2017-08-04 status=final]
+
+[xsl:params]
+$node: The node to create HTML for.
+
+This template creates the actual HTML output for $node. It outputs top-level
+elements and container divs, and calls various templates and modes to output
+the inner content. Importing stylesheets should implement at least
+{html.title.mode} and {html.body.mode} for any elements that could be passed
+as $node to this template. Importing stylesheets should also implement
+{html.header.mode} to output link trails and {html.footer.mode} to output
+credits and other page information.
+
+This template outputs the HTML `body` element, which takes its attributes
+from two sources. First, it calls {html.lang.attrs}, which automatically
+outputs correct `lang`, `xml:lang`, and `dir` attributes. It then calls
+{html.body.attr.mode} on $node for additional attributes.
+
+This template also calls a number of stub templates that can be overridden
+by extension stylesheets.
+
+* Override the {html.head.custom} template to put custom content at the end
+  of the HTML `head` element.
+
+* Override the {html.head.top.custom} template to put custom content at the
+  beginning of the HTML `head` element.
+
+* Override the {html.top.custom} and {html.bottom.custom} templates to add
+  site-specific content at the top and bottom of the page.
+
+* Override the {html.header.custom} and {html.footer.custom} templates to
+  provide additional content directoy above and below the main content.
+
+* Use the {html.sidebar.left} and {html.sidebar.right} parameters to create
+  stock sidebars, or override {html.sidebar.custom} to create your own.
+
+This template also calls {html.css} and {html.js} to output CSS and JavaScript
+elements. See those templates for further extension points.
+-->
+<xsl:template name="html.page">
+  <xsl:param name="node" select="."/>
+  <html>
+    <head>
+      <xsl:call-template name="html.head.top.custom">
+        <xsl:with-param name="node" select="$node"/>
+      </xsl:call-template>
+      <meta name="viewport"
+            content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+      <title>
+        <xsl:apply-templates mode="html.title.mode" select="$node"/>
+      </title>
+      <xsl:call-template name="html.css">
+        <xsl:with-param name="node" select="$node"/>
+      </xsl:call-template>
+      <xsl:call-template name="html.js">
+        <xsl:with-param name="node" select="$node"/>
+      </xsl:call-template>
+      <xsl:call-template name="html.head.custom">
+        <xsl:with-param name="node" select="$node"/>
+      </xsl:call-template>
+    </head>
+    <body>
+      <xsl:call-template name="html.lang.attrs">
+        <xsl:with-param name="node" select="$node"/>
+      </xsl:call-template>
+      <xsl:apply-templates mode="html.body.attr.mode" select="$node"/>
+      <xsl:call-template name="html.top.custom">
+        <xsl:with-param name="node" select="$node"/>
+      </xsl:call-template>
+      <main>
+        <xsl:call-template name="html.sidebar">
+          <xsl:with-param name="node" select="$node"/>
+        </xsl:call-template>
+        <xsl:call-template name="html.sidebar.custom">
+          <xsl:with-param name="node" select="$node"/>
+        </xsl:call-template>
+        <div class="page">
+          <header>
+            <div class="inner pagewide">
+              <xsl:call-template name="html.header.custom">
+                <xsl:with-param name="node" select="$node"/>
+              </xsl:call-template>
+              <xsl:apply-templates mode="html.header.mode" select="$node"/>
+            </div>
+          </header>
+          <article>
+            <xsl:apply-templates mode="html.body.mode" select="$node"/>
+          </article>
+          <footer>
+            <div class="inner pagewide">
+              <xsl:apply-templates mode="html.footer.mode" select="$node"/>
+              <xsl:call-template name="html.footer.custom">
+                <xsl:with-param name="node" select="$node"/>
+              </xsl:call-template>
+            </div>
+          </footer>
+        </div>
+      </main>
+      <xsl:call-template name="html.bottom.custom">
+        <xsl:with-param name="node" select="$node"/>
+      </xsl:call-template>
+    </body>
+  </html>
+</xsl:template>
+
+
+<!--%%==========================================================================
+html.title.mode
+Output the title of an element.
+@revision[version=1.0 date=2010-05-26 status=final]
+
+This mode is called by {html.page} to output the contents of the HTML `title`
+element inside the `head` element. Importing stylesheets should implement this
+mode for any element that will be passed to {html.page}. Because this is used
+in the `head`, the output should be text-only.
+-->
+<xsl:template mode="html.title.mode" match="*"/>
+
+
+<!--%%==========================================================================
+html.body.attr.mode
+Output attributes for the HTML `body` element.
+@revision[version=1.0 date=2010-06-08 status=final]
+
+This mode is called by {html.page} to output attributes on the HTML `body`
+element. No attributes are output by default. Importing stylesheets may
+implement this node to add attributes for styling, data, or other purposes.
+-->
+<xsl:template mode="html.body.attr.mode" match="*"/>
+
+
+<!--**==========================================================================
+html.top.custom
+Stub to output HTML at the top of the page.
+@xsl:stub
+@revision[version=3.28 date=2017-05-24 status=final]
+
+[xsl:params]
+$node: The node a page is being created for.
+
+This template is a stub, called by {html.page}. It is called before the
+`main` element. Override this template to provide site-specific HTML
+at the top of the page.
+-->
+<xsl:template name="html.top.custom">
+  <xsl:param name="node" select="."/>
+</xsl:template>
+
+
+<!--**==========================================================================
+html.bottom.custom
+Stub to output HTML at the bottom of the page.
+@xsl:stub
+@revision[version=3.28 date=2017-05-24 status=final]
+
+[xsl:params]
+$node: The node a page is being created for.
+
+This template is a stub, called by {html.page}. It is called after the
+`main` element. Override this template to provide site-specific HTML
+at the bottom of the page.
+-->
+<xsl:template name="html.bottom.custom">
+  <xsl:param name="node" select="."/>
+</xsl:template>

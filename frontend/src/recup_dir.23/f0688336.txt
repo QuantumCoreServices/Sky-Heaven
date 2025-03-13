@@ -1,0 +1,70 @@
+xtensionInfo"><arg type="s" direction="in" name="uuid"/><arg type="a{sv}" direction="out" name="info"/></method><!--
+        GetExtensionErrors:
+        @uuid: The UUID of the extension
+        @errors: The returned errors
+
+        Get the list of errors that caused the extension
+        to be in ERROR state.
+    --><method name="GetExtensionErrors"><arg type="s" direction="in" name="uuid"/><arg type="as" direction="out" name="errors"/></method><!--
+        InstallRemoteExtension:
+        @uuid: The UUID of the extension
+        @result: The result of the operation
+
+        Download and install an extension.
+    --><method name="InstallRemoteExtension"><arg type="s" direction="in" name="uuid"/><arg type="s" direction="out" name="result"/></method><!--
+        UninstallExtension:
+        @uuid: The UUID of the extension
+        @success: Whether the operation was successful
+
+        Uninstall an extension.
+    --><method name="UninstallExtension"><arg type="s" direction="in" name="uuid"/><arg type="b" direction="out" name="success"/></method><!--
+        ReloadExtension:
+        @uuid: The UUID of the extension
+
+        Reload an extension.
+    --><method name="ReloadExtension"><arg type="s" direction="in" name="uuid"/></method><!--
+        EnableExtension:
+        @uuid: The UUID of the extension
+        @success: Whether the operation was successful
+
+        Enable an extension.
+    --><method name="EnableExtension"><arg type="s" direction="in" name="uuid"/><arg type="b" direction="out" name="success"/></method><!--
+        DisableExtension:
+        @uuid: The UUID of the extension
+        @success: Whether the operation was successful
+
+        Disable an extension.
+    --><method name="DisableExtension"><arg type="s" direction="in" name="uuid"/><arg type="b" direction="out" name="success"/></method><!--
+        LaunchExtensionPrefs:
+        Deprecated for OpenExtensionPrefs
+    --><method name="LaunchExtensionPrefs"><arg type="s" direction="in" name="uuid"/></method><!--
+        OpenExtensionPrefs:
+        @uuid: The UUID of the extension
+        @parent_window: Identifier for the application window
+        @options: Vardict with further options
+
+        Opens the prefs dialog of extension @uuid.
+
+        The following @options are recognized:
+
+        <variablelist>
+          <varlistentry>
+            <term>modal b</term>
+            <listitem>
+              <para>Whether the prefs window should be modal, default: false</para>
+            </listitem>
+          </varlistentry>
+        </variablelist>
+    --><method name="OpenExtensionPrefs"><arg type="s" direction="in" name="uuid"/><arg type="s" direction="in" name="parent_window"/><arg type="a{sv}" direction="in" name="options"/></method><!--
+        CheckForUpdates:
+        Update all extensions for which updates are available
+    --><method name="CheckForUpdates"/><signal name="ExtensionStateChanged"><arg type="s" name="uuid"/><arg type="a{sv}" name="state"/></signal><!--
+        ExtensionStatusChanged:
+        Deprecated for ExtensionStateChanged
+    --><signal name="ExtensionStatusChanged"><arg type="s" name="uuid"/><arg type="i" name="state"/><arg type="s" name="error"/></signal><!--
+        ShellVersion:
+        The GNOME Shell version
+    --><property name="ShellVersion" type="s" access="read"/><!--
+        UserExtensionsEnabled:
+        Whether user extensions are enabled
+    --><property name="UserExtensionsEnabled" type="b" access="readwrite"/></interface></node>

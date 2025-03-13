@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="preferences" xml:lang="totem-uk">
+
+  <info>
+    <link type="guide" xref="index#advanced-options"/>
+    <link type="seealso" xref="subtitles"/>
+    <revision pkgversion="3.30" version="0.2" date="2019-01-10" status="draft"/>
+    <desc>Налаштовування виведення звуку і відео, а також додатків.</desc>
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Максим Дзюманенко</mal:name>
+      <mal:email>mvd@mylinux.ua</mal:email>
+      <mal:years>2005-2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергій Гаврилов</mal:name>
+      <mal:email>sergiovana@bigmir.net</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Налаштування і додаткові можливості</title>
+
+  <p>У <app>Відео</app> передбачено деякі додаткові можливості. Налаштуйте програму відповідно до ваших уподобань. Перегляньте вікно <gui>Параметри</gui> — натисніть кнопку меню у верхньому правому куті вікна програми і виберіть пункт <gui style="menuitem">Параметри</gui>.</p>
+
+  <section id="pref-general">
+    <title>Загальні</title>
+      <terms>
+        <item>
+          <title><gui>Зовнішні субтитри</gui></title>
+            <list>
+              <item>
+                <p>Позначте пункт <gui>Завантажувати файли субтитрів при завантаженому відео</gui>, якщо ви хочете, щоб субтитри завантажувалися автоматично.</p>
+              </item>
+              <item>
+                <p>Скоригуйте тип і розмір шрифту, клацнувши на пункті з його назвою. Виберіть тип шрифту зі спадного списку. Затисніть повзунок і змініть розмір шрифту. Після внесення змін натисніть кнопку <gui>Вибрати</gui>.</p>
+              </item>
+              <item>
+                <p>Виберіть кодування зі спадного списку.</p>
+              </item>
+            </list>
+        </item>
+        <item>
+          <title><gui>Додатки</gui></title>
+          <p>Додатки забезпечують роботу додаткових можливостей та розширюють функціональні можливості програми. Переглянути список додатків можна після натискання кнопки <gui style="button">Додатки…</gui>. Виберіть доданок, який вас цікавить, і натисніть кнопку <gui style="button">Параметри</gui>, якщо таку передбачено.</p>
+        </item>
+      </terms>
+  </section>
+
+  <section id="pref-display">
+    <title>Зображення</title>
+      <terms>
+        <item>
+          <title><gui>Відео</gui></title>
+          <p>У <app>Відео</app> передбачено можливість <gui>Увімкнути черезрядковість для відео</gui>. Зробити це можна позначенням відповідного пункту.</p>
+        </item>
+        <item>
+          <title><gui>Баланс кольорів</gui></title>
+          <p>За допомогою цього пункту можна скоригувати <gui>Яскравість</gui>, <gui>Контрастність</gui>, <gui>Насиченість</gui> та <gui>Відтінок</gui> відео, які переглядатимете. Виконати регулювання можна перетягуванням відповідних повзунків.</p>
+            <note style="tip">
+              <p>Ви можете повернутися до попередніх значень параметрів натисканням кнопки <gui style="button">Відновити типові параметри</gui>.</p>
+            </note>
+        </item>
+      </terms>
+  </section>
+
+  <section id="pref-audio">
+    <title>Звук</title>
+      <terms>
+        <item>
+          <title><gui>Вивід звуку</gui></title>
+          <p>Виберіть тип <gui>Виводу звуку</gui> зі спадного списку.</p>
+        </item>
+      </terms>
+  </section>
+
+</page>

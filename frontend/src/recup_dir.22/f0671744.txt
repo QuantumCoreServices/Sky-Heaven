@@ -1,0 +1,10 @@
+ the set immediately under the topmost
+      markobject.  Everything at and after the topmost markobject is popped,
+      leaving the mutated set at the top of the stack.
+
+      Stack before:  ... pyset markobject item_1 ... item_n
+      Stack after:   ... pyset
+
+      where pyset has been modified via pyset.add(item_i) = item_i for i in
+      1, 2, ..., n, and in that order.
+      Ú	FROZENSETõ

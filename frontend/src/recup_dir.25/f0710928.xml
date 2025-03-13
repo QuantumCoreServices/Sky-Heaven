@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="financial" xml:lang="da">
+
+    <info>
+        <link type="guide" xref="index#financial"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Finansielle funktioner</title>
+    <p>I tilstanden finansiel er følgende knapper tilgængelige.</p>
+    <table>
+    <tr>
+    <td><p>Sams</p></td>
+    <td><p>Udregn antallet af “compounding periods” som er nødvendige for at øge en investering af den nuværende værdi til en fremtidig værdi, ved en fast rente pr. “compounding period”.</p></td>
+    </tr>
+    <tr>
+    <td><p>Dm</p></td>
+    <td><p>Udregn afskrivningsgodtgørelsen på et aktiv i en angivet tidsperiode med metoden “double-declining balance”.</p></td>
+    </tr>
+    <tr>
+    <td><p>Fv</p></td>
+    <td><p>Udregn den fremtidige værdi af en investering baseret på en række af lige store betalinger ved en periodisk rente over antallet af betalingsperioder i terminen.</p></td>
+    </tr>
+    <tr>
+    <td><p>Bpm</p></td>
+    <td><p>Udregn gensalgsprisen på et produkt baseret på produktomkostningen og den ønskede bruttofortjenestemargen.</p></td>
+    </tr>
+    <tr>
+    <td><p>Bet</p></td>
+    <td><p>Udregn beløbet af den periodiske betaling på et lån, hvor betalingerne sker i slutningen af hver betalingsperiode.</p></td>
+    </tr>
+    <tr>
+    <td><p>Nv</p></td>
+    <td><p>Udregn den nuværende værdi af en investering baseret på en række af lige store betalinger nedsat ved en periodisk rente over antallet af betalingsperioder i terminen.</p></td>
+    </tr>
+    <tr>
+    <td><p>Sats</p></td>
+    <td><p>Udregn den periodiske rente som er nødvendig for at øge investeringen til en fremtidig værdi, over antallet af “compounding periods”.</p></td>
+    </tr>
+    <tr>
+    <td><p>Rlj</p></td>
+    <td><p>Udregn retlinjeafskrivningen af en aktiv i én periode. Retlinjemetoden af afskrivningen deler den afskrivelige omkostning ligeligt i et aktivs anvendelige liv. Det anvendelige liv er antallet af perioder, typisk år, hvor en aktiv afskrives over.</p></td>
+    </tr>
+    <tr>
+    <td><p>Sum</p></td>
+    <td><p>Udregn “the afskrivningen allowance” af en aktiv i en bestemt tidsperiode, med “Sum-of-the-Years'-Digits”-metoden. Denne metode af afskrivning “accelerates the rate of afskrivningen”, så der sker flere afskrivningsudgifter i de tidlige perioder end i de senere. Det anvendelige liv er antallet af perioder, typisk år, hvor en aktiv afskrives over.</p></td>
+    </tr>
+    <tr>
+    <td><p>Termin</p></td>
+    <td><p>Udregn antallet af betalingsperioder som er nødvendige under terminen for en almindelig “annuity”, at akkumulere en fremtidig værdi, ved en periodisk rente.</p></td>
+    </tr>
+    </table>
+    <note>
+    <p>Finansielle funktioner kan ikke udføres med tastaturet.</p>
+    </note>
+</page>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="color-import-windows" xml:lang="id">
+
+  <info>
+    <link type="guide" xref="color#problems"/>
+    <link type="seealso" xref="color-whatisprofile"/>
+    <link type="seealso" xref="color-gettingprofiles"/>
+    <desc>Cara mengimpor profil ICC yang ada menggunakan sistem Windows.</desc>
+    <credit type="author">
+      <name>Richard Hughes</name>
+      <email>richard@hughsie.com</email>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Andika Triwidada</mal:name>
+      <mal:email>andika@gmail.com</mal:email>
+      <mal:years>2019.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Memasang profil ICC pada Microsoft Windows</title>
+  <p>Metode untuk menetapkan profil ke perangkat dan juga menggunakan kurva kalibrasi tertanam berbeda untuk setiap versi Microsoft Windows.</p>
+  <section id="xp">
+    <title>Windows XP</title>
+    <p>Klik kanan pada profil di Windows Explorer dan klik <gui>Pasang profil</gui>. Ini akan menyalin profil ke direktori yang benar secara otomatis.</p>
+    <p>Kemudian buka <guiseq><gui>Pusat Kendali</gui><gui>Warna</gui></guiseq> dan tambahkan profil ke perangkat.</p>
+    <note style="warning">
+      <p>Jika Anda mengganti profil yang ada di Windows XP, pintasan di atas tidak berfungsi. Profil harus secara manual disalin ke <file>C:\Windows\system32\spool\drivers\color</file> agar profil asli diganti.</p>
+    </note>
+    <p>Windows XP memerlukan program yang akan dijalankan pada awal mula untuk menyalin kurva kalibrasi profil ke kartu video. Hal ini dapat dilakukan dengan menggunakan <app>Adobe Gamma</app>, <app>Lut Loader</app>, atau dengan menggunakan <app href="https://www.microsoft.com/download/en/details.aspx?displaylang=en&amp;id=12714">Microsoft Color Control Panel Applet</app> yang gratis. Menggunakan yang terakhir menambahkan butir <gui>Warna</gui> baru ke panel kontrol dan memungkinkan kurva kalibrasi dari profil default untuk dengan mudah ditetapkan pada setiap awal mula.</p>
+  </section>
+
+  <section id="vista">
+    <title>Windows Vista</title>
+    <p>Microsoft Windows Vista keliru menghilangkan kurva kalibrasi dari LUT video setelah logon, setelah suspensi, dan ketika layar UAC muncul. Ini berarti Anda mungkin harus memuat ulang kurva kalibrasi profil ICC secara manual. Jika Anda menggunakan profil dengan kurva kalibrasi tertanam Anda harus sangat berhati-hati bahwa keadaan kalibrasi belum dibersihkan.</p>
+  </section>
+
+  <section id="7">
+    <title>Windows 7</title>
+    <p>Windows 7 mendukung skema serupa dengan Linux, dalam profil itu dapat dipasang di seluruh sistem atau spesifik untuk pengguna. Namun mereka disimpan di tempat yang sama. Klik kanan pada profil di Windows Explorer dan klik <gui>Pasang profil</gui> atau salin profil .icc ke <file>C:\Windows\system32\spool\drivers\color</file>.</p>
+    <p>Buka <guiseq><gui>Pusat Kendali</gui><gui>Manajemen Warna</gui></guiseq> dan kemudian tambahkan profil untuk sistem dengan mengklik tombol <gui>Tambah</gui>. Klik tab <gui>Tingkat Lanjut</gui> dan cari <gui>Kalibrasi Layar</gui>. Pemuatan kurva kalibrasi diaktifkan oleh kotak centang <gui>kalibrasi tampilan Windows</gui> tetapi tidak sensitif. Ini dapat diaktifkan dengan mengklik pada <gui>Ubah baku sistem</gui> dan kemudian kembali ke tab <gui>Tingkat Lanjut</gui> dan kemudian mengklik kotak centang.</p>
+    <p>Tutup dialognya dan klik <gui>Muat ulang kalibrasi saat ini</gui> untuk mengatur landai Gamma. Kurva kalibrasi profil sekarang harus ditetapkan untuk setiap boot.</p>
+  </section>
+
+</page>

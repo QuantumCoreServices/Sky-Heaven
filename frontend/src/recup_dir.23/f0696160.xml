@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="playing-DVD" xml:lang="totem-pt-BR">
+
+  <info>
+    <link type="guide" xref="index#playing-media"/>
+    <revision pkgversion="3.30" version="0.2" date="2019-01-11" status="draft"/>
+    <desc>Reproduza arquivos de vídeo a partir de DVD ou VCD.</desc>
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <license>
+      <p>Creative Commons Atribuição-Compartilhada Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Raphael Higino</mal:name>
+      <mal:email>In memoriam</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Irapuan Pascoal</mal:name>
+      <mal:email>irapuan.menezes@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fabrício Godoy</mal:name>
+      <mal:email>skarllot@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ísis Binder</mal:name>
+      <mal:email>isis.binder@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2014-2021</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Assistindo a um DVD ou VCD</title>
+
+  <list>
+    <item>
+      <p>Para reproduzir um disco de DVD que você acabou de inserir em sua unidade, mova o ponteiro do mouse sobre a <link xref="help:gnome-help/shell-notifications" href="https://help.gnome.org/users/gnome-help/stable/shell-notifications">notificação</link> e pressione <gui style="button">Abrir com Vídeos</gui>.</p>
+      <figure>
+        <title>Notificação do GNOME, oferecendo-se para abrir o disco com <app>Vídeos</app></title>
+        <media type="image" mime="image/png" src="figures/dvd-gnome-notification.png">
+          <p>Captura de tela da caixa de diálogo de notificação do GNOME.</p>
+        </media>
+      </figure>
+    </item>
+    <item>
+      <p>Para reproduzir um disco de DVD em sua unidade, abra o <app>Arquivos</app>, selecione o disco na barra lateral e pressione <gui style="button">Vídeos</gui> na barra do <gui>DVD de vídeo</gui>.</p>
+      <figure>
+        <title><app>Arquivos</app>, oferecendo-se para abrir o disco com <app>Vídeos</app></title>
+        <media type="image" mime="image/png" src="figures/dvd-nautilus.png">
+        <p>Captura de tela <app>Arquivos</app>.</p>
+        </media>
+      </figure>
+    </item>
+    <item>
+      <p>Para reproduzir um disco de DVD em sua unidade, abra <app>Vídeos</app> e selecione o disco na grade de <gui>Vídeos</gui>.</p>
+    </item>
+  </list>
+
+  <p>Você pode navegar enquanto assiste ao filme:</p>
+  <list>
+    <item>
+      <p>Pressione o <gui>botão de menu</gui> que está embaixo da área do vídeo.</p>
+    </item>
+    <item>
+    <p>Escolha uma das seguintes opções:</p>
+    <list>
+      <item>
+        <p>Selecione <gui style="menuitem">Menu de DVD</gui> para visualizar o menu principal de um DVD. Personalize o idioma e as legendas ou visualize o índice de cenas ou recursos especiais.</p>
+      </item>
+      <item>
+        <p>Selecione <gui style="menuitem">Menu de título</gui> para escolher o idioma da interface do DVD.</p>
+      </item>
+      <item>
+        <p>Selecione <gui style="menuitem">Menu de áudio</gui> e escolha o idioma falado no filme.</p>
+      </item>
+      <item>
+        <p>Selecione <gui style="menuitem">Ângulo do menu</gui> para escolher uma perspectiva de câmera diferente.</p>
+      </item>
+      <item>
+        <p>Selecione <gui style="menuitem">Menu de capítulo</gui> para visualizar o índice de cena.</p>
+      </item>
+    </list>
+    <note><p>Nem todos os DVDs podem ter suporte a essas opções.</p></note>
+    </item>
+  </list>
+
+</page>

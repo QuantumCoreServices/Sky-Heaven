@@ -1,0 +1,14 @@
+>0
+>3
+>4
+>0
+>0
+>0
+(a4;a5;s2)2; ((a2;s4)4; s3; (a1;a4;s5)5; (a5;s1)1)3. 
+_________
+O	; =xp ( =x%hp ) @l a @db s @dt . =x0xkdd:ready _end_
+o	0 1 2 3 4 5 6 7 8 9 0
+_________
+INIT main(k), l, b, c, t, u, q, d 
+"kT"lT"bT"cT"tT"uT"qT"dT
+=lF'wa/O

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="properties" xml:lang="totem-sv">
+
+  <info>
+    <link type="guide" xref="index#advanced-options"/>
+    <revision pkgversion="3.30" version="0.2" date="2019-01-10" status="draft"/>
+    <desc>Visa egenskaperna för en spelad ljud- eller videofil.</desc>
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name its:translate="no">Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <license>
+      <p>Creative Commons DelaLika 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Nylander</mal:name>
+      <mal:email>po@danielnylander.se</mal:email>
+      <mal:years>2006, 2008, 2009.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2019, 2020.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Filegenskaper</title>
+
+  <p>Visa egenskaper för spelade media genom att trycka på menyknappen i fönstrets övre högra hörn och välja <gui style="menuitem">Egenskaper</gui> eller <keyseq><key>Ctrl</key><key>P</key></keyseq>. Det kommer visa tre delar:</p>
+
+  <terms>
+    <item>
+      <title><gui>Allmänt</gui></title>
+      <p>Information om titel, artist, album, år, speltid, kommentar och behållare.</p>
+    </item>
+    <item>
+      <title><gui>Video</gui></title>
+      <p>Information om dimensioner, kodek, bildfrekvens och bitfrekvens.</p>
+    </item>
+    <item>
+      <title><gui>Ljud</gui></title>
+      <p>Information om kodek, kanaler, samplingsfrekvens och bitfrekvens.</p>
+    </item>
+  </terms>
+
+</page>

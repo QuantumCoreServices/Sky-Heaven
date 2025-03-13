@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="scan-home" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#scan"/>
+    <revision version="0.1" date="2011-12-19" status="stub"/>
+    <revision version="0.1" date="2011-12-20" status="review"/>
+    <revision pkgversion="3.8" date="2013-07-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>Хуліта Інка (Julita Inca)</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="author editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Сканування усіх особистих файлів, які зберігаються на вашому комп'ютері.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Сканування вашої теки <file>Домівка</file></title>
+
+  <p>Тека <file>Домівка</file> є місцем зберігання більшості файлів для більшості користувачів, оскільки за типових налаштувань зберігання і копіювання файлів відбувається саме до цієї теки і підлеглих щодо неї тек. Зокрема, тут зберігаються отримані з інтернету файли, документи, над якими працює користувач, та фотографії з його фотокамери. Зазвичай, у кожного з користувачів комп'ютера є власна тека <file>Домівка</file>.</p>
+
+  <steps>
+    <item>
+      <p>Виберіть вашу <gui>Домашню теку</gui> зі списку <gui>Пристрої і місця</gui>.</p>
+    </item>
+  </steps>
+
+</page>

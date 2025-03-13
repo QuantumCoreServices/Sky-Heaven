@@ -1,0 +1,5 @@
+wnloaded. Packages from commandline are skipped.
+
+        :param install_pkgs: list of packages
+        :return: list of remote pkgs
+        c

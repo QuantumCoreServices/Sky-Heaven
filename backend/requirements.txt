@@ -1,7 +1,3 @@
-Flask
-gunicorn
-gunicorn
-uvicorn
 fastapi
-uvicorn
-gunicorn
+mangum
+pydantic

@@ -1,0 +1,35 @@
+lural handling functions
+    ngettext, dngettext, ungettext (introduced in Python 2.3).
+
+  - A new autoconf macro AM_PO_SUBDIRS is added. It is like AM_GNU_GETTEXT,
+    for packages written in other languages than C/C++.
+
+* A new library libgettextpo, with public header file "gettext-po.h",
+  provides functions for reading PO files into memory. It is useful for
+  applying PO files to areas not covered by the GNU gettext programs.
+  New documentation section:
+  - Writing your own programs that process PO files.
+
+* New documentation sections:
+  - Prioritizing messages: How to determine which messages to translate first.
+  - Names: Marking Proper Names for Translation.
+
+* xgettext now supports msgid strings in other encodings than ASCII.
+  xgettext has a new option --from-code that specifies the encoding of the
+  source files. The resulting POT files are UTF-8 encoded.
+
+* Tools for translators:
+
+  - msgmerge has a new option -N/--no-fuzzy-matching that inhibits the fuzzy
+    search for untranslated messages.
+
+  - msgattrib has new options --only-file and --ignore-file that cause the
+    specified attribute manipulation to apply to selected messages only.
+
+* Compatibility with automake-1.7.
+
+* In documentation section po/LINGUAS:
+  - Document the optional "languages" en@quot and en@boldquot.
+
+* New configuration option --enable-relocatable.  See the INSTALL file for
+  details.

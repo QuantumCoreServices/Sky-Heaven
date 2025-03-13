@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="subtitles" xml:lang="totem-pt-BR">
+
+  <info>
+    <link type="guide" xref="index#playing-media"/>
+    <link type="seealso" xref="preferences"/>
+    <revision pkgversion="3.30.0" version="0.1" date="2019-01-11" status="draft"/>
+    <desc>Selecione manualmente as legendas para o filme reproduzido.</desc>
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <license>
+      <p>Creative Commons Atribuição-Compartilhada Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Raphael Higino</mal:name>
+      <mal:email>In memoriam</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Irapuan Pascoal</mal:name>
+      <mal:email>irapuan.menezes@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fabrício Godoy</mal:name>
+      <mal:email>skarllot@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ísis Binder</mal:name>
+      <mal:email>isis.binder@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2014-2021</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Legendas</title>
+
+  <p>Dependendo do formato do vídeo, as legendas podem estar incorporadas no próprio arquivo ou disco de vídeo ou disponíveis como arquivos externos.</p>
+
+  <p>Para selecionar qual legenda usar quando o arquivo ou disco de vídeo contiver legendas, pressione o botão de menu no canto superior direito da janela e selecione <gui style="menuitem">Legendas</gui>.</p>
+
+  <p><app>Vídeos</app> carrega legendas externas automaticamente se <gui>Carregar legendas quando o filme for carregado</gui> estiver ativado nas <link xref="preferences">Preferências</link>.</p>
+
+  <p>Para carregar manualmente um arquivo de legendas externo para um filme:</p>
+  <steps>
+    <item>
+      <p>Pressione o botão de menu no canto superior direito da janela e selecione <guiseq><gui style="menuitem">Legendas</gui> <gui>Selecionar legendas de texto… </gui></guiseq>.</p>
+    </item>
+    <item>
+       <p>O seletor de arquivos será aberto. Pesquise as legendas desejadas.</p>
+    </item>
+    <item>
+      <p>Selecione-as e clique em <gui>Abrir</gui>.</p>
+    </item>
+  </steps>
+
+  <note style="tip">
+    <p>Ajuste o tamanho e a fonte das legendas conforme desejado. Veja a seção <guiseq><gui>Geral</gui><gui>Legendas externas</gui></guiseq> na página <link xref="preferences"/>.</p>
+  </note>
+
+</page>

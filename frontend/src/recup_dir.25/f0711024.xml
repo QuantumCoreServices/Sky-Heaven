@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="scientific" xml:lang="da">
+
+    <info>
+        <link type="guide" xref="index#number"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Videnskabelig notation</title>
+    
+    <p>Indtast tallet i videnskabeligt format ved at bruge knappen <gui>×10y</gui> (<keyseq><key>Ctrl</key><key>E</key></keyseq>). <link xref="superscript">Tilstanden tal</link> skiftes automatisk til hævet. Begynd at indtaste mantissen (2) for at indtaste 2×10¹⁰⁰:</p>
+    <example>
+    <p>2</p>
+    </example>
+    <p>Tryk så på knappen videnskabelig notation (eller tryk på <keyseq><key>Ctrl</key><key>E</key></keyseq>):</p>
+    <example>
+    <p>2×10</p>
+    </example>
+    <p>Indtast eksponenten (100):</p>
+    <example>
+    <p>2×10¹⁰⁰</p>
+    </example>
+    <p>Vis resultater i videnskabelig form ved at ændre <link xref="number-display">resultatformatet</link>.</p>
+</page>

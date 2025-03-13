@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="scan-folder" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#scan"/>
+    <revision version="0.1" date="2011-12-19" status="stub"/>
+    <revision pkgversion="3.4" date="2012-02-20" status="review"/>
+    <revision pkgversion="3.8" date="2013-07-20" status="review"/>
+
+    <credit type="author copyright">
+      <name>Хуліта Інка (Julita Inca)</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Майкл Гілл (Michael Hill)</name>
+      <email its:translate="no">mdhillca@gmail.com</email>
+    </credit>
+    <credit type="author editor">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Сканування локальної теки, включно із усіма підтеками.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Сканування теки</title>
+
+  <p>Сканування окремих тек є швидшим за сканування усієї файлової системи, тому воно є ефективнішими, якщо вам потрібна інформація лише щодо частини файлової системи.</p>
+
+  <steps>
+    <item>
+      <p>Натисніть кнопку меню у верхньому правому куті вікна і виберіть <gui style="menuitem">Сканувати теку…</gui></p>
+    </item>
+    <item>
+      <p>У відповідь буде відкрито діалогове вікно вибору файлів. Виберіть теку, яку ви хочете сканувати.</p>
+    </item>
+    <item>
+      <p>Натисніть кнопку <gui>Відкрити</gui>, щоб розпочати сканування.</p>
+    </item>
+  </steps>
+
+  <p>Щойно скановану теку буде додано до вашого списку <gui>Пристрої і місця</gui>. Якщо теку буде перейменовано або вилучено, під час наступного запуску <app>Аналізатора використання диска</app> її буде вилучено зі списку.</p>
+
+</page>

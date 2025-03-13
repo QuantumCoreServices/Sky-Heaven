@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="function" xml:lang="da">
+
+    <info>
+        <link type="guide" xref="index#equation"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Funktioner</title>
+    
+    <p>Funktioner kan bruges ved at indsætte navnet på funktionen efterfulgt af funktionsargumenter. <app>Lommeregner</app> understøtter også brugerdefinerede funktioner. Hvis argumentet ikke er et tal eller <link xref="variable">en enkelt variabel</link>, så skriv hvert argument adskilt af semikolon og brug parenteser omkring argumentlisten.</p>
+    <example>
+    <p its:locNote="Translators: Do not translate the word 'sin'!">sin 30</p>
+    <p its:locNote="Translators: Do not translate the word 'abs'!">abs (5−9)</p>
+    <p its:locNote="Translators: Do not translate the word 'fun'!">fun (9;10)</p>
+    </example>
+    <p>Tilføj en ny funktionstype til funktionen i det format, som er angivet nedenfor. Et funktionsnavn og -argumenter må kun indeholde store eller små bogstaver. Delen efter @ er funktionens beskrivelse, som er valgfri.</p>
+    <example>
+    <p>SimpelRente (“principal”; rente; tid) = “principal” * rente * tid @ Simpel renteformular</p>
+    </example>
+    <p>Funktioner kan også tilføjes og indsættes med knappen f(x).</p>
+    <example>
+    <p>Klik på f(x). Skriv funktionens navn i boksen, vælg antallet af argumenter og klik på knappen plustegn ved siden af. Skriv funktionens udtryk på udregningsskærmen og tryk på <key>Enter</key>.</p>
+    </example>
+    <example>
+    <p>Klik på f(x). Vælg funktionen og klik på den.</p>
+    </example>
+    <p>Følgende funktioner er defineret.</p>
+    <table>
+    <tr>
+    <td><p its:translate="no">abs</p></td>
+    <td><p><link xref="absolute">Absolut værdi</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">ceil</p></td>
+    <td><p>Loft</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">cos</p></td>
+    <td><p><link xref="trigonometry">Cosinus</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">cosh</p></td>
+    <td><p><link xref="trigonometry">Cosinushyperbolsk</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">floor</p></td>
+    <td><p>Gulv</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">frac</p></td>
+    <td><p>Decimaldel</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">int</p></td>
+    <td><p>Heltalsdel</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">ln</p></td>
+    <td><p><link xref="logarithm">Naturlig logaritme</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">log</p></td>
+    <td><p><link xref="logarithm">Logaritme</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">not</p></td>
+    <td><p><link xref="boolean">Boolesk NOT</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">ones</p></td>
+    <td><p>Etter-komplement</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">round</p></td>
+    <td><p>Afrund</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">sgn</p></td>
+    <td><p>Signum</p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">sin</p></td>
+    <td><p><link xref="trigonometry">Sinus</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">sinh</p></td>
+    <td><p><link xref="trigonometry">Sinushyperbolsk</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">sqrt</p></td>
+    <td><p><link xref="power">Kvadratrod</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">tan</p></td>
+    <td><p><link xref="trigonometry">Tangens</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">tanh</p></td>
+    <td><p><link xref="trigonometry">Tangenshyperbolsk</link></p></td>
+    </tr>
+    <tr>
+    <td><p its:translate="no">twos</p></td>
+    <td><p>Toer-komplement</p></td>
+    </tr>
+    </table>
+</page>

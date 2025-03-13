@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="zoom" xml:lang="pt-BR">
+
+  <info>
+    <link type="guide" xref="index#viewing"/>
+    <desc>Amplie a imagem na tela.</desc>
+
+    <revision pkgversion="3.24" version="0.1" date="2011-09-05" status="final"/>
+    <credit type="author">
+      <name>Tiffany Antopolski</name>
+      <email>tiffany@antopolski.com</email>
+    </credit>
+    <license>
+      <p>Creative Commons Atribuição-Compartilhada Igual 3.0</p>
+    </license>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Amadeu A. Barbosa Júnior</mal:name>
+      <mal:email>amadeu@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rodrigo Flores</mal:name>
+      <mal:email>rodrigomarquesflores@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leo.fontenelle@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Gregianin</mal:name>
+      <mal:email>leogregianin@gmail.com</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Djavan Fagundes</mal:name>
+      <mal:email>djavan@comum.org</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Krix Apolinário</mal:name>
+      <mal:email>krixapolinario@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2012, 2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2018, 2019</mal:years>
+    </mal:credit>
+  </info>
+
+<title>Ampliação</title>
+
+<p>Você pode aumentar ou diminuir o zoom para mostrar mais ou menos uma imagem na tela de uma só vez. Isso é útil se você quiser ver uma imagem inteira em sua totalidade ou se desejar inspecionar os detalhes de uma foto.</p>
+
+<list>
+ <item>
+  <p>Você pode ampliar usando a roda do mouse. Role para cima para ampliar ou role para baixo para diminuir o zoom.</p>
+ </item>
+ <item>
+  <p>Você também pode aplicar zoom usando os botões na barra de cabeçalho. Para aumentar o zoom, clique no ícone de <gui>Aumenta a imagem</gui> e, para diminuir o zoom, clique no ícone de <gui>Encolhe a imagem</gui>. Estes se parecem com sinais “mais” e “menos”.</p>
+ </item>
+ <item>
+ <p>Alternativamente, use os atalhos de teclado <keyseq><key>Ctrl</key><key>+</key></keyseq> ou <keyseq><key>Ctrl</key><key>-</key></keyseq>.</p>
+ </item>
+</list>
+
+<p>Para visualizar a imagem em seu tamanho original, sem escala, escolha o nível de ampliação <gui style="menuitem">100%</gui> no menu suspenso na barra de cabeçalho. Alternativamente, use os atalhos de teclado <keyseq><key>Ctrl</key><key>0</key></keyseq> ou <key>1</key>.</p>
+
+<section id="bestfit">
+ <title>Ampliando ou reduzindo para melhor se ajustar à janela</title>
+ <p>Você pode optar por aumentar a ampliação para que a imagem caiba totalmente na janela, ainda que você a redimensione. Habilite <gui style="menuitem">Melhor ajuste</gui> na lista suspensa na barra de cabeçalho para fazer isso.</p>
+</section>
+</page>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="burst-mode" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#main" group="#first"/>
+    <revision pkgversion="3.0" date="2011-08-24" status="candidate"/>
+    <revision pkgversion="3.1" date="2011-09-05" status="review"/>
+    <revision pkgversion="3.8" date="2013-04-19" status="review"/>
+    <revision pkgversion="3.12" date="2014-02-21" status="review"/>
+    <revision pkgversion="3.34" date="2020-01-05" status="review"/>
+
+    <credit type="author copyright">
+      <name>Julita Inca</name>
+      <email its:translate="no">yrazes@gmail.com</email>
+      <years>2011</years>
+    </credit>
+    <credit type="author copyright editor">
+      <name>Ekaterina Gerasimova</name>
+      <email its:translate="no">kittykat3756@gmail.com</email>
+      <years>2011, 2013</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Feu diverses fotografies prement un cop el botó en <gui>Mode seqüència</gui>. Canvieu la vostra postura a cada foto.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Joan Duran</mal:name>
+      <mal:email>jodufi@gmail.com</mal:email>
+      <mal:years>2008, 2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Carles Ferrando</mal:name>
+      <mal:email>carles.ferrando@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Gerard Alcorlo Bofill</mal:name>
+      <mal:email>galcorlo@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Laura Sales</mal:name>
+      <mal:email>laura.saflo@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Jordi Mas i Hernàndez</mal:name>
+      <mal:email>jmas@softcatala.org</mal:email>
+      <mal:years>2019</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Com fer fotos en una seqüència ràpida</title>
+
+  <p>Podeu utilitzar el mode <gui>Seqüència</gui> per fer automàticament diverses fotos seguides. És especialment divertit si canvieu de postura entre foto i foto. Per utilitzar el mode <gui>Seqüència</gui>:</p>
+
+  <steps>
+    <item>
+      <p>Assegureu-vos que esteu en mode <gui>Seqüència</gui>. Si és així, el botó <gui style="button">Seqüència</gui> estarà seleccionat al costat esquerre de la pantalla.</p>
+    </item>
+    <item>
+      <p>Feu clic al botó <gui style="button">Fes diverses fotos amb la càmera web</gui> al mig del quadre inferior, o premeu la tecla <key>Espai</key> per començar a fer fotografies.</p>
+      <p>Per defecte, es fan quatre fotos, amb un retard d'un segon i un compte enrere entre foto i foto.</p>
+    </item>
+    <item>
+      <p>Per aturar l'enregistrament, premeu el mateix botó un altre cop. Podeu també prémer la tecla <key>Esc</key> o <key>Espai</key> per aturar l'enregistrament.</p>
+    </item>
+  </steps>
+
+<section id="burst-preferences">
+  <title>Canviar les preferències del <gui>mode seqüència</gui></title>
+
+  <p>Podeu canviar quantes fotos es dispararan en cada seqüència i el temps entre fotos:</p>
+
+  <steps>
+    <item>
+      <p>Premeu el botó de menú a la cantonada superior dreta de la finestra i seleccioneu <guiseq><gui style="menuitem">Preferències</gui><gui style="tab">Captura</gui></guiseq>.</p>
+    </item>
+    <item>
+      <p>Edita la configuració de les preferències:</p>
+      <terms>
+        <item>
+          <title>Compte enrere</title>
+          <p>Compte enrere des de tres abans de fer la foto.</p>
+        </item>
+        <item>
+          <title>Dispara el flaix</title>
+          <p>La pantalla farà un flaix quan es faci la foto.</p>
+        </item>
+        <item>
+          <title>Nombre de fotos</title>
+          <p>Nombre de fotos que es faran en una única seqüència.</p>
+        </item>
+        <item>
+          <title>Temps d'espera entre fotos (segons)</title>
+          <p>El retard entre dues fotografies. Si teniu el <gui>Temporitzador</gui> habilitat, llavors aquest retard ha d'establir-se per sobre dels quatre segons perquè tingui cap efecte.</p>
+          <!--<p>The delay between the last photo and the start of the next
+          countdown. If <gui>Countdown</gui> is disabled, this is the delay
+          between photos.</p>-->
+        </item>
+      </terms>
+    </item>
+  </steps>
+
+</section>
+
+</page>

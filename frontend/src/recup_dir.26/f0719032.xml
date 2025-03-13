@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="problem-slow-scan" xml:lang="it">
+
+  <info>
+    <link type="guide" xref="index#problems"/>
+    <revision pkgversion="3.12" date="2014-01-25" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email>baptistem@gnome.org</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>L'analisi di una cartella o di una posizione remota è lenta.</desc>
+
+  </info>
+  <title>L'analisi è lenta</title>
+
+  <p>Il tempo necessario per analizzare una cartella o una posizione remota dipende dalla velocità dell'unità a cui si accede. Un disco rigido meccanico è più lento di un disco SSD e l'analisi di una cartella remota attraverso Internet è più lenta dell'analisi di una cartella sulla rete locale.</p>
+
+  <p>La velocità dipende anche dalla profondità della directory e dal numero di file presenti.</p>
+
+</page>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="guide" id="base" xml:lang="da">
+
+    <info>
+        <link type="guide" xref="index#number"/>
+    
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>scootergrisen</mal:name>
+      <mal:email/>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+	<title>Numeriske grundtal</title>
+    
+    <p>Brug <link xref="superscript">hævede tal</link> til at indtaste tal i et bestemt numeriske grundtal. Følgende tal svarer til hinanden.</p>
+    <example>
+    <p>1001011₂</p>    
+    <p>113₈</p>
+    <p>75</p>
+    <p>4B₁₆</p>
+    </example>
+    <p>Brug rullegardinslisten i <link xref="mouse">tilstanden programmering</link> til at ændre udregningens grundtal.</p>
+    <p>Tastaturgenveje kan bruges til at skifte mellem tilstandende <gui>Binær</gui> (<keyseq><key>Ctrl</key><key>B</key></keyseq>), <gui>Oktal</gui> (<keyseq><key>Ctrl</key><key>O</key></keyseq>), <gui>Titalssystem</gui> (<keyseq><key>Ctrl</key><key>D</key></keyseq>) og <gui>Heksadecimal</gui> (<keyseq><key>Ctrl</key><key>H</key></keyseq>).</p>
+    <p>Brug <link xref="conv-base">Grundtalskonvertering</link> til dynamisk at ændre grundtal.</p>
+</page>

@@ -1,0 +1,9 @@
+ permission to
+           import a key.  The arguments *askcb* should take are the
+           package object, the userid of the key, and the keyid
+        :param fullaskcb: Callback function to use to ask permission to
+           import a key.  This differs from *askcb* in that it gets
+           passed a dictionary so that we can expand the values passed.
+        :raises: :class:`dnf.exceptions.Error` if there are errors
+           retrieving the keys
+        z6Unable to retrieve a key for a commandline package: %sc

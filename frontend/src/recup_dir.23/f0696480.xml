@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="playing-DVD" xml:lang="totem-sv">
+
+  <info>
+    <link type="guide" xref="index#playing-media"/>
+    <revision pkgversion="3.30" version="0.2" date="2019-01-11" status="draft"/>
+    <desc>Spela upp mediafiler från dvd eller vcd.</desc>
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <license>
+      <p>Creative Commons DelaLika 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Daniel Nylander</mal:name>
+      <mal:email>po@danielnylander.se</mal:email>
+      <mal:years>2006, 2008, 2009.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Sebastian Rasmussen</mal:name>
+      <mal:email>sebras@gmail.com</mal:email>
+      <mal:years>2014, 2015.</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Anders Jonsson</mal:name>
+      <mal:email>anders.jonsson@norsjovallen.se</mal:email>
+      <mal:years>2019, 2020.</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Se på en dvd eller vcd</title>
+
+  <list>
+    <item>
+      <p>För att spela upp en dvd-skiva som du just stoppat in i din enhet, flytta muspekaren över <link xref="help:gnome-help/shell-notifications" href="https://help.gnome.org/users/gnome-help/stable/shell-notifications">aviseringen</link> och tryck på <gui style="button">Öppna med Videoklipp</gui>.</p>
+      <figure>
+        <title>GNOME-avisering som erbjuder att öppna skivan med <app>Videoklipp</app></title>
+        <media type="image" mime="image/png" src="figures/dvd-gnome-notification.png">
+          <p>Skärmbild av GNOME-aviseringsdialogen.</p>
+        </media>
+      </figure>
+    </item>
+    <item>
+      <p>För att spela upp en dvd-skiva i din enhet, öppna <app>Filer</app>, välj skivan i sidopanelen, och tryck på <gui style="button">Videoklipp</gui> i raden <gui>Video-DVD</gui>.</p>
+      <figure>
+        <title><app>Filer</app>, vilket erbjuder att öppna skivan med <app>Videoklipp</app></title>
+        <media type="image" mime="image/png" src="figures/dvd-nautilus.png">
+        <p>Skärmbild av <app>Filer</app>.</p>
+        </media>
+      </figure>
+    </item>
+    <item>
+      <p>För att spela upp en dvd-skiva i din enhet, öppna <app>Videoklipp</app>, och välj dvd-skivan i rutnätet i <gui>Videoklipp</gui>.</p>
+    </item>
+  </list>
+
+  <p>Du kan navigera under tiden du tittar på filmen:</p>
+  <list>
+    <item>
+      <p>Tryck på <gui>menyknappen</gui> vilken är under videoområdet.</p>
+    </item>
+    <item>
+    <p>Välj ett av följande alternativ:</p>
+    <list>
+      <item>
+        <p>Välj <gui style="menuitem">DVD-meny</gui> för att se en dvd-skivas huvudmeny. Anpassa språk och undertexter eller se scenindex eller specialfunktioner.</p>
+      </item>
+      <item>
+        <p>Välj <gui style="menuitem">Titelmeny</gui> för att välja dvd-gränssnittets språk.</p>
+      </item>
+      <item>
+        <p>Välj <gui style="menuitem">Ljudmeny</gui> för att välja språket som talas i filmen.</p>
+      </item>
+      <item>
+        <p>Välj <gui style="menuitem">Vinkelmeny</gui> för att välja ett annat kameraperspektiv.</p>
+      </item>
+      <item>
+        <p>Välj <gui style="menuitem">Kapitelmeny</gui> för att se scenindexet.</p>
+      </item>
+    </list>
+    <note><p>Alla dvd-skivor stöder kanske inte dessa alternativ.</p></note>
+    </item>
+  </list>
+
+</page>

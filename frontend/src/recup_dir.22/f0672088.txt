@@ -1,0 +1,19 @@
+of nesting.
+
+        width
+            Attempted maximum number of columns in the output.
+
+        depth
+            The maximum depth to print out nested structures.
+
+        stream
+            The desired output stream.  If omitted (or false), the standard
+            output stream available at construction will be used.
+
+        compact
+            If true, several items will be combined in one line.
+
+        sort_dicts
+            If true, dict keys are sorted.
+
+        r

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="screenshot-gallery" xml:lang="totem-pt-BR">
+
+  <info>
+    <link type="guide" xref="index#advanced-options"/>
+    <revision pkgversion="3.30.0" version="0.1" date="2019-01-11" status="draft"/>
+    <desc>Crie várias capturas de tela de um filme.</desc>
+    <credit type="author">
+      <name its:translate="no">Marta Bogdanowicz</name>
+      <email its:translate="no">majus85@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name its:translate="no">Andre Klapper</name>
+      <email its:translate="no">ak-47@gmx.net</email>
+    </credit>
+    <license>
+      <p>Creative Commons Atribuição-Compartilhada Igual 3.0</p>
+    </license>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Raphael Higino</mal:name>
+      <mal:email>In memoriam</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Irapuan Pascoal</mal:name>
+      <mal:email>irapuan.menezes@gmail.com</mal:email>
+      <mal:years>2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Leonardo Ferreira Fontenelle</mal:name>
+      <mal:email>leonardof@gnome.org</mal:email>
+      <mal:years>2008</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Fabrício Godoy</mal:name>
+      <mal:email>skarllot@gmail.com</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Ísis Binder</mal:name>
+      <mal:email>isis.binder@gmail.com</mal:email>
+      <mal:years>2010</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Enrico Nicoletto</mal:name>
+      <mal:email>liverig@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Rafael Fontenelle</mal:name>
+      <mal:email>rafaelff@gnome.org</mal:email>
+      <mal:years>2014-2021</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Galeria de capturas de tela</title>
+
+  <p>Para criar uma galeria de capturas de tela em um único arquivo de imagem:</p>
+
+  <steps>
+    <item>
+      <p>Pressione o botão de menu no canto superior direito da janela e selecione <gui style="menuitem">Criar uma galeria de capturas de tela…</gui>.</p>
+    </item>
+    <item>
+      <p>Na caixa de diálogo, insira um nome para o arquivo da galeria a ser criado.</p>
+    </item>
+    <item>
+      <p>Opcionalmente, altere a pasta na qual a galeria será salva.</p>
+    </item>
+    <item>
+      <p>Clique em <gui>Salvar</gui> quando estiver pronto.</p>
+    </item>
+    <item>
+      <p>Uma barra de progresso será exibida enquanto as capturas de tela são tiradas. A galeria será salva como um arquivo <file>.jpg</file>.</p>
+    </item>
+  </steps>
+
+  <note style="advanced">
+    <p>Na parte inferior da caixa de diálogo, você pode especificar a largura das capturas de tela em pixels. Você também pode definir o número de capturas de tela que a galeria incluirá ou marcar a opção <gui>Calcular o número de capturas de tela</gui> e o <app>Vídeos</app> a definirá automaticamente.</p>
+  </note>
+
+</page>

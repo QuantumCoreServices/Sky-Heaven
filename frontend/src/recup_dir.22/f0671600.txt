@@ -1,0 +1,4 @@
+     unpickling (this is simply due to the nature of decimal->binary
+      conversion).  Proto 2 added linear-time (in C; still quadratic-time
+      in Python) LONG1 and LONG4 opcodes.
+      Ú

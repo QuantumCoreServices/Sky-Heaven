@@ -1,0 +1,20 @@
+except
+    that you may choose to grant warranty protection to some or all
+    third parties, at your option).
+
+    c) If the modified program normally reads commands interactively when
+    run, you must cause it, when started running for such interactive use
+    in the simplest and most usual way, to print or display an
+    announcement including an appropriate copyright notice and a notice
+    that there is no warranty (or else, saying that you provide a
+    warranty) and that users may redistribute the program under these
+    conditions, and telling the user how to view a copy of this General
+    Public License.
+
+    d) You may charge a fee for the physical act of transferring a
+    copy, and you may at your option offer warranty protection in
+    exchange for a fee.
+
+Mere aggregation of another independent work with the Program (or its
+derivative) on a volume of a storage or distribution medium does not bring
+the other work under the scope of these terms.

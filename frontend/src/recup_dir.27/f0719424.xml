@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="question-open-folder" xml:lang="uk">
+
+  <info>
+    <link type="guide" xref="index#problems"/>
+
+    <revision pkgversion="3.14" date="2014-11-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Єкатерина Герасимова (Ekaterina Gerasimova)</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Відкриття теки у програмі для керування файлами, зокрема <app>Файлах</app>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Як відкрити теку?</title>
+
+  <p>Ви можете відкрити теку у типовій програмі для керування файлами, зокрема <app>Файлах</app>. Це може бути корисним, якщо ви хочете швидко переглянути список файлів у цій теці.</p>
+
+  <steps>
+    <item>
+      <p>Клацніть правою кнопкою миші на позначці теки, яку ви хочете відкрити і виберіть у контекстному меню пункт <gui>Відкрити теку</gui>.</p>
+    </item>
+  </steps>
+
+</page>

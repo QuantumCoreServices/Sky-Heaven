@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="question-trash" xml:lang="ca">
+
+  <info>
+    <link type="guide" xref="index#problems"/>
+
+    <revision pkgversion="3.14" date="2014-11-21" status="review"/>
+
+    <credit type="author copyright">
+      <name>Ekaterina Gerasimova</name>
+      <email>kittykat3756@gmail.com</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Moveu les carpetes no desitjades a la <file>Paperera</file>.</desc>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Manel Vidal</mal:name>
+      <mal:email>verduler@gmail.com</mal:email>
+      <mal:years>2013</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Com suprimeixo una carpeta?</title>
+
+  <p>Podeu alliberar espai del vostre ordinador o d'un sistema de fitxers remot mitjançant l'<app>Analitzador de l'ús dels discs</app>, movent carpetes a la <file>Paperera</file> i suprimint-les.</p>
+
+  <steps>
+    <item>
+      <p>Feu clic dret a la carpeta que voleu suprimir i seleccioneu <gui>Mou a la paperera</gui>.</p>
+    </item>
+    <item>
+      <p>Obriu un navegador de fitxers com ara el <app>Fitxers</app> i buideu la <file>Paperera</file>.</p>
+    </item>
+  </steps>
+
+</page>

@@ -1,0 +1,12 @@
+character hexadecimal string
+
+        int         the UUID as a 128-bit integer
+
+        urn         the UUID as a URN as specified in RFC 4122
+
+        variant     the UUID variant (one of the constants RESERVED_NCS,
+                    RFC_4122, RESERVED_MICROSOFT, or RESERVED_FUTURE)
+
+        version     the UUID version number (1 through 5, meaningful only
+                    when the variant is RFC_4122)
+    Nc

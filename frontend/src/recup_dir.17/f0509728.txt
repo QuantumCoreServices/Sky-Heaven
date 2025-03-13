@@ -1,0 +1,15 @@
+  <tcontext mls="s0" role="object_r" type="admin_home_t" user="unconfined_u"/>
+      </sig>
+      <source>passwd</source>
+      <spath>passwd</spath>
+      <tclass>file</tclass>
+      <tcontext mls="s0" role="object_r" type="admin_home_t" user="unconfined_u"/>
+      <tpath>/root/output.txt</tpath>
+      <users>
+      </users>
+    </siginfo>
+  </signature_list>
+  <users>
+  </users>
+</sigs>
+    Ú

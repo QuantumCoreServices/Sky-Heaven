@@ -1,0 +1,5 @@
+grab all the objects from the top of
+the stack down to (but not including) the topmost marker
+object.
+Ú
+stackslicea¢

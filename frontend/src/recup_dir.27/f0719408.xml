@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" type="topic" style="task" id="problem-permissions" xml:lang="uk">
+  <info>
+    <link type="guide" xref="index#problems"/>
+    <revision pkgversion="3.12" date="2014-01-25" status="review"/>
+
+    <credit type="author copyright">
+      <name>Baptiste Mille-Mathias</name>
+      <email>baptistem@gnome.org</email>
+      <years>2014</years>
+    </credit>
+
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+
+    <desc>Програма показує повідомлення про помилку <gui>Неможливо просканувати деякі теки у «/….»</gui> під час сканування.</desc>
+
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Юрій Чорноіван</mal:name>
+      <mal:email>yurchor@ukr.net</mal:email>
+      <mal:years>2020</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Помилка під час сканування</title>
+
+  <p>Під час сканування ви можете побачити повідомлення <gui>Неможливо просканувати деякі теки у «/….»</gui> у верхній частині вікна <app>Аналізатора використання диска</app>. Це повідомлення буде показано через те, що ви не маєте прав доступу до деяких файлів через обмеження у файловій системі призначення. Дані файлів, до яких ви не маєте доступу, не буде враховано при показі <link xref="pref-view-chart">діаграми</link> використання диска, оскільки повідомлений програмою результат може бути помилковим.</p>
+
+  <p>Втім, неможливість доступу до усіх файлів і каталогів є зовсім звичайною справою. Через це, не слід аж надто перейматися цим повідомленням про помилку.</p>
+
+  <note style="info"><p>Для створення докладної картини використання сховища даних <app>Аналізатор використання диска</app> використовує команду <cmd>du</cmd>, а ця команда потребує прав доступу до читання файлів і прав виконання для каталогів.</p>
+
+  <p>З іншого блоку, команда оцінки використання файлової системи використовує програму <cmd>df</cmd>, яка покладається на дані файлової системи, а не на права доступу до файлів.</p></note>
+</page>

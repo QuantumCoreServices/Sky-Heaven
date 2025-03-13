@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="topic" style="task" id="gedit-tabs-moving" xml:lang="zh-CN">
+
+  <info>
+    <link type="guide" xref="index#gedit-working-with-files" group="last"/>
+    <link type="seealso" xref="gedit-tabs"/>
+    <link type="seealso" xref="gedit-tab-groups"/>
+    <desc>在 gedit 窗口中改变标签顺序。</desc>
+    <revision pkgversion="3.8" date="2013-02-24" status="review"/>
+    <credit type="author">
+      <name>Jim Campbell</name>
+      <email>jcampbell@gnome.org</email>
+    </credit>
+    <credit type="collaborator">
+      <name>Daniel Neel</name>
+      <email>dneelyep@gmail.com</email>
+    </credit>
+    <credit type="editor">
+      <name>Sindhu S</name>
+      <email>sindhus@live.in</email>
+    </credit>
+    <credit type="editor">
+      <name>Radina Matic</name>
+      <email its:translate="no">radina.matic@gmail.com</email>
+      <years>2013</years>
+    </credit>
+    <include xmlns="http://www.w3.org/2001/XInclude" href="legal.xml"/>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>TeliuTe</mal:name>
+      <mal:email>teliute@163.com</mal:email>
+      <mal:years>2009, 2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Colin Zhao</mal:name>
+      <mal:email>lonely.ibm@gmail.com</mal:email>
+      <mal:years>2011</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>wancheng zhang</mal:name>
+      <mal:email>wancheng.com.cn@gmail.com</mal:email>
+      <mal:years>2012</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Zhe Wei</mal:name>
+      <mal:email>weizhe86@gmail.com</mal:email>
+      <mal:years>2014</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>移动和重排标签顺序</title>
+  <p><app>gedit</app> 中的标签可以移动，这样文件操作就更加方便，同一个窗口内的标签可以重新排序，也可以移出 <app>gedit</app>(创建一个新的 <app>gedit</app> 窗口)，并且可以从一个窗口移到另外一个窗口中。</p>
+
+  <section id="tabs-change-order">
+    <title>在 gedit 窗口中改变标签顺序</title>
+
+    <p>要更改窗口中标签的顺序：</p>
+
+    <steps>
+      <item>
+        <p>在标签上点击并按住鼠标按钮。</p>
+      </item>
+      <item>
+        <p>Move the tab to the desired position among the other tabs.</p>
+      </item>
+      <item>
+        <p>松开鼠标按钮。</p>
+      </item>
+    </steps>
+
+    <p>标签将会放在您松手位置标签的旁边，立即插在其他打开标签的中间。</p>
+  </section>
+
+  <section id="tabs-moving-new-window">
+    <title>移动标签，创建一个新的 gedit 窗口</title>
+    <p>将标签页移到新窗口：</p>
+
+    <steps>
+      <item>
+        <p>在标签上点击并按住鼠标按钮。</p>
+      </item>
+      <item>
+        <p>将标签拖出<app>gedit</app>窗口。</p>
+      </item>
+      <item>
+        <p>松开鼠标按钮。</p>
+      </item>
+    </steps>
+
+    <note style="tip">
+      <p>在 <app>gedit</app> 最大化时要将一个标签页移到新窗口，就请将标签页拖拽到屏幕上方的顶栏。</p>
+    </note>
+  </section>
+
+  <section id="tabs-moving-other-window">
+    <title>将标签移到其他 gedit 窗口中</title>
+
+    <p>如果您想将标签从一个窗口移动到另一个窗口中：</p>
+
+    <steps>
+      <item>
+        <p>在标签上点击并按住鼠标按钮。</p>
+      </item>
+      <item>
+        <p>拖动标签到新窗口。</p>
+      </item>
+      <item>
+        <p>将它放在新窗口的其他标签旁边。</p>
+      </item>
+      <item>
+        <p>松开鼠标按钮。</p>
+      </item>
+    </steps>
+    
+
+    <note style="tip">
+      <p>在 <gui>GNOME Shell</gui> 中您可以轻松的将一个窗口中的标签页拖动到 <gui>活动</gui> 热角，然后再拖动到另外一个窗口中。这期间会展示出每一个打开了的 <app>gedit</app> 窗口。然后您就可以把标签页释放到预期的 <app>gedit</app> 窗口中。</p>
+    </note>
+
+  </section>
+
+</page>

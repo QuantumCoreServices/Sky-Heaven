@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<libosinfo version="0.0.1">
+  <!-- Licensed under the GNU General Public License version 2 or later.
+     See http://www.gnu.org/licenses/ for a copy of the license text -->
+  <os id="http://omnios.org/bloody/rolling">
+    <short-id>omnios</short-id>
+    <name>OmniOSCE Bloody</name>
+    <name xml:lang="zh_Hans">OmniOSCE Bloody</name>
+    <name xml:lang="ka">OmniOSCE Bloody</name>
+    <name xml:lang="ko">&#xC634;&#xB2C8;OSCE &#xBE14;&#xB7EC;&#xB514;</name>
+    <name xml:lang="uk">OmniOSCE Bloody</name>
+    <name xml:lang="tr">OmniOSCE Bloody</name>
+    <name xml:lang="pl">OmniOSCE Bloody</name>
+    <name xml:lang="it">OmniOSCE Bloody</name>
+    <name xml:lang="id">OmniOSCE Bloody</name>
+    <name xml:lang="de">OmniOSCE Bloody</name>
+    <vendor>omniosce</vendor>
+    <vendor xml:lang="zh_Hans">omniosce</vendor>
+    <vendor xml:lang="ka">omniosce</vendor>
+    <vendor xml:lang="ko">&#xC634;&#xB2C8;osce</vendor>
+    <vendor xml:lang="uk">omniosce</vendor>
+    <vendor xml:lang="tr">omniosce</vendor>
+    <vendor xml:lang="pl">omniosce</vendor>
+    <vendor xml:lang="it">omniosce</vendor>
+    <vendor xml:lang="id">omniosce</vendor>
+    <vendor xml:lang="de">omniosce</vendor>
+    <family>illumos</family>
+    <distro>omnios</distro>
+    <release-status>rolling</release-status>
+    <firmware arch="x86_64" type="efi"/>
+    <devices>
+      <device id="http://pcisig.com/pci/1033/0194"/>
+      <!-- nec-xhci -->
+      <device id="http://pcisig.com/pci/1af4/1000"/>
+      <!-- virtio-net -->
+      <device id="http://pcisig.com/pci/1af4/1001"/>
+      <!-- virtio-block -->
+      <device id="http://pcisig.com/pci/1b36/0004"/>
+      <!-- qemu-xhci -->
+      <device id="http://pcisig.com/pci/1b36/0100"/>
+      <!-- qxl -->
+      <device id="http://pcisig.com/pci/8086/10d3"/>
+      <!-- e1000e -->
+      <device id="http://pcisig.com/pci/8086/2415"/>
+      <!-- ac97 -->
+      <device id="http://pcisig.com/pci/8086/2668"/>
+      <!-- ich6 -->
+      <device id="http://pcisig.com/pci/8086/293e"/>
+      <!-- ich9-hda -->
+      <device id="http://qemu.org/chipset/x86/q35"/>
+      <!-- qemu-x86-q35 -->
+      <device id="http://usb.org/usb/80ee/0021"/>
+      <!-- tablet -->
+    </devices>
+    <resources arch="all">
+      <minimum>
+        <ram>536870912</ram>
+      </minimum>
+    </resources>
+  </os>
+</libosinfo>

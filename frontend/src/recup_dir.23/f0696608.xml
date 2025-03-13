@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page xmlns="http://projectmallard.org/1.0/" xmlns:its="http://www.w3.org/2005/11/its" type="guide" id="channels" xml:lang="totem-uk">
+
+<info>
+  <revision pkgversion="3.30" date="2019-01-12" status="stub"/>
+    <link type="guide" xref="index#playing-media"/>
+
+  <credit type="author">
+    <name its:translate="no">Andre Klapper</name>
+    <email its:translate="no">ak-47@gmx.net</email>
+  </credit>
+  <credit type="author">
+    <name its:translate="no">Bastien Nocera</name>
+    <email its:translate="no">hadess@hadess.net</email>
+  </credit>
+
+  <license>
+    <p>Creative Commons Share Alike 3.0</p>
+  </license>
+
+  <desc>Канали.</desc>
+
+
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Максим Дзюманенко</mal:name>
+      <mal:email>mvd@mylinux.ua</mal:email>
+      <mal:years>2005-2007</mal:years>
+    </mal:credit>
+  
+    <mal:credit xmlns:mal="http://projectmallard.org/1.0/" type="translator copyright">
+      <mal:name>Сергій Гаврилов</mal:name>
+      <mal:email>sergiovana@bigmir.net</mal:email>
+      <mal:years>2009</mal:years>
+    </mal:credit>
+  </info>
+
+  <title>Канали</title>
+  <p>У розділі каналів інтерфейсу програми буде показано декілька ресурсів мережі із відео — з інтернету, локальної мережі, зокрема спільних ресурсів UPnP/DLNA, трейлерів фільмів, статей новин та інших інтернет-ресурсів.</p>
+
+  <p>Доступ до джерел реалізовано за допомогою системи виявлення мультимедійних даних <link href="https://wiki.gnome.org/Projects/Grilo">grilo</link>. Розробникам та досвідченим користувачам, які зацікавлені у розширенні можливостей <app>Відео</app>, варто відвідати цей сайт і ознайомитися із документацією.</p>
+
+</page>

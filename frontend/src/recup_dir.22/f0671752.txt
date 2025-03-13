@@ -1,0 +1,3 @@
+eturned by self.find_class(module, class) is pushed on the
+      stack, so unpickling subclasses can override this form of lookup.
+      Ú
