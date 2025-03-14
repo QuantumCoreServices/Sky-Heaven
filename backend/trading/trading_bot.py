@@ -3,7 +3,6 @@ from binance.enums import ORDER_TYPE_LIMIT, SIDE_BUY, SIDE_SELL, TIME_IN_FORCE_G
 from backend.models.crypto_ai import get_price_data, add_indicators, build_model
 import numpy as np
 import tensorflow as tf
-from backend.api.dashboard import log_trade
 
 # ✅ Binance API Credentials (Replace with actual keys)
 API_KEY = "your_binance_api_key"

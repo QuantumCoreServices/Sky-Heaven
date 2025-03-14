@@ -90,4 +90,3 @@ def predict_price(symbol):
     prediction = model.predict(last_10.reshape(1, 10, 1))
     print(f"🔮 AI Predicted Price for {symbol}: {prediction[0][0]}")
     return prediction[0][0]
-

@@ -1,70 +1,109 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
-
-const API_URL = "http://localhost:8000"; // ✅ Change this if backend runs on another machine
+import {
+  Container,
+  Table,
+  TableHead,
+  TableRow,
+  TableCell,
+  TableBody,
+  Typography,
+  Paper,
+} from "@mui/material";
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  Tooltip,
+  CartesianGrid,
+  ResponsiveContainer,
+} from "recharts";
 
 function App() {
-  const [prices, setPrices] = useState({});
-  const [trades, setTrades] = useState([]);
-  const [status, setStatus] = useState("Connecting...");
+  const [tradingData, setTradingData] = useState([]);
+  const [error, setError] = useState("");
 
-  // 🔹 Fetch Live Prices via WebSocket
   useEffect(() => {
-    const ws = new WebSocket(`${API_URL.replace("http", "ws")}/ws/prices`);
-
-    ws.onopen = () => setStatus("✅ Connected to WebSocket");
-    ws.onmessage = (event) => {
-      const data = JSON.parse(event.data);
-      setPrices(data);
+    const fetchData = async () => {
+      try {
+        const response = await axios.get("http://localhost:8000/trading-data"); // API Endpoint
+        setTradingData(response.data);
+      } catch (err) {
+        console.error("Error fetching data:", err);
+        setError("⚠️ Failed to load trading data. Check API connection.");
+      }
     };
-    ws.onerror = (error) => setStatus("❌ WebSocket Error: " + error.message);
-    ws.onclose = () => setStatus("🔄 Reconnecting...");
 
-    return () => ws.close();
-  }, []);
-
-  // 🔹 Fetch Trade History
-  useEffect(() => {
-    axios.get(`${API_URL}/trades`).then((response) => {
-      setTrades(response.data.trades);
-    }).catch((error) => {
-      console.error("Error fetching trade history:", error);
-    });
+    fetchData();
+    const interval = setInterval(fetchData, 5000); // Refresh data every 5s
+    return () => clearInterval(interval);
   }, []);
 
   return (
-    <div style={{ textAlign: "center", padding: "20px" }}>
-      <h1>🚀 AI Crypto Trading Dashboard</h1>
-      <h3>Status: {status}</h3>
+    <Container maxWidth="lg" style={{ textAlign: "center", fontFamily: "Arial, sans-serif", marginTop: "20px" }}>
+      <Typography variant="h3" gutterBottom>
+        📊 AI-Powered Crypto Trading Dashboard
+      </Typography>
+      <Typography variant="h6" color="textSecondary" paragraph>
+        Live market data & AI-driven trading insights powered by <strong>QuantumCore AI</strong>.
+      </Typography>
 
-      <h2>📊 Live Prices</h2>
-      {Object.keys(prices).length > 0 ? (
-        Object.keys(prices).map((symbol) => (
-          <div key={symbol}>
-            <strong>{symbol}</strong>: ${prices[symbol].current_price.toFixed(2)} 
-            (AI Predicted: ${prices[symbol].predicted_price.toFixed(2)})
-          </div>
-        ))
-      ) : (
-        <p>🔄 Waiting for data...</p>
-      )}
+      {error && <Typography color="error">{error}</Typography>}
 
-      <h2>📜 Trade History</h2>
-      {trades.length > 0 ? (
-        <ul>
-          {trades.map((trade, index) => (
-            <li key={index}>
-              {trade.symbol} - {trade.side} at ${trade.price}
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <p>No trades yet...</p>
-      )}
-    </div>
+      <Paper elevation={3} style={{ padding: "20px", marginBottom: "30px" }}>
+        <Table>
+          <TableHead>
+            <TableRow style={{ backgroundColor: "#212121", color: "white" }}>
+              <TableCell style={{ color: "white" }}>🔹 Coin</TableCell>
+              <TableCell style={{ color: "white" }}>💰 Price (USD)</TableCell>
+              <TableCell style={{ color: "white" }}>📈 RSI</TableCell>
+              <TableCell style={{ color: "white" }}>🔀 MACD</TableCell>
+              <TableCell style={{ color: "white" }}>📊 AI Prediction</TableCell>
+            </TableRow>
+          </TableHead>
+          <TableBody>
+            {tradingData.length > 0 ? (
+              tradingData.map((coin, index) => (
+                <TableRow key={index} style={{ backgroundColor: index % 2 === 0 ? "#f5f5f5" : "#ffffff" }}>
+                  <TableCell><strong>{coin.symbol}</strong></TableCell>
+                  <TableCell>${coin.price.toFixed(2)}</TableCell>
+                  <TableCell>{coin.rsi.toFixed(2)}</TableCell>
+                  <TableCell>{coin.macd.toFixed(2)}</TableCell>
+                  <TableCell style={{ color: coin.prediction > coin.price ? "green" : "red", fontWeight: "bold" }}>
+                    {coin.prediction.toFixed(2)}
+                  </TableCell>
+                </TableRow>
+              ))
+            ) : (
+              <TableRow>
+                <TableCell colSpan="5">📡 Fetching live data...</TableCell>
+              </TableRow>
+            )}
+          </TableBody>
+        </Table>
+      </Paper>
+
+      {/* AI Price Prediction Graph */}
+      <Typography variant="h5" gutterBottom>
+        🔮 AI-Powered Market Trend Forecasting
+      </Typography>
+      <ResponsiveContainer width="95%" height={400}>
+        <LineChart data={tradingData.map(coin => ({ name: coin.symbol, price: coin.price, prediction: coin.prediction }))}>
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis dataKey="name" />
+          <YAxis />
+          <Tooltip />
+          <Line type="monotone" dataKey="price" stroke="#8884d8" name="Actual Price" />
+          <Line type="monotone" dataKey="prediction" stroke="#ff7300" name="AI Predicted Price" />
+        </LineChart>
+      </ResponsiveContainer>
+
+      <Typography variant="body1" style={{ marginTop: "20px", color: "#666" }}>
+        Developed by <strong>QuantumCore AI</strong> | The Future of Algorithmic Trading 🚀
+      </Typography>
+    </Container>
   );
 }
 
 export default App;
-
-
