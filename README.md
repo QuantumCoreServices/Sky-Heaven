@@ -11,8 +11,4 @@ This is an **AI-powered crypto trading bot** that uses **machine learning** and 
 - **Buy low, sell high strategy**
 - **Cross-platform (web & mobile)**
 
-## Setup Instructions:
-1. **Clone the repo**:
-   ```bash
-   git clone https://github.com/your-repo/ai-crypto-trader.git
-   cd ai-crypto-trader
+
